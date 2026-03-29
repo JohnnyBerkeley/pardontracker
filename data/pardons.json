@@ -1,0 +1,1371 @@
+{
+  "last_updated": "2026-03-28",
+  "search_coverage_from": "2025-01-20",
+  "total_clemency_count_as_of": "2026-03-02",
+  "notes": "As of March 2, 2026 per DOJ Office of Pardon Attorney. NBC News analysis found $1.3B+ in restitution/fines forgiven across first 88 analyzed pardons. Standard lobbyist fees reportedly $1M; some sought $6M success fees.",
+  "sources": {
+    "official": "https://www.justice.gov/pardon/clemency-grants-president-donald-j-trump-2025-present",
+    "wikipedia": "https://en.wikipedia.org/wiki/List_of_people_granted_executive_clemency_in_the_second_Trump_presidency",
+    "newsweek_full_list": "https://www.newsweek.com/full-list-of-donald-trump-pardons-for-2025-11151896"
+  },
+  "pardons": [
+    {
+      "id": "jan6-mass-pardon-2025-01",
+      "name": "January 6 Capitol Attack defendants (~1,500 people)",
+      "date": "2025-01-20",
+      "type": "mass_pardon",
+      "group": "January 6",
+      "offense": "Sedition, obstruction of Congress, vandalism, assault on police officers — related to January 6, 2021 Capitol attack",
+      "original_sentence": "Various; up to 18–22 years for leaders",
+      "fines_forgiven_usd": null,
+      "restitution_forgiven_usd": null,
+      "restitution_owed_to": "government",
+      "financial_connection": {
+        "exists": false,
+        "description": "Mass political pardon; these were supporters of Trump's 2020 election denial"
+      },
+      "political_connection": {
+        "exists": true,
+        "description": "Trump promised these pardons throughout 2024 campaign. Enrique Tarrio (Proud Boys, 22 years) and Stewart Rhodes (Oath Keepers, 18 years) commuted by name."
+      },
+      "sources": [
+        {
+          "title": "Just the Facts: Trump's Mass Pardons Grab Headlines",
+          "url": "https://thefulcrum.us/democracy/trump-mass-pardons",
+          "date": "2025-01-21",
+          "outlet": "The Fulcrum",
+          "type": "news"
+        }
+      ],
+      "notes": "Includes full pardons and commutations. Some recipients had assaulted police officers. Two pardons for seditious conspiracy (Tarrio, Rhodes) converted to time served."
+    },
+    {
+      "id": "ross-ulbricht-2025-01",
+      "name": "Ross Ulbricht",
+      "date": "2025-01-21",
+      "type": "pardon",
+      "group": null,
+      "offense": "Operating Silk Road dark web drug marketplace (money laundering, drug trafficking conspiracy, computer hacking)",
+      "original_sentence": "Life imprisonment plus 40 years; $183.9M fine/forfeiture",
+      "fines_forgiven_usd": 183900000,
+      "restitution_forgiven_usd": null,
+      "restitution_owed_to": "government",
+      "financial_connection": {
+        "exists": false,
+        "description": "No direct financial connection found"
+      },
+      "political_connection": {
+        "exists": true,
+        "description": "Trump promised the pardon at the 2024 Libertarian National Convention as a political overture to libertarian voters"
+      },
+      "sources": [
+        {
+          "title": "List of people granted executive clemency in the second Trump presidency — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_people_granted_executive_clemency_in_the_second_Trump_presidency",
+          "date": "2026-03-01",
+          "outlet": "Wikipedia",
+          "type": "reference"
+        }
+      ],
+      "notes": "$183.9M fine forgiven; owed to government. Full and unconditional pardon."
+    },
+    {
+      "id": "rod-blagojevich-2025-02",
+      "name": "Rod Blagojevich",
+      "date": "2025-02-10",
+      "type": "pardon",
+      "group": null,
+      "offense": "Wire fraud, extortion, false statements (attempted to sell Barack Obama's Senate seat)",
+      "original_sentence": "14 years (commuted in 2021 after serving 8 years)",
+      "fines_forgiven_usd": null,
+      "restitution_forgiven_usd": null,
+      "restitution_owed_to": null,
+      "financial_connection": {
+        "exists": false,
+        "description": "No direct financial connection found"
+      },
+      "political_connection": {
+        "exists": true,
+        "description": "Former Democratic governor; Trump commuted his sentence in 2021, now issued full pardon. Blagojevich has become a vocal Trump supporter."
+      },
+      "sources": [
+        {
+          "title": "List of people granted executive clemency in the second Trump presidency — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_people_granted_executive_clemency_in_the_second_Trump_presidency",
+          "date": "2026-03-01",
+          "outlet": "Wikipedia",
+          "type": "reference"
+        }
+      ],
+      "notes": "Full pardon following 2021 commutation. Crimes involved bribery and corruption of public office."
+    },
+    {
+      "id": "trevor-milton-2025-03",
+      "name": "Trevor Milton",
+      "date": "2025-03-01",
+      "type": "pardon",
+      "group": null,
+      "offense": "Securities fraud and wire fraud (misled investors about Nikola electric truck technology)",
+      "original_sentence": "48 months imprisonment; $1M fine; $661M restitution to defrauded investors",
+      "fines_forgiven_usd": 1000000,
+      "restitution_forgiven_usd": 661000000,
+      "restitution_owed_to": "private_victims",
+      "financial_connection": {
+        "exists": true,
+        "description": "Milton and his wife donated $1.8M to Trump's 2024 campaign one month before the November election. After pardon, Milton stated he would not repay defrauded investors."
+      },
+      "political_connection": {
+        "exists": true,
+        "description": "Large donor to Trump 2024 campaign immediately preceding election"
+      },
+      "sources": [
+        {
+          "title": "List of people granted executive clemency in the second Trump presidency — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_people_granted_executive_clemency_in_the_second_Trump_presidency",
+          "date": "2026-03-01",
+          "outlet": "Wikipedia",
+          "type": "reference"
+        }
+      ],
+      "notes": "CRITICAL: $661M in restitution to private fraud victims was forgiven. Milton publicly stated he will not pay. Donors received pardon within months of a $1.8M political donation."
+    },
+    {
+      "id": "carlos-watson-2025-03",
+      "name": "Carlos Watson",
+      "date": "2025-03-28",
+      "type": "commutation",
+      "group": null,
+      "offense": "Securities fraud conspiracy, wire fraud conspiracy, aggravated identity theft — misrepresented OZY Media's financial health to investors; impersonated a Goldman Sachs executive on a call with YouTube executives",
+      "original_sentence": "116 months (nearly 10 years) imprisonment; $36.7M restitution; $60M forfeiture",
+      "fines_forgiven_usd": 60000000,
+      "restitution_forgiven_usd": 36700000,
+      "restitution_owed_to": "private_victims",
+      "financial_connection": {
+        "exists": null,
+        "description": "Daily Beast reported a 'secret svengali' behind the pardon but did not name a Trump financial connection. No direct donation identified in public reporting."
+      },
+      "political_connection": {
+        "exists": false,
+        "description": "Watson is Black and liberal-leaning; no obvious political alignment with Trump. Commutation came hours before he was due to report to prison on March 28, 2025. Ozy Media's corporate conviction was also commuted."
+      },
+      "sources": [
+        {
+          "title": "Trump commutes sentence of Ozy Media founder Carlos Watson just before prison surrender",
+          "url": "https://www.cnbc.com/2025/03/28/trump-commutes-sentences-of-ozy-media-founder-carlos-watson-and-company.html",
+          "date": "2025-03-28",
+          "outlet": "CNBC",
+          "type": "news"
+        },
+        {
+          "title": "Secret Svengali Behind Trump's Most Bizarre Pardon of Ozy Media's Carlos Watson Yet Revealed",
+          "url": "https://www.thedailybeast.com/secret-svengali-behind-trumps-most-bizarre-pardon-of-ozy-medias-carlos-watson-yet-revealed/",
+          "date": "2025-04-01",
+          "outlet": "The Daily Beast",
+          "type": "news"
+        }
+      ],
+      "notes": "Commuted hours before Watson was due to surrender to prison. Total $96.7M wiped out ($36.7M restitution to private victims + $60M forfeiture to government). Corporate entity Ozy Media also commuted. Connection to Trump unclear — Daily Beast reported a behind-the-scenes lobbying effort."
+    },
+    {
+      "id": "bitmex-founders-2025-03",
+      "name": "Arthur Hayes, Ben Delo, Samuel Reed, Gregory Dwyer (BitMEX founders)",
+      "date": "2025-03-01",
+      "type": "pardon",
+      "group": null,
+      "offense": "Bank Secrecy Act violations (failure to implement anti-money laundering program at BitMEX crypto exchange)",
+      "original_sentence": "Probation; $10M in individual fines",
+      "fines_forgiven_usd": 10000000,
+      "restitution_forgiven_usd": null,
+      "restitution_owed_to": "government",
+      "financial_connection": {
+        "exists": null,
+        "description": "Crypto executives in Trump's broader crypto deregulation agenda. Parent company separately fined $100M in January 2025."
+      },
+      "political_connection": {
+        "exists": true,
+        "description": "Part of Trump's broad pardoning of crypto industry figures"
+      },
+      "sources": [
+        {
+          "title": "List of people granted executive clemency in the second Trump presidency — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_people_granted_executive_clemency_in_the_second_Trump_presidency",
+          "date": "2026-03-01",
+          "outlet": "Wikipedia",
+          "type": "reference"
+        }
+      ],
+      "notes": "$10M in fines forgiven; owed to government."
+    },
+    {
+      "id": "devon-archer-2025-03",
+      "name": "Devon Archer",
+      "date": "2025-03-01",
+      "type": "pardon",
+      "group": null,
+      "offense": "Securities fraud (Oglala Sioux Tribe bond scheme)",
+      "original_sentence": "1 year imprisonment; $43.4M restitution",
+      "fines_forgiven_usd": null,
+      "restitution_forgiven_usd": 43400000,
+      "restitution_owed_to": "private_victims",
+      "financial_connection": {
+        "exists": false,
+        "description": "No direct financial connection to Trump. Archer was Hunter Biden's former business partner and testified against Biden in congressional hearings — political value to Trump."
+      },
+      "political_connection": {
+        "exists": true,
+        "description": "Archer provided testimony damaging to Hunter Biden and the Biden family. Pardon followed his cooperation with Republican congressional investigations."
+      },
+      "sources": [
+        {
+          "title": "List of people granted executive clemency in the second Trump presidency — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_people_granted_executive_clemency_in_the_second_Trump_presidency",
+          "date": "2026-03-01",
+          "outlet": "Wikipedia",
+          "type": "reference"
+        }
+      ],
+      "notes": "$43.4M restitution to Oglala Sioux Tribe and investors forgiven."
+    },
+    {
+      "id": "paul-walczak-2025-04",
+      "name": "Paul Walczak",
+      "date": "2025-04-01",
+      "type": "pardon",
+      "group": null,
+      "offense": "Willful failure to pay federal payroll taxes (employee trust fund taxes)",
+      "original_sentence": "18 months; $4.4M restitution",
+      "fines_forgiven_usd": null,
+      "restitution_forgiven_usd": 4400000,
+      "restitution_owed_to": "government",
+      "financial_connection": {
+        "exists": true,
+        "description": "Walczak's mother donated $1M to MAGA Inc. PAC. He had spent proceeds of the tax fraud on a $2M yacht."
+      },
+      "political_connection": {
+        "exists": true,
+        "description": "Family member was a major MAGA donor ($1M to PAC)"
+      },
+      "sources": [
+        {
+          "title": "List of people granted executive clemency in the second Trump presidency — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_people_granted_executive_clemency_in_the_second_Trump_presidency",
+          "date": "2026-03-01",
+          "outlet": "Wikipedia",
+          "type": "reference"
+        }
+      ],
+      "notes": "$4.4M in unpaid employee taxes (owed to government) forgiven. Mother donated $1M to MAGA Inc. shortly before pardon."
+    },
+    {
+      "id": "todd-chrisley-2025-05",
+      "name": "Todd Chrisley",
+      "date": "2025-05-01",
+      "type": "pardon",
+      "group": null,
+      "offense": "Bank fraud, tax evasion",
+      "original_sentence": "12 years; $17.8M restitution",
+      "fines_forgiven_usd": null,
+      "restitution_forgiven_usd": 17800000,
+      "restitution_owed_to": "private_victims",
+      "financial_connection": {
+        "exists": true,
+        "description": "Daughter Savannah Chrisley spoke at the 2024 Republican National Convention. Family employed lobbyist Brett Tolman (standard fee ~$1M) to secure pardon."
+      },
+      "political_connection": {
+        "exists": true,
+        "description": "Family was publicly supportive of Trump; daughter spoke at RNC 2024"
+      },
+      "sources": [
+        {
+          "title": "List of people granted executive clemency in the second Trump presidency — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_people_granted_executive_clemency_in_the_second_Trump_presidency",
+          "date": "2026-03-01",
+          "outlet": "Wikipedia",
+          "type": "reference"
+        }
+      ],
+      "notes": "$17.8M restitution to defrauded banks forgiven. Reality TV star."
+    },
+    {
+      "id": "julie-chrisley-2025-05",
+      "name": "Julie Chrisley",
+      "date": "2025-05-01",
+      "type": "pardon",
+      "group": null,
+      "offense": "Bank fraud, tax evasion",
+      "original_sentence": "7 years; $4.7M restitution",
+      "fines_forgiven_usd": null,
+      "restitution_forgiven_usd": 4700000,
+      "restitution_owed_to": "private_victims",
+      "financial_connection": {
+        "exists": true,
+        "description": "Same as Todd Chrisley — family political support and lobbyist fees"
+      },
+      "political_connection": {
+        "exists": true,
+        "description": "Pardoned alongside husband Todd Chrisley"
+      },
+      "sources": [
+        {
+          "title": "List of people granted executive clemency in the second Trump presidency — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_people_granted_executive_clemency_in_the_second_Trump_presidency",
+          "date": "2026-03-01",
+          "outlet": "Wikipedia",
+          "type": "reference"
+        }
+      ],
+      "notes": "$4.7M restitution to defrauded banks forgiven."
+    },
+    {
+      "id": "george-santos-2025-10",
+      "name": "George Santos",
+      "date": "2025-10-17",
+      "type": "commutation",
+      "group": null,
+      "offense": "Fraud and identity theft (fabricated his biography, stole from donors and supporters)",
+      "original_sentence": "7+ years; restitution ordered",
+      "fines_forgiven_usd": null,
+      "restitution_forgiven_usd": null,
+      "restitution_owed_to": "private_victims",
+      "financial_connection": {
+        "exists": false,
+        "description": "No direct financial connection found"
+      },
+      "political_connection": {
+        "exists": true,
+        "description": "Former Republican congressman who remained loyal to Trump. Commutation ordered immediate release."
+      },
+      "sources": [
+        {
+          "title": "List of people granted executive clemency in the second Trump presidency — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_people_granted_executive_clemency_in_the_second_Trump_presidency",
+          "date": "2026-03-01",
+          "outlet": "Wikipedia",
+          "type": "reference"
+        }
+      ],
+      "notes": "Commutation only (sentence reduction), not a full pardon. Santos stole from political donors — private victims."
+    },
+    {
+      "id": "changpeng-zhao-2025-10",
+      "name": "Changpeng 'CZ' Zhao",
+      "date": "2025-10-23",
+      "type": "pardon",
+      "group": null,
+      "offense": "Failure to maintain effective anti-money laundering program at Binance (Bank Secrecy Act violation). Binance was used to process transactions for sanctioned entities including Hamas and Al-Qaeda.",
+      "original_sentence": "4 months (served); $50M personal fine",
+      "fines_forgiven_usd": 50000000,
+      "restitution_forgiven_usd": null,
+      "restitution_owed_to": "government",
+      "financial_connection": {
+        "exists": true,
+        "description": "Binance helped build the USD1 stablecoin infrastructure for Trump's World Liberty Financial. MGX used USD1 for a $2B Binance investment. SEC investigation into Justin Sun (who invested $75M in Trump crypto) was paused. Trump said 'I don't know who he is.'"
+      },
+      "political_connection": {
+        "exists": false,
+        "description": "Not a political ally; financial connection is the primary concern"
+      },
+      "sources": [
+        {
+          "title": "Trump pardons jailed Binance founder who supported Trump family crypto business",
+          "url": "https://www.npr.org/2025/10/24/nx-s1-5583983/trump-pardons-jailed-binance-founder-who-supported-trump-family-crypto-business",
+          "date": "2025-10-24",
+          "outlet": "NPR",
+          "type": "news"
+        },
+        {
+          "title": "Trump pardon of crypto billionaire sparks concerns over his use of the pardon power",
+          "url": "https://www.cbsnews.com/news/trump-pardon-of-crypto-billionaire-sparks-concerns-over-use-of-pardon-power-60-minutes-transcript/",
+          "date": "2025-10-25",
+          "outlet": "CBS News / 60 Minutes",
+          "type": "news"
+        },
+        {
+          "title": "Addressing Trump's Claims About the Pardon of Binance Founder",
+          "url": "https://www.factcheck.org/2025/11/addressing-trumps-claims-about-the-pardon-of-binance-founder/",
+          "date": "2025-11-01",
+          "outlet": "FactCheck.org",
+          "type": "watchdog"
+        }
+      ],
+      "notes": "$50M fine forgiven (owed to government). Zhao had already served 4-month sentence. Binance parent company separately agreed to $4.3B in DOJ penalties."
+    },
+    {
+      "id": "fake-electors-mass-pardon-2025-11",
+      "name": "2020 Fake Electors and election challengers (77 named + broader group)",
+      "date": "2025-11-07",
+      "type": "mass_pardon",
+      "group": "Fake Electors",
+      "offense": "Conduct related to 2020 election challenges and false elector schemes",
+      "original_sentence": "Various — many facing indictment or trial",
+      "fines_forgiven_usd": null,
+      "restitution_forgiven_usd": null,
+      "restitution_owed_to": null,
+      "financial_connection": {
+        "exists": false,
+        "description": "No direct financial connection"
+      },
+      "political_connection": {
+        "exists": true,
+        "description": "Pardoned Trump allies who helped him attempt to overturn the 2020 election. Includes Rudy Giuliani, Mark Meadows, Sidney Powell, Jenna Ellis, Kenneth Chesebro, John Eastman."
+      },
+      "sources": [
+        {
+          "title": "Full List of Donald Trump Pardons for 2025",
+          "url": "https://www.newsweek.com/full-list-of-donald-trump-pardons-for-2025-11151896",
+          "date": "2025-12-01",
+          "outlet": "Newsweek",
+          "type": "news"
+        }
+      ],
+      "notes": "Pardons cover conduct related to the 2020 election. Giuliani had ~$150M in outstanding legal judgments against him at time of pardon."
+    },
+    {
+      "id": "julio-herrera-velutini-2026-01",
+      "name": "Julio Herrera Velutini",
+      "date": "2026-01-01",
+      "type": "pardon",
+      "group": null,
+      "offense": "Bribery — channeled funds to a Puerto Rico governor's campaign in exchange for regulatory favors for his bank",
+      "original_sentence": "Pending sentencing",
+      "fines_forgiven_usd": null,
+      "restitution_forgiven_usd": null,
+      "restitution_owed_to": "government",
+      "financial_connection": {
+        "exists": true,
+        "description": "Herrera Velutini channeled $3.5 million into Trump's super PAC. He hired close Trump allies including former Trump lawyer Christopher Kise and Trump-tied lobbying firm Ballard Partners. This is one of the most direct documented pardon-for-payment cases."
+      },
+      "political_connection": {
+        "exists": true,
+        "description": "Major donor to Trump super PAC; hired Trump-connected lawyers and lobbyists"
+      },
+      "sources": [
+        {
+          "title": "Inside the Pardon Playbook: An Analysis of President Trump's Clemency Abuses",
+          "url": "https://campaignlegal.org/update/inside-pardon-playbook-analysis-president-trumps-clemency-abuses",
+          "date": "2026-02-01",
+          "outlet": "Campaign Legal Center",
+          "type": "watchdog"
+        },
+        {
+          "title": "Lobbyists Make Millions in Pursuit of Trump Pardons",
+          "url": "https://www.notus.org/money/pardon-lobbyists-president-donald-trump",
+          "date": "2026-01-01",
+          "outlet": "NOTUS",
+          "type": "news"
+        }
+      ],
+      "notes": "CRITICAL: $3.5M to Trump super PAC directly preceded pardon. One of the clearest documented pay-for-pardon cases. Venezuelan-born banker; bribery involved Puerto Rico financial regulation."
+    },
+    {
+      "id": "joseph-schwartz-2025-11",
+      "name": "Joseph Schwartz",
+      "date": "2025-11-14",
+      "type": "pardon",
+      "group": null,
+      "offense": "$38 million tax fraud scheme (nursing home executive)",
+      "original_sentence": "3 years in prison (sentenced April 2025)",
+      "fines_forgiven_usd": null,
+      "restitution_forgiven_usd": 38000000,
+      "restitution_owed_to": "government",
+      "financial_connection": {
+        "exists": true,
+        "description": "Paid nearly $1.1 million in lobbying fees in 2025 to JM Burkman & Associates ($960K) and Merkava Strategies Corporation ($100K) to secure pardon. Pardoned 7 months after sentencing."
+      },
+      "political_connection": {
+        "exists": false,
+        "description": "No direct political connection — financial connection via lobbyist fees is the primary concern"
+      },
+      "sources": [
+        {
+          "title": "Lobbyists Make Millions in Pursuit of Trump Pardons",
+          "url": "https://www.notus.org/money/pardon-lobbyists-president-donald-trump",
+          "date": "2026-01-01",
+          "outlet": "NOTUS",
+          "type": "news"
+        },
+        {
+          "title": "Trump pardons drive a big, burgeoning business for lobbyists",
+          "url": "https://www.nbcnews.com/politics/donald-trump/trump-pardons-drive-big-burgeoning-business-lobbyists-rcna209801",
+          "date": "2025-12-01",
+          "outlet": "NBC News",
+          "type": "news"
+        }
+      ],
+      "notes": "Paid $1.1M in lobbying fees to get pardon for $38M tax fraud. Sentenced just 7 months before pardon. Illustrates the lobbyist-fee pardon economy."
+    },
+    {
+      "id": "tim-leiweke-2025-12",
+      "name": "Tim Leiweke",
+      "date": "2025-12-01",
+      "type": "pardon",
+      "group": null,
+      "offense": "Not fully specified in public reporting",
+      "original_sentence": "Not specified",
+      "fines_forgiven_usd": null,
+      "restitution_forgiven_usd": null,
+      "restitution_owed_to": null,
+      "financial_connection": {
+        "exists": true,
+        "description": "Leiweke's company Oak View Group donated $250,000 to Trump's inauguration. His lawyer — Trump ally Trey Gowdy — pressed Trump for leniency during a round of golf at Mar-a-Lago. The in-person golf course lobbying is notable."
+      },
+      "political_connection": {
+        "exists": true,
+        "description": "Company donated $250K to inauguration; lawyer Trey Gowdy is a Trump ally who lobbied Trump directly on the golf course"
+      },
+      "sources": [
+        {
+          "title": "Inside the Pardon Playbook: An Analysis of President Trump's Clemency Abuses",
+          "url": "https://campaignlegal.org/update/inside-pardon-playbook-analysis-president-trumps-clemency-abuses",
+          "date": "2026-02-01",
+          "outlet": "Campaign Legal Center",
+          "type": "watchdog"
+        }
+      ],
+      "notes": "$250K inauguration donation; golf-course lobbying by Trey Gowdy. CEO of Oak View Group, major US sports venue operator."
+    },
+    {
+      "id": "michael-grimm-2025-05",
+      "name": "Michael Grimm",
+      "date": "2025-05-28",
+      "type": "pardon",
+      "group": null,
+      "offense": "Tax fraud (underreported income from restaurant)",
+      "original_sentence": "8 months imprisonment",
+      "fines_forgiven_usd": null,
+      "restitution_forgiven_usd": 148000,
+      "restitution_owed_to": "government",
+      "financial_connection": {
+        "exists": false,
+        "description": "No direct financial connection. Former Republican congressman; became Newsmax commentator — political loyalty is the connection."
+      },
+      "political_connection": {
+        "exists": true,
+        "description": "Former Republican congressman from New York; became Trump-aligned Newsmax commentator after leaving Congress"
+      },
+      "sources": [
+        {
+          "title": "List of people granted executive clemency in the second Trump presidency — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_people_granted_executive_clemency_in_the_second_Trump_presidency",
+          "date": "2026-03-01",
+          "outlet": "Wikipedia",
+          "type": "reference"
+        }
+      ],
+      "notes": "$148K restitution to government forgiven."
+    },
+    {
+      "id": "john-rowland-2025-05",
+      "name": "John Rowland",
+      "date": "2025-05-28",
+      "type": "pardon",
+      "group": null,
+      "offense": "Corruption and campaign finance violations (two separate convictions: 12 months + 30 months)",
+      "original_sentence": "12 months (first conviction) + 30 months (second conviction)",
+      "fines_forgiven_usd": 117000,
+      "restitution_forgiven_usd": null,
+      "restitution_owed_to": "government",
+      "financial_connection": {
+        "exists": false,
+        "description": "No direct financial connection. Pattern of pardoning corrupt Republican politicians."
+      },
+      "political_connection": {
+        "exists": true,
+        "description": "Former Republican governor of Connecticut. Part of pattern: Trump has granted clemency to 20+ corrupt politicians."
+      },
+      "sources": [
+        {
+          "title": "Trump has granted clemency to 20 corrupt politicians — so far",
+          "url": "https://www.citizensforethics.org/reports-investigations/crew-investigations/trump-has-granted-clemency-to-16-corrupt-politicians-so-far/",
+          "date": "2026-01-01",
+          "outlet": "CREW",
+          "type": "watchdog"
+        }
+      ],
+      "notes": "$82K + $35K in fines forgiven. Second conviction involved campaign finance violations. CREW tracks Trump granting clemency to 20+ corrupt politicians."
+    },
+    {
+      "id": "hdr-global-bitmex-parent-2025-03",
+      "name": "HDR Global Trading Limited (BitMEX parent company)",
+      "date": "2025-03-27",
+      "type": "pardon",
+      "group": null,
+      "offense": "Anti-money laundering violations — allowed transactions by sanctioned entities through crypto exchange",
+      "original_sentence": "2 years probation",
+      "fines_forgiven_usd": 100000000,
+      "restitution_forgiven_usd": null,
+      "restitution_owed_to": "government",
+      "financial_connection": {
+        "exists": null,
+        "description": "Part of broader pardoning of crypto industry. BitMEX founders (Hayes, Delo, Reed, Dwyer) pardoned same day."
+      },
+      "political_connection": {
+        "exists": true,
+        "description": "Part of Trump's comprehensive pro-crypto regulatory agenda"
+      },
+      "sources": [
+        {
+          "title": "List of people granted executive clemency in the second Trump presidency — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_people_granted_executive_clemency_in_the_second_Trump_presidency",
+          "date": "2026-03-01",
+          "outlet": "Wikipedia",
+          "type": "reference"
+        }
+      ],
+      "notes": "$100M corporate fine forgiven. Pardoned same day as the four individual founders. Total BitMEX-related fines forgiven: $110M+."
+    },
+    {
+      "id": "nfl-players-post-superbowl-2026",
+      "name": "Joe Klecko, Nate Newton, Jamal Lewis, Travis Henry, Billy Cannon (deceased)",
+      "date": "2026-02-15",
+      "type": "pardon",
+      "group": "NFL players",
+      "offense": "Various drug and fraud convictions (all 10+ years prior)",
+      "original_sentence": "Various; all sentences already served",
+      "fines_forgiven_usd": null,
+      "restitution_forgiven_usd": null,
+      "restitution_owed_to": null,
+      "financial_connection": {
+        "exists": false,
+        "description": "No financial connection. Notable for timing: announced after the Super Bowl as a publicity gesture."
+      },
+      "political_connection": {
+        "exists": false,
+        "description": "Post-Super Bowl publicity pardons — all sentences had already been served"
+      },
+      "sources": [
+        {
+          "title": "List of people granted executive clemency in the second Trump presidency — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_people_granted_executive_clemency_in_the_second_Trump_presidency",
+          "date": "2026-03-01",
+          "outlet": "Wikipedia",
+          "type": "reference"
+        }
+      ],
+      "notes": "Symbolic pardons — all sentences already completed. Billy Cannon deceased. Announced around Super Bowl 2026."
+    },
+    {
+      "id": "andrew-zabavsky-terence-sutton-2025-01",
+      "name": "Andrew Zabavsky & Terence Dale Sutton Jr.",
+      "date": "2025-01-22",
+      "type": "pardon",
+      "group": null,
+      "offense": "Conspiracy and obstruction — unauthorized police pursuit that caused the death of Karon Hylton-Brown (2020)",
+      "original_sentence": "Zabavsky: 48 months. Sutton: 66 months.",
+      "fines_forgiven_usd": null,
+      "restitution_forgiven_usd": null,
+      "restitution_owed_to": null,
+      "financial_connection": {"exists": false, "description": "None identified"},
+      "political_connection": {"exists": true, "description": "Police officers convicted for on-duty death; pardoning police is a political priority for Trump's base"},
+      "sources": [{"title": "List of people granted executive clemency in the second Trump presidency — Wikipedia", "url": "https://en.wikipedia.org/wiki/List_of_people_granted_executive_clemency_in_the_second_Trump_presidency", "date": "2026-03-01", "outlet": "Wikipedia", "type": "reference"}],
+      "notes": "DC Metropolitan Police officers convicted for 2020 scooter chase death of Karon Hylton-Brown."
+    },
+    {
+      "id": "anti-abortion-protesters-2025-01",
+      "name": "24 anti-abortion clinic protesters (Lauren Handy, Jonathan Darnel, Jay Smith et al.)",
+      "date": "2025-01-23",
+      "type": "mass_pardon",
+      "group": "Anti-abortion activists",
+      "offense": "FACE Act violations — blockading abortion clinics, obstructing access to reproductive health services",
+      "original_sentence": "Various: 5 months to 57 months imprisonment; probation for others",
+      "fines_forgiven_usd": 10000,
+      "restitution_forgiven_usd": null,
+      "restitution_owed_to": "government",
+      "financial_connection": {"exists": false, "description": "None"},
+      "political_connection": {"exists": true, "description": "Core Trump political constituency — anti-abortion movement. Trump promised these pardons during campaign."},
+      "sources": [{"title": "List of people granted executive clemency in the second Trump presidency — Wikipedia", "url": "https://en.wikipedia.org/wiki/List_of_people_granted_executive_clemency_in_the_second_Trump_presidency", "date": "2026-03-01", "outlet": "Wikipedia", "type": "reference"}],
+      "notes": "24 named individuals: Lauren Handy (57 months), Jonathan Darnel, Jay Smith, Paula Harlow, Jean Marshall, John Hinshaw, Heather Idoni, William Goodman, Joan Bell, Herb Geraghty, Chester Gallagher, Calvin Zastrow, Coleman Boyd ($10K fine forgiven), Caroline Davis, Paul Vaughn, Dennis Green, Eva Edl, Eva Zastrow, James Zastrow, Paul Place, Joel Curry, Justin Phillips, Bevelyn Beatty Williams (41 months), Christopher Moscinski."
+    },
+    {
+      "id": "brian-kelsey-2025-03",
+      "name": "Brian Kelsey",
+      "date": "2025-03-11",
+      "type": "pardon",
+      "group": null,
+      "offense": "Campaign finance violations",
+      "original_sentence": "21 months imprisonment",
+      "fines_forgiven_usd": null,
+      "restitution_forgiven_usd": null,
+      "restitution_owed_to": "government",
+      "financial_connection": {"exists": false, "description": "None identified"},
+      "political_connection": {"exists": true, "description": "Tennessee Republican politician"},
+      "sources": [{"title": "List of people granted executive clemency in the second Trump presidency — Wikipedia", "url": "https://en.wikipedia.org/wiki/List_of_people_granted_executive_clemency_in_the_second_Trump_presidency", "date": "2026-03-01", "outlet": "Wikipedia", "type": "reference"}],
+      "notes": "Former Tennessee state senator."
+    },
+    {
+      "id": "thomas-caldwell-2025-03",
+      "name": "Thomas Edward Caldwell",
+      "date": "2025-03-20",
+      "type": "pardon",
+      "group": "January 6 adjacent",
+      "offense": "Document tampering following January 6",
+      "original_sentence": "Time served",
+      "fines_forgiven_usd": null,
+      "restitution_forgiven_usd": null,
+      "restitution_owed_to": null,
+      "financial_connection": {"exists": false, "description": "None"},
+      "political_connection": {"exists": true, "description": "Retired US Navy intelligence officer; January 6 adjacent"},
+      "sources": [{"title": "List of people granted executive clemency in the second Trump presidency — Wikipedia", "url": "https://en.wikipedia.org/wiki/List_of_people_granted_executive_clemency_in_the_second_Trump_presidency", "date": "2026-03-01", "outlet": "Wikipedia", "type": "reference"}],
+      "notes": "Already served time; pardon clears record."
+    },
+    {
+      "id": "michele-fiore-2025-04",
+      "name": "Michele Fiore",
+      "date": "2025-04-23",
+      "type": "pardon",
+      "group": null,
+      "offense": "Wire fraud and conspiracy (6 counts) — misappropriated $70K+ in charitable donations for personal and political use",
+      "original_sentence": "Awaiting sentencing when pardoned",
+      "fines_forgiven_usd": null,
+      "restitution_forgiven_usd": 70000,
+      "restitution_owed_to": "private_victims",
+      "financial_connection": {"exists": false, "description": "None identified beyond being a Republican officeholder"},
+      "political_connection": {"exists": true, "description": "Nevada Republican politician, former state assemblywoman and Las Vegas justice of the peace. Pardoned before sentencing — unusual."},
+      "sources": [{"title": "List of people granted executive clemency in the second Trump presidency — Wikipedia", "url": "https://en.wikipedia.org/wiki/List_of_people_granted_executive_clemency_in_the_second_Trump_presidency", "date": "2026-03-01", "outlet": "Wikipedia", "type": "reference"}],
+      "notes": "Pardoned BEFORE sentencing — one of very few pre-sentence pardons. Stole from a cancer fundraiser."
+    },
+    {
+      "id": "scott-jenkins-2025-05",
+      "name": "Scott Howard Jenkins",
+      "date": "2025-05-27",
+      "type": "pardon",
+      "group": null,
+      "offense": "Bribery and honest services fraud — accepted $75K in bribes to appoint deputy sheriffs",
+      "original_sentence": "10 years imprisonment",
+      "fines_forgiven_usd": 600,
+      "restitution_forgiven_usd": null,
+      "restitution_owed_to": "government",
+      "financial_connection": {"exists": false, "description": "None identified"},
+      "political_connection": {"exists": true, "description": "Republican Sheriff; part of pattern of pardoning corrupt Republican politicians (CREW: 20+)"},
+      "sources": [{"title": "Trump has granted clemency to 20 corrupt politicians — so far", "url": "https://www.citizensforethics.org/reports-investigations/crew-investigations/trump-has-granted-clemency-to-16-corrupt-politicians-so-far/", "date": "2026-01-01", "outlet": "CREW", "type": "watchdog"}],
+      "notes": "Culpeper County Sheriff who sold law enforcement positions for bribes."
+    },
+    {
+      "id": "glen-casada-2025-11",
+      "name": "Glen Casada",
+      "date": "2025-11-07",
+      "type": "pardon",
+      "group": "Fake Electors adjacent",
+      "offense": "Bribery — sentenced to 3 years in prison",
+      "original_sentence": "3 years imprisonment; had not yet reported to prison",
+      "fines_forgiven_usd": null,
+      "restitution_forgiven_usd": null,
+      "restitution_owed_to": "government",
+      "financial_connection": {"exists": false, "description": "None identified"},
+      "political_connection": {"exists": true, "description": "Former Tennessee House Speaker; Republican political ally; pardoned the same day as the fake electors proclamation"},
+      "sources": [
+        {"title": "Trump has granted clemency to 20 corrupt politicians — so far", "url": "https://www.citizensforethics.org/reports-investigations/crew-investigations/trump-has-granted-clemency-to-16-corrupt-politicians-so-far/", "date": "2026-01-01", "outlet": "CREW", "type": "watchdog"},
+        {"title": "Full List of Donald Trump Pardons for 2025", "url": "https://www.newsweek.com/full-list-of-donald-trump-pardons-for-2025-11151896", "date": "2025-12-01", "outlet": "Newsweek", "type": "news"}
+      ],
+      "notes": "Former Tennessee House Speaker pardoned on the same day as the fake electors proclamation (Nov 7, 2025). Pardoned before reporting to prison."
+    },
+    {
+      "id": "rick-hutchinson-2025-05",
+      "name": "Rick Hutchinson",
+      "date": "2025-05-29",
+      "type": "pardon",
+      "group": null,
+      "offense": "Accepting multiple bribes in exchange for influencing state policy",
+      "original_sentence": "96 months (8 years) imprisonment; had served 2 years",
+      "fines_forgiven_usd": null,
+      "restitution_forgiven_usd": null,
+      "restitution_owed_to": "government",
+      "financial_connection": {"exists": false, "description": "None identified"},
+      "political_connection": {"exists": true, "description": "Former state official; Republican. Part of pattern of pardoning corrupt Republican politicians."},
+      "sources": [{"title": "Trump has granted clemency to 20 corrupt politicians — so far", "url": "https://www.citizensforethics.org/reports-investigations/crew-investigations/trump-has-granted-clemency-to-16-corrupt-politicians-so-far/", "date": "2026-01-01", "outlet": "CREW", "type": "watchdog"}],
+      "notes": "Pardoned after serving only 2 of 8 years."
+    },
+    {
+      "id": "henry-cuellar-2025-12",
+      "name": "Henry Cuellar",
+      "date": "2025-12-01",
+      "type": "pardon",
+      "group": null,
+      "offense": "Bribery — indicted in 2024 for accepting bribes from foreign governments (Azerbaijan and Mexico)",
+      "original_sentence": "Pending trial when pardoned",
+      "fines_forgiven_usd": null,
+      "restitution_forgiven_usd": null,
+      "restitution_owed_to": "government",
+      "financial_connection": {"exists": false, "description": "None identified — unusual case: Cuellar is a Democrat"},
+      "political_connection": {"exists": true, "description": "Democratic congressman from Texas, but a conservative Democrat who crossed party lines on immigration. Pardon seen as a signal to Democrats who cooperate with Trump."},
+      "sources": [
+        {"title": "Trump has granted clemency to 20 corrupt politicians — so far", "url": "https://www.citizensforethics.org/reports-investigations/crew-investigations/trump-has-granted-clemency-to-16-corrupt-politicians-so-far/", "date": "2026-01-01", "outlet": "CREW", "type": "watchdog"},
+        {"title": "Full List of Donald Trump Pardons During His Second Term", "url": "https://www.newsweek.com/full-list-donald-trump-pardons-second-term-2077874", "date": "2026-01-01", "outlet": "Newsweek", "type": "news"}
+      ],
+      "notes": "Democrat indicted for bribery from Azerbaijan and Mexico — pardoned before trial. Only Democrat pardoned. Sends message to cross-aisle cooperators."
+    },
+    {
+      "id": "james-callahan-2025-05",
+      "name": "James Callahan",
+      "date": "2025-05-28",
+      "type": "pardon",
+      "group": null,
+      "offense": "Filing false labor union reports — received $315K+ in unreported kickbacks as Operating Engineers union president",
+      "original_sentence": "Pending sentencing when pardoned",
+      "fines_forgiven_usd": null,
+      "restitution_forgiven_usd": null,
+      "restitution_owed_to": "private_victims",
+      "financial_connection": {"exists": false, "description": "None identified"},
+      "political_connection": {"exists": true, "description": "Labor union president; IUOE (International Union of Operating Engineers) has historically supported some Republicans"},
+      "sources": [{"title": "List of people granted executive clemency in the second Trump presidency — Wikipedia", "url": "https://en.wikipedia.org/wiki/List_of_people_granted_executive_clemency_in_the_second_Trump_presidency", "date": "2026-03-01", "outlet": "Wikipedia", "type": "reference"}],
+      "notes": "Pardoned before sentencing."
+    },
+    {
+      "id": "kevin-baisden-2025-05",
+      "name": "Kevin Eric Baisden",
+      "date": "2025-05-28",
+      "type": "pardon",
+      "group": null,
+      "offense": "Multiple theft and shoplifting convictions (2005–2010); bail violations",
+      "original_sentence": "90–180 days (various counts)",
+      "fines_forgiven_usd": 100,
+      "restitution_forgiven_usd": null,
+      "restitution_owed_to": "government",
+      "financial_connection": {"exists": false, "description": "None"},
+      "political_connection": {"exists": false, "description": "Cited reason: substance abuse recovery and pending law school graduation. Genuine rehabilitation case."},
+      "sources": [{"title": "List of people granted executive clemency in the second Trump presidency — Wikipedia", "url": "https://en.wikipedia.org/wiki/List_of_people_granted_executive_clemency_in_the_second_Trump_presidency", "date": "2026-03-01", "outlet": "Wikipedia", "type": "reference"}],
+      "notes": "One of few pardons that appears to be based on genuine rehabilitation — not political or financial."
+    },
+    {
+      "id": "mark-bashaw-2025-05",
+      "name": "Mark Bashaw",
+      "date": "2025-05-28",
+      "type": "pardon",
+      "group": null,
+      "offense": "Violation of lawful military orders — refused COVID-19 vaccine mandate",
+      "original_sentence": "No punishment; court-martialed 2022, separated from Army 2023",
+      "fines_forgiven_usd": null,
+      "restitution_forgiven_usd": null,
+      "restitution_owed_to": null,
+      "financial_connection": {"exists": false, "description": "None"},
+      "political_connection": {"exists": true, "description": "Anti-vaccine mandate position aligned with Trump's political platform; symbolic pardon of COVID mandate resisters"},
+      "sources": [{"title": "List of people granted executive clemency in the second Trump presidency — Wikipedia", "url": "https://en.wikipedia.org/wiki/List_of_people_granted_executive_clemency_in_the_second_Trump_presidency", "date": "2026-03-01", "outlet": "Wikipedia", "type": "reference"}],
+      "notes": "Army First Lieutenant; pardon restores record. Symbolic — no sentence to remit."
+    },
+    {
+      "id": "kentrell-gaulden-youngboy-2025-05",
+      "name": "Kentrell Gaulden (NBA YoungBoy)",
+      "date": "2025-05-28",
+      "type": "pardon",
+      "group": null,
+      "offense": "Illegal firearm possession and drug charges",
+      "original_sentence": "23 months imprisonment",
+      "fines_forgiven_usd": 200000,
+      "restitution_forgiven_usd": null,
+      "restitution_owed_to": "government",
+      "financial_connection": {"exists": false, "description": "None identified"},
+      "political_connection": {"exists": true, "description": "Rapper; publicly thanked Trump after pardon: 'I want to thank President Trump for granting me a pardon and giving me the opportunity to keep building.' Also thanked 'Pardon Czar' Alice Marie Johnson. Public praise after pardon."},
+      "sources": [
+        {"title": "List of people granted executive clemency in the second Trump presidency — Wikipedia", "url": "https://en.wikipedia.org/wiki/List_of_people_granted_executive_clemency_in_the_second_Trump_presidency", "date": "2026-03-01", "outlet": "Wikipedia", "type": "reference"},
+        {"title": "A running list of the famous people Donald Trump has pardoned", "url": "https://theweek.com/politics/trump-pardon-celebrity-reality-tv-hip-hop", "date": "2026-01-01", "outlet": "The Week", "type": "news"}
+      ],
+      "notes": "Publicly praised Trump post-pardon. $200K fine forgiven. Had plea deal that would have released him July 2025 anyway — pardon came earlier and cleared record."
+    },
+    {
+      "id": "michael-harris-harry-o-2025-05",
+      "name": "Michael 'Harry O' Harris",
+      "date": "2025-05-28",
+      "type": "pardon",
+      "group": null,
+      "offense": "Cocaine distribution conspiracy",
+      "original_sentence": "235 months; commuted in 2021 after 33 years served",
+      "fines_forgiven_usd": 80000,
+      "restitution_forgiven_usd": null,
+      "restitution_owed_to": "government",
+      "financial_connection": {"exists": false, "description": "None identified"},
+      "political_connection": {"exists": true, "description": "Death Row Records co-founder (co-financed Suge Knight's label). Publicly endorsed Trump in 2024 from prison. Pardon follows endorsement — a clear praise-for-pardon pattern."},
+      "sources": [
+        {"title": "List of people granted executive clemency in the second Trump presidency — Wikipedia", "url": "https://en.wikipedia.org/wiki/List_of_people_granted_executive_clemency_in_the_second_Trump_presidency", "date": "2026-03-01", "outlet": "Wikipedia", "type": "reference"},
+        {"title": "Trump's latest pardons benefit political allies and celebrities convicted of fraud and corruption", "url": "https://fortune.com/2025/05/30/trump-latest-pardons-political-allies-celebrities-convicted-fraud-corruption/", "date": "2025-05-30", "outlet": "Fortune", "type": "news"}
+      ],
+      "notes": "Endorsed Trump 2024 from prison. Already commuted in 2021. Full pardon clears record. $80K fine forgiven."
+    },
+    {
+      "id": "kernan-couple-2025-05",
+      "name": "James Kernan & Marlene Kernan",
+      "date": "2025-05-28",
+      "type": "pardon",
+      "group": null,
+      "offense": "Employing convicted felons in insurance business (federal prohibition)",
+      "original_sentence": "James: 5 years probation. Marlene: 2 years probation.",
+      "fines_forgiven_usd": 432708,
+      "restitution_forgiven_usd": null,
+      "restitution_owed_to": "government",
+      "financial_connection": {"exists": null, "description": "No public information on any Trump financial connection"},
+      "political_connection": {"exists": false, "description": "No identified political connection"},
+      "sources": [{"title": "List of people granted executive clemency in the second Trump presidency — Wikipedia", "url": "https://en.wikipedia.org/wiki/List_of_people_granted_executive_clemency_in_the_second_Trump_presidency", "date": "2026-03-01", "outlet": "Wikipedia", "type": "reference"}],
+      "notes": "$250K + $182,708 in fines forgiven. Insurance company operators."
+    },
+    {
+      "id": "mansell-moore-divers-2025-05",
+      "name": "Tanner J. Mansell & John R. Moore Jr.",
+      "date": "2025-05-28",
+      "type": "pardon",
+      "group": null,
+      "offense": "Theft in maritime jurisdiction — cut illegal shark fishing lines and took gear",
+      "original_sentence": "Both: 1 year probation",
+      "fines_forgiven_usd": 1000,
+      "restitution_forgiven_usd": 6687,
+      "restitution_owed_to": "private_victims",
+      "financial_connection": {"exists": false, "description": "None"},
+      "political_connection": {"exists": false, "description": "Environmental activists; championed by Cato Institute. Case was controversial — they removed illegal fishing gear."},
+      "sources": [{"title": "List of people granted executive clemency in the second Trump presidency — Wikipedia", "url": "https://en.wikipedia.org/wiki/List_of_people_granted_executive_clemency_in_the_second_Trump_presidency", "date": "2026-03-01", "outlet": "Wikipedia", "type": "reference"}],
+      "notes": "Divers who cut illegal shark fishing lines. Libertarian-leaning case championed by Cato Institute. $1K fine + $6,687 restitution forgiven."
+    },
+    {
+      "id": "charles-overton-scott-2025-05",
+      "name": "Charles Overton Scott",
+      "date": "2025-05-28",
+      "type": "pardon",
+      "group": null,
+      "offense": "Securities fraud conspiracy — pump-and-dump scheme",
+      "original_sentence": "42 months imprisonment",
+      "fines_forgiven_usd": 5000,
+      "restitution_forgiven_usd": 500000,
+      "restitution_owed_to": "private_victims",
+      "financial_connection": {"exists": false, "description": "None identified"},
+      "political_connection": {"exists": false, "description": "No identified connection"},
+      "sources": [{"title": "List of people granted executive clemency in the second Trump presidency — Wikipedia", "url": "https://en.wikipedia.org/wiki/List_of_people_granted_executive_clemency_in_the_second_Trump_presidency", "date": "2026-03-01", "outlet": "Wikipedia", "type": "reference"}],
+      "notes": "$500K restitution to fraud victims forgiven + $5K fine."
+    },
+    {
+      "id": "earl-lamont-smith-2025-05",
+      "name": "Earl Lamont Smith",
+      "date": "2025-05-28",
+      "type": "pardon",
+      "group": null,
+      "offense": "Theft of government property — stole computers",
+      "original_sentence": "18 months imprisonment",
+      "fines_forgiven_usd": null,
+      "restitution_forgiven_usd": 163330,
+      "restitution_owed_to": "government",
+      "financial_connection": {"exists": false, "description": "None"},
+      "political_connection": {"exists": false, "description": "US Army Reservist. Prosecuted by Sally Yates (Trump enemy) — this was cited as a connection."},
+      "sources": [{"title": "List of people granted executive clemency in the second Trump presidency — Wikipedia", "url": "https://en.wikipedia.org/wiki/List_of_people_granted_executive_clemency_in_the_second_Trump_presidency", "date": "2026-03-01", "outlet": "Wikipedia", "type": "reference"}],
+      "notes": "Prosecuted by Sally Yates, whom Trump fired and targeted. $163,330 restitution to government forgiven."
+    },
+    {
+      "id": "lawrence-duran-2025-05",
+      "name": "Lawrence S. Duran",
+      "date": "2025-05-28",
+      "type": "commutation",
+      "group": null,
+      "offense": "Health care fraud, money laundering — co-owner of American Therapeutic Corp.; paid kickbacks to steer Medicare patients into clinics, generating ~$205M in false claims and ~$87M in actual Medicare payouts. Longest-ever Medicare fraud sentence at the time.",
+      "original_sentence": "50 years imprisonment (September 2016); $87,533,863 restitution",
+      "fines_forgiven_usd": null,
+      "restitution_forgiven_usd": 87533863,
+      "restitution_owed_to": "government",
+      "financial_connection": {
+        "exists": false,
+        "description": "No direct Trump financial connection identified in public reporting"
+      },
+      "political_connection": {
+        "exists": false,
+        "description": "Miami-based healthcare executive. No clear political connection reported. Commuted in same May 28 batch as Larry Hoover, NBA YoungBoy, and others."
+      },
+      "sources": [
+        {
+          "title": "Trump Grants Clemency to Executive Who Led $205M Medicare Fraud Scheme",
+          "url": "https://truthout.org/articles/trump-grants-clemency-to-executive-who-orchestrated-205m-medicare-fraud-scheme/",
+          "date": "2025-06-01",
+          "outlet": "Truthout",
+          "type": "news"
+        },
+        {
+          "title": "Trump Vowed to Crack Down on Fraudsters, but He's Pardoned Dozens",
+          "url": "https://www.nytimes.com/2026/03/19/us/politics/trump-fraudsters-pardons.html",
+          "date": "2026-03-19",
+          "outlet": "New York Times",
+          "type": "news"
+        }
+      ],
+      "notes": "Longest Medicare fraud sentence ever imposed at time of conviction. $87.5M restitution to government wiped out by commutation. Commuted on the same day as Larry Hoover and NBA YoungBoy (May 28, 2025). Cited by NYT March 2026 as illustration of contradiction in Trump's 'war on fraud' — pardons wealthy fraudsters while targeting immigrant fraudsters in Minnesota."
+    },
+    {
+      "id": "larry-hoover-2025-05",
+      "name": "Larry Hoover",
+      "date": "2025-05-28",
+      "type": "commutation",
+      "group": null,
+      "offense": "Continuing criminal enterprise, drug conspiracy, extortion (Gangster Disciples gang leader; convicted 1997 federal charges)",
+      "original_sentence": "Six federal life sentences (served since 1997 in supermax; also serving 200-year Illinois state sentence for murder, which cannot be pardoned federally)",
+      "fines_forgiven_usd": null,
+      "restitution_forgiven_usd": null,
+      "restitution_owed_to": null,
+      "financial_connection": {
+        "exists": false,
+        "description": "No identified financial connection to Trump"
+      },
+      "political_connection": {
+        "exists": true,
+        "description": "Long-running campaign by celebrities including Kanye West (Ye) who lobbied Trump since 2018. Part of pattern of pardons to Black cultural figures building support in Black community. Released from federal custody but still serving state sentence."
+      },
+      "sources": [
+        {
+          "title": "Who is Larry Hoover? Does Trump's commutation of his sentence set him free?",
+          "url": "https://www.aljazeera.com/news/2025/5/29/who-is-larry-hoover-and-why-has-trump-commuted-his-federal-sentence",
+          "date": "2025-05-29",
+          "outlet": "Al Jazeera",
+          "type": "news"
+        },
+        {
+          "title": "What Trump's Pardons for the Chrisleys, Larry Hoover, NBA YoungBoy Mean",
+          "url": "https://www.themarshallproject.org/2025/05/31/trump-pardon-chrisley-larry-hoover-nba-youngboy",
+          "date": "2025-05-31",
+          "outlet": "The Marshall Project",
+          "type": "news"
+        }
+      ],
+      "notes": "Gangster Disciples co-founder. Six federal life sentences commuted to time served. Still serving 200-year Illinois state sentence for murder — presidential clemency cannot touch state sentences. Kanye West organized 'Free Larry Hoover' concert in 2021 and has lobbied Trump since 2018."
+    },
+    {
+      "id": "adriana-camberos-2026-01",
+      "name": "Adriana Camberos",
+      "date": "2026-01-16",
+      "type": "pardon",
+      "group": null,
+      "offense": "Mail and wire fraud — conspiracy to commit healthcare fraud",
+      "original_sentence": "Sentence was commuted by Trump in 2021 (first term); now received full pardon in second term",
+      "fines_forgiven_usd": null,
+      "restitution_forgiven_usd": 48824415,
+      "restitution_owed_to": "government",
+      "financial_connection": {
+        "exists": false,
+        "description": "No identified financial connection"
+      },
+      "political_connection": {
+        "exists": false,
+        "description": "Second Trump clemency for the same person — sentence commuted in 2021, full pardon in 2026. Sister of Andres Camberos who was also pardoned."
+      },
+      "sources": [
+        {
+          "title": "Trump pardons wipe nearly $2 billion in victim repayment and taxpayer recovery",
+          "url": "https://www.gov.ca.gov/2026/03/05/trumpcriminals3/",
+          "date": "2026-03-05",
+          "outlet": "Governor of California",
+          "type": "watchdog"
+        },
+        {
+          "title": "Trump issues a flurry of pardons, including for a woman whose sentence he commuted in his first term",
+          "url": "https://www.baltimoresun.com/2026/01/16/trump-pardons-flurry/",
+          "date": "2026-01-16",
+          "outlet": "Baltimore Sun",
+          "type": "news"
+        }
+      ],
+      "notes": "$48,824,415.45 in restitution to government forgiven per court order. Received Trump clemency twice: first as a commutation in 2021, then a full pardon in Jan 2026."
+    },
+    {
+      "id": "andres-camberos-2026-01",
+      "name": "Andres Camberos",
+      "date": "2026-01-16",
+      "type": "pardon",
+      "group": null,
+      "offense": "Mail and wire fraud — conspiracy to commit healthcare fraud (brother of Adriana Camberos, same scheme)",
+      "original_sentence": "Unknown; pardoned January 2026",
+      "fines_forgiven_usd": null,
+      "restitution_forgiven_usd": 48824415,
+      "restitution_owed_to": "government",
+      "financial_connection": {
+        "exists": false,
+        "description": "No identified financial connection"
+      },
+      "political_connection": {
+        "exists": false,
+        "description": "Sibling pardoned alongside sister Adriana Camberos"
+      },
+      "sources": [
+        {
+          "title": "Trump pardons wipe nearly $2 billion in victim repayment and taxpayer recovery",
+          "url": "https://www.gov.ca.gov/2026/03/05/trumpcriminals3/",
+          "date": "2026-03-05",
+          "outlet": "Governor of California",
+          "type": "watchdog"
+        }
+      ],
+      "notes": "$48,824,415.45 in restitution to government forgiven. Same fraud scheme as sister Adriana."
+    },
+    {
+      "id": "terren-peizer-2026-01",
+      "name": "Terren Peizer",
+      "date": "2026-01-16",
+      "type": "pardon",
+      "group": null,
+      "offense": "Insider trading and securities fraud — sold $20M of Ontrak Inc. stock while in possession of material non-public information about company's largest customer leaving",
+      "original_sentence": "42 months imprisonment; $5.25M fine; $12.7M forfeiture of ill-gotten gains",
+      "fines_forgiven_usd": 5250000,
+      "restitution_forgiven_usd": 12700000,
+      "restitution_owed_to": "government",
+      "financial_connection": {
+        "exists": false,
+        "description": "No direct Trump financial connection identified; FP reported he 'never gave a penny to Trump'"
+      },
+      "political_connection": {
+        "exists": false,
+        "description": "Healthcare CEO; his case was a landmark — first successful prosecution using Rule 10b5-1 trading plan shield defense. Pardon seen as weakening SEC insider trading enforcement."
+      },
+      "sources": [
+        {
+          "title": "Trump pardons Act 22/60 tax break recipient, wiping out prison term and restitution",
+          "url": "https://periodismoinvestigativo.com/2026/01/terren-peizer-trump-pardon-puerto-rico-tax-acts/",
+          "date": "2026-01-16",
+          "outlet": "Centro de Periodismo Investigativo",
+          "type": "news"
+        },
+        {
+          "title": "Healthcare CEO pardoned by Trump over insider trading scheme",
+          "url": "https://www.mlex.com/mlex/financial-crime/articles/2432012/healthcare-ceo-pardoned-by-trump-over-insider-trading-scheme",
+          "date": "2026-01-16",
+          "outlet": "MLex",
+          "type": "news"
+        }
+      ],
+      "notes": "Landmark insider trading case — first conviction using Rule 10b5-1 trading plan as shield. Pardon wipes $5.25M fine + $12.7M forfeiture. Was a Puerto Rico Act 22/60 tax break beneficiary. Legal experts say pardon undermines SEC enforcement credibility."
+    },
+    {
+      "id": "wanda-vazquez-garced-2026-01",
+      "name": "Wanda Vázquez Garced",
+      "date": "2026-01-16",
+      "type": "pardon",
+      "group": null,
+      "offense": "Campaign finance violation (reduced from bribery) — pleaded guilty to accepting bribes from banker Julio Herrera Velutini to finance 2020 gubernatorial campaign",
+      "original_sentence": "Awaiting sentencing when pardoned",
+      "fines_forgiven_usd": null,
+      "restitution_forgiven_usd": null,
+      "restitution_owed_to": null,
+      "financial_connection": {
+        "exists": false,
+        "description": "No direct Trump financial connection identified"
+      },
+      "political_connection": {
+        "exists": true,
+        "description": "Former Puerto Rico governor; endorsed Trump in 2020. White House claimed investigation into her began 10 days after she endorsed Trump — framed as political persecution. Co-defendants Herrera Velutini (already in DB) and Mark Rossini also pardoned."
+      },
+      "sources": [
+        {
+          "title": "Trump pardons Puerto Rico's former governor Wanda Vázquez",
+          "url": "https://www.cbsnews.com/news/trump-pardoning-puerto-rico-former-governor-wanda-vazquez-officials-say/",
+          "date": "2026-01-16",
+          "outlet": "CBS News",
+          "type": "news"
+        },
+        {
+          "title": "Trump pardons former Puerto Rican Gov. Wanda Vázquez Garced",
+          "url": "https://www.nbcnews.com/politics/white-house/trump-pardons-former-puerto-rican-gov-wanda-vazquez-garced-rcna254457",
+          "date": "2026-01-16",
+          "outlet": "NBC News",
+          "type": "news"
+        }
+      ],
+      "notes": "Former PR governor who endorsed Trump in 2020. Indicted 2022 under Biden DOJ for bribery; pleaded guilty to reduced charge. Pardoned alongside co-defendants Herrera Velutini and Rossini. White House: prosecution was politically motivated."
+    },
+    {
+      "id": "mark-rossini-2026-01",
+      "name": "Mark T. Rossini",
+      "date": "2026-01-15",
+      "type": "pardon",
+      "group": null,
+      "offense": "Co-defendant in bribery scheme with Julio Herrera Velutini and Wanda Vázquez Garced — former FBI agent working as Herrera Velutini's consultant",
+      "original_sentence": "Awaiting sentencing when pardoned",
+      "fines_forgiven_usd": null,
+      "restitution_forgiven_usd": null,
+      "restitution_owed_to": null,
+      "financial_connection": {
+        "exists": false,
+        "description": "Connected to Herrera Velutini who donated $3.5M to Trump PAC; Rossini was his consultant"
+      },
+      "political_connection": {
+        "exists": true,
+        "description": "Former FBI agent; co-defendant in Herrera Velutini bribery case. Herrera Velutini had donated $3.5M to Trump PAC — all three co-defendants pardoned."
+      },
+      "sources": [
+        {
+          "title": "Trump's January 2026 Pardons: Detailed Breakdown of Each Case and Conviction",
+          "url": "https://brendonbeebe.substack.com/p/case-by-case-guide-to-trumps-january",
+          "date": "2026-01-17",
+          "outlet": "Brendon Beebe / Substack",
+          "type": "news"
+        }
+      ],
+      "notes": "Former FBI agent turned consultant for Herrera Velutini. Part of the broader Herrera Velutini bribery scheme (see julio-herrera-velutini-2026-01 in incidents.json). Pardoned before sentencing."
+    },
+    {
+      "id": "david-levy-2026-01",
+      "name": "David Levy",
+      "date": "2026-01-15",
+      "type": "pardon",
+      "group": null,
+      "offense": "Defrauding bondholders — hedge fund executive convicted 2019",
+      "original_sentence": "Unknown custodial sentence; convicted 2019",
+      "fines_forgiven_usd": null,
+      "restitution_forgiven_usd": null,
+      "restitution_owed_to": "private_victims",
+      "financial_connection": {
+        "exists": null,
+        "description": "No public reporting on Trump financial connection"
+      },
+      "political_connection": {
+        "exists": false,
+        "description": "No clear political connection identified in public reporting"
+      },
+      "sources": [
+        {
+          "title": "Trump's January 2026 Pardons: Detailed Breakdown of Each Case and Conviction",
+          "url": "https://brendonbeebe.substack.com/p/case-by-case-guide-to-trumps-january",
+          "date": "2026-01-17",
+          "outlet": "Brendon Beebe / Substack",
+          "type": "news"
+        }
+      ],
+      "notes": "Former hedge fund executive who defrauded bondholders. Convicted 2019."
+    },
+    {
+      "id": "james-womack-commutation-2026-01",
+      "name": "James P. Womack",
+      "date": "2026-01-15",
+      "type": "commutation",
+      "group": null,
+      "offense": "Distribution of methamphetamine",
+      "original_sentence": "Unknown sentence length; had served approximately 5.5 years by 2025",
+      "fines_forgiven_usd": null,
+      "restitution_forgiven_usd": null,
+      "restitution_owed_to": "government",
+      "financial_connection": {
+        "exists": false,
+        "description": "None identified"
+      },
+      "political_connection": {
+        "exists": true,
+        "description": "Son of Rep. Steve Womack (R-AR), a Republican congressman. Classic 'fortunate son' clemency — family political connection to Republican establishment."
+      },
+      "sources": [
+        {
+          "title": "Trump's January 2026 Pardons: Detailed Breakdown of Each Case and Conviction",
+          "url": "https://brendonbeebe.substack.com/p/case-by-case-guide-to-trumps-january",
+          "date": "2026-01-17",
+          "outlet": "Brendon Beebe / Substack",
+          "type": "news"
+        },
+        {
+          "title": "'Fortunate Sons' and Clemency In The Trump Era",
+          "url": "https://lisa-legalinfo.com/2026/01/22/fortunate-sons-and-clemency-in-the-trump-era-update-for-january-22-2026/",
+          "date": "2026-01-22",
+          "outlet": "LISA Legal Info",
+          "type": "watchdog"
+        }
+      ],
+      "notes": "Son of Rep. Steve Womack (R-AR). Meth distribution conviction. Had served ~5.5 years. Part of the 'fortunate sons' pattern of clemency for children of Republican officials."
+    },
+    {
+      "id": "jacob-deutsch-commutation-2026-01",
+      "name": "Jacob Deutsch",
+      "date": "2026-01-15",
+      "type": "commutation",
+      "group": null,
+      "offense": "Mortgage and investment fraud (Connecticut federal case, 2023)",
+      "original_sentence": "Unknown; convicted 2023",
+      "fines_forgiven_usd": null,
+      "restitution_forgiven_usd": null,
+      "restitution_owed_to": "private_victims",
+      "financial_connection": {
+        "exists": null,
+        "description": "No public reporting on Trump financial connection"
+      },
+      "political_connection": {
+        "exists": false,
+        "description": "Brooklyn real estate businessman; no clear political connection in public reporting"
+      },
+      "sources": [
+        {
+          "title": "Trump's January 2026 Pardons: Detailed Breakdown of Each Case and Conviction",
+          "url": "https://brendonbeebe.substack.com/p/case-by-case-guide-to-trumps-january",
+          "date": "2026-01-17",
+          "outlet": "Brendon Beebe / Substack",
+          "type": "news"
+        }
+      ],
+      "notes": "Brooklyn real estate businessman convicted in 2023 Connecticut federal fraud case. Sentence commuted January 2026."
+    },
+    {
+      "id": "jeremy-hutchinson-2025-05",
+      "name": "Jeremy Hutchinson",
+      "date": "2025-05-28",
+      "type": "pardon",
+      "group": null,
+      "offense": "Bribery — accepted $350K in payments from Missouri nonprofit Preferred Family Healthcare in exchange for directing Medicaid funds and performing legislative favors; also convicted of misusing campaign contributions and filing false tax returns",
+      "original_sentence": "8 years imprisonment (stacked sentences in Arkansas and Missouri federal courts); serving at minimum-security camp in Alabama, scheduled release May 2029",
+      "fines_forgiven_usd": null,
+      "restitution_forgiven_usd": null,
+      "restitution_owed_to": "government",
+      "financial_connection": {
+        "exists": false,
+        "description": "No direct Trump financial connection identified"
+      },
+      "political_connection": {
+        "exists": true,
+        "description": "Former Republican Arkansas state senator. Part of pattern of pardoning convicted Republican politicians (CREW tracked 20+). Pardoned in same May 28 batch as Larry Hoover, NBA YoungBoy, and others."
+      },
+      "sources": [
+        {
+          "title": "Trump pardons Jeremy Hutchinson, former state senator convicted for taking bribes",
+          "url": "https://arktimes.com/arkansas-blog/2025/05/28/trump-pardons-jeremy-hutchinson-former-state-senator-convicted-for-taking-bribes",
+          "date": "2025-05-28",
+          "outlet": "Arkansas Times",
+          "type": "news"
+        },
+        {
+          "title": "An Embarrassment of Riches",
+          "url": "https://www.cato.org/blog/embarrassment-riches",
+          "date": "2025-06-01",
+          "outlet": "Cato Institute",
+          "type": "watchdog"
+        }
+      ],
+      "notes": "Former Republican state senator who sold legislative acts for $350K in bribes. Pardoned before completing sentence. Nephew of former Gov. Mike Huckabee."
+    },
+    {
+      "id": "juan-orlando-hernandez-2025-12",
+      "name": "Juan Orlando Hernández",
+      "date": "2025-12-01",
+      "type": "pardon",
+      "group": null,
+      "offense": "Drug trafficking conspiracy, weapons charges — as President of Honduras (2014–2022) accepted millions in bribes from drug cartels including the Sinaloa cartel, facilitated shipment of 400+ tons of cocaine to the United States",
+      "original_sentence": "45 years imprisonment (sentenced 2024 after extradition and jury trial in New York)",
+      "fines_forgiven_usd": null,
+      "restitution_forgiven_usd": null,
+      "restitution_owed_to": "government",
+      "financial_connection": {
+        "exists": false,
+        "description": "No direct Trump financial connection identified"
+      },
+      "political_connection": {
+        "exists": true,
+        "description": "Trump announced the pardon while publicly endorsing Nasry 'Tito' Asfura — candidate of Hernández's National Party — in Honduran presidential elections. Framed as rewarding a pro-US ally; critics say it undermines US drug enforcement credibility. Honduras Attorney General and Interpol sought Hernández's arrest after the US pardon. Congressional resolutions introduced condemning the pardon (H.Res. 929, S.Res. 530)."
+      },
+      "sources": [
+        {
+          "title": "Trump formally pardons former Honduran President Juan Orlando Hernández",
+          "url": "https://www.cnn.com/2025/12/02/politics/juan-orlando-hernandez-pardon",
+          "date": "2025-12-02",
+          "outlet": "CNN",
+          "type": "news"
+        },
+        {
+          "title": "Examining Trump's Pardon of Former Honduran President Convicted of Trafficking Drugs to U.S.",
+          "url": "https://www.factcheck.org/2025/12/examining-trumps-pardon-of-former-honduran-president-convicted-of-trafficking-drugs-to-u-s/",
+          "date": "2025-12-10",
+          "outlet": "FactCheck.org",
+          "type": "watchdog"
+        },
+        {
+          "title": "Juan Orlando Hernández Pardon: Implications for U.S. Foreign Policy",
+          "url": "https://www.wola.org/analysis/juan-orlando-hernandez-pardon-implications-for-u-s-foreign-policy/",
+          "date": "2025-12-05",
+          "outlet": "WOLA",
+          "type": "watchdog"
+        }
+      ],
+      "notes": "Most geopolitically significant pardon of second term. Hernández was convicted of helping cartels ship 400+ tons of cocaine to the US while president. Trump pardoned him while endorsing his party's candidate in Honduran elections — a direct link between clemency and foreign electoral influence. Honduras issued an Interpol red notice seeking re-arrest. Congressional bipartisan condemnation (H.Res. 929, S.Res. 530)."
+    }
+  ]
+}
