@@ -1,0 +1,331 @@
+{
+  "last_updated": "2026-03-28",
+  "notes": "Tracks actions, EOs, and policies by Trump or his administration that courts, legal scholars, or constitutional experts have found or argued violate the US Constitution. Status values: 'court_blocked' (court issued injunction/TRO), 'ruled_unconstitutional' (court ruled it unconstitutional), 'supreme_court_ruled_illegal' (SCOTUS ruled against), 'pending' (litigation ongoing, no final ruling), 'alleged' (scholars/advocates claim violation, no court ruling yet).",
+  "violations": [
+    {
+      "id": "birthright-citizenship-eo-14160",
+      "date": "2025-01-20",
+      "title": "Executive Order 14160 — Birthright Citizenship Restriction",
+      "description": "Trump signed EO 14160 on inauguration day, purporting to end birthright citizenship for children born in the US to parents who are undocumented or on temporary visas. Multiple federal judges immediately blocked the order nationwide. The 14th Amendment states: 'All persons born or naturalized in the United States, and subject to the jurisdiction thereof, are citizens of the United States.' Courts have consistently interpreted this to include children of undocumented immigrants since United States v. Wong Kim Ark (1898). Judge Joseph Laplante (D.N.H.) issued a preliminary injunction on February 10, 2025; the Supreme Court later ruled the government could not enforce the policy. As of March 2026, the policy remains blocked.",
+      "action_type": "executive_order",
+      "eo_number": "14160",
+      "amendments_violated": ["14th"],
+      "constitutional_clauses": ["Citizenship Clause (14th Amendment, Section 1)"],
+      "who_claims_violation": ["Federal district courts (multiple)", "Supreme Court (affirmed block)", "ACLU", "immigrant rights organizations", "constitutional law scholars"],
+      "status": "court_blocked",
+      "court_rulings": [
+        "D.N.H. preliminary injunction — Feb 10, 2025 (Judge Laplante)",
+        "4th and 9th Circuit upheld blocks",
+        "SCOTUS declined to lift injunctions (2025)"
+      ],
+      "sources": [
+        {
+          "title": "Judges push back on Trump's expanding power as 'unconstitutional' and 'unlawful'",
+          "url": "https://www.nbcnews.com/politics/trump-administration/judges-push-back-on-trumps-expanding-power-as-unconstitutional-and-unlawful-rcna228941",
+          "outlet": "NBC News",
+          "date": "2025-09-03"
+        }
+      ]
+    },
+    {
+      "id": "alien-enemies-act-deportations",
+      "date": "2025-03-14",
+      "date_end": null,
+      "title": "Alien Enemies Act invocation — deportations without due process",
+      "description": "Trump invoked the Alien Enemies Act of 1798 to deport Venezuelan nationals alleged to be members of the Tren de Aragua gang without immigration court hearings. The Supreme Court ruled in April 2025 (Trump v. J.G.G.) that individuals subject to AEA removal must be given notice and an opportunity to challenge their removal through habeas corpus. Lower courts had blocked immediate deportations. The administration deported some individuals to El Salvador in defiance of a court order — a rare instance where the administration appeared to violate a direct court order. As of November 2025, at least 225 judges had ruled in over 700 cases that the new detention policy was a likely violation of law and the right to due process.",
+      "action_type": "executive_action",
+      "amendments_violated": ["5th", "14th"],
+      "constitutional_clauses": ["Due Process Clause (5th Amendment)", "Due Process Clause (14th Amendment)", "Suspension Clause (Art. I Sec. 9 — Habeas Corpus)"],
+      "who_claims_violation": ["Supreme Court (required due process in Trump v. JGG)", "225+ federal district judges", "ACLU", "Human Rights Watch", "immigration lawyers"],
+      "status": "court_blocked",
+      "court_rulings": [
+        "Trump v. J.G.G., 604 U.S. ___ (2025) — SCOTUS: AEA targets must get notice and habeas right",
+        "Multiple district courts: 225+ judges blocked deportations as due process violation",
+        "El Salvador deportations in apparent defiance of court order (March 2025)"
+      ],
+      "sources": [
+        {
+          "title": "Trump v. J.G.G. — Supreme Court opinion",
+          "url": "https://www.supremecourt.gov/opinions/24pdf/24a931_2c83.pdf",
+          "outlet": "US Supreme Court",
+          "date": "2025-04-07"
+        },
+        {
+          "title": "Looking back at 2025: the Supreme Court and the Trump administration",
+          "url": "https://www.scotusblog.com/2026/01/looking-back-at-2025-the-supreme-court-and-the-trump-administration/",
+          "outlet": "SCOTUSblog",
+          "date": "2026-01-10"
+        }
+      ]
+    },
+    {
+      "id": "emergency-tariffs-ieepa",
+      "date": "2025-04-02",
+      "date_end": null,
+      "title": "Liberation Day global tariffs — Supreme Court ruled illegal (Article I violation)",
+      "description": "Trump declared a national emergency under IEEPA (International Emergency Economic Powers Act) to impose sweeping 'reciprocal' tariffs on virtually all US trading partners on April 2, 2025. The Supreme Court ruled 6-3 that the tariffs exceeded the law — Chief Justice Roberts wrote the majority opinion finding that IEEPA does not grant the president unlimited authority to impose tariffs. The Court found the tariffs violated Article I, Section 8 of the Constitution, which grants Congress (not the president) the power to regulate commerce with foreign nations and to lay and collect duties. This was a major separation-of-powers ruling, one of the most significant limits placed on executive trade authority in decades.",
+      "action_type": "executive_order",
+      "eo_number": null,
+      "amendments_violated": [],
+      "constitutional_clauses": ["Article I, Section 8 (Commerce Clause / Congressional power to lay duties)", "Separation of Powers"],
+      "who_claims_violation": ["Supreme Court (6-3 ruling)", "US Court of International Trade", "constitutional scholars", "Congressional Democrats and some Republicans"],
+      "status": "supreme_court_ruled_illegal",
+      "court_rulings": [
+        "Supreme Court 6-3 ruling (Feb 20, 2026): IEEPA tariffs exceed statutory authority; Article I violation",
+        "Chief Justice Roberts wrote majority opinion"
+      ],
+      "sources": [
+        {
+          "title": "Supreme Court rules that Trump's sweeping emergency tariffs are illegal",
+          "url": "https://www.cnn.com/2026/02/20/politics/supreme-court-tariffs",
+          "outlet": "CNN",
+          "date": "2026-02-20"
+        }
+      ]
+    },
+    {
+      "id": "spending-freeze-impoundment-2025",
+      "date": "2025-01-27",
+      "date_end": null,
+      "title": "Federal spending freeze / impoundment — congressional appropriations overridden",
+      "description": "On January 27, 2025, the Office of Management and Budget issued a memo freezing vast categories of federal spending, including congressionally appropriated grants. The Impoundment Control Act of 1974 prohibits the president from unilaterally refusing to spend money that Congress has appropriated. Multiple federal judges found the spending freezes and grant terminations to be illegal and unconstitutional, and the GAO confirmed several actions violated the law. Courts ordered reinstatement of frozen funds in several cases. The administration continued to find new mechanisms to freeze or slow spending. By August 2025, multiple courts had issued orders against the freezes.",
+      "action_type": "executive_action",
+      "amendments_violated": [],
+      "constitutional_clauses": ["Article I, Section 9 (Appropriations Clause — 'No Money shall be drawn from the Treasury, but in Consequence of Appropriations made by Law')", "Separation of Powers"],
+      "who_claims_violation": ["Federal district courts (multiple)", "GAO (Government Accountability Office)", "Congressional Democrats", "state attorneys general", "nonprofit organizations whose grants were frozen"],
+      "status": "court_blocked",
+      "court_rulings": [
+        "Multiple district courts blocked spending freezes (Jan-Aug 2025)",
+        "GAO confirmed actions violated law",
+        "D.D.C. ordered reinstatement of frozen grants in multiple cases"
+      ],
+      "sources": [
+        {
+          "title": "Recent court rulings are holding up some of Trump's highest-profile moves",
+          "url": "https://www.cnn.com/2025/09/03/politics/recent-court-rulings-holding-up-some-of-trumps-highest-profile-moves",
+          "outlet": "CNN",
+          "date": "2025-09-03"
+        }
+      ]
+    },
+    {
+      "id": "ig-firings-article-ii",
+      "date": "2025-01-24",
+      "date_end": null,
+      "title": "Inspector General firings — violated IG Reform Act; court found 'obvious' violation",
+      "description": "Trump fired 17 Senate-confirmed Inspectors General without providing the required 30-day advance notice to Congress, violating the Inspector General Reform Act. A federal judge called it 'obvious' that the firings were unlawful. The constitutional dimension involves Article II — whether Congress can impose requirements on the president's removal power for officers like IGs. The administration argued the firings were constitutional exercises of Article II removal power; courts disagreed, finding the statutory notice requirement was constitutionally valid. The IG Act was passed in 1978 specifically to protect IGs' independence from political pressure.",
+      "action_type": "firing",
+      "amendments_violated": [],
+      "constitutional_clauses": ["Article II (Appointments and Removal)", "Separation of Powers (Congressional protection of independent officers)"],
+      "who_claims_violation": ["Federal district courts", "Fired IGs (sued)", "Congressional Democrats", "POGO (Project on Government Oversight)", "Government accountability organizations"],
+      "status": "court_blocked",
+      "court_rulings": [
+        "Federal judge: firings 'obviously' unlawful (Feb 2025)",
+        "Courts ordered some IGs reinstated pending litigation"
+      ],
+      "sources": [
+        {
+          "title": "Federal judge says it was 'obvious' Trump's firing of inspectors general was unlawful",
+          "url": "https://www.npr.org/2025/02/12/nx-s1-5298000/trump-inspectors-general-firing-unlawful-judge",
+          "outlet": "NPR",
+          "date": "2025-02-12"
+        }
+      ]
+    },
+    {
+      "id": "law-firm-eos-first-amendment",
+      "date": "2025-03-06",
+      "date_end": "2025-05-27",
+      "title": "Executive orders against law firms — 1st, 5th, 6th Amendment violations",
+      "description": "Federal judges who struck down Trump's executive orders against Perkins Coie, WilmerHale, and Jenner & Block specifically enumerated the constitutional violations. Judge Richard Leon (WilmerHale ruling, May 27, 2025) found the EO violated the First Amendment in four ways, the Fifth Amendment in two ways, the Sixth Amendment right to counsel, and separation of powers. Judge Beryl Howell (Perkins Coie, May 2, 2025) found First Amendment violations including retaliation for protected speech and viewpoint discrimination, Fifth Amendment due process violations, and unconstitutional interference with the right to counsel. The rulings represent some of the most detailed judicial catalogues of constitutional violations in a single presidential order.",
+      "action_type": "executive_order",
+      "eo_numbers": ["14230 (Perkins Coie)", "14246 (Jenner & Block)", "14250 (WilmerHale)"],
+      "amendments_violated": ["1st", "5th", "6th"],
+      "constitutional_clauses": [
+        "First Amendment (retaliation for speech, viewpoint discrimination, freedom of association)",
+        "Fifth Amendment (due process, equal protection)",
+        "Sixth Amendment (right to counsel)",
+        "Separation of Powers"
+      ],
+      "who_claims_violation": ["Judge Richard Leon (D.D.C.) — WilmerHale", "Judge Beryl Howell (D.D.C.) — Perkins Coie", "Judge John Bates (D.D.C.) — Jenner & Block", "ABA (American Bar Association)", "First Amendment scholars"],
+      "status": "ruled_unconstitutional",
+      "court_rulings": [
+        "Perkins Coie EO: 'null and void' — Judge Howell, D.D.C., May 2, 2025",
+        "Jenner & Block EO: unconstitutional — Judge Bates, D.D.C., May 23, 2025",
+        "WilmerHale EO: unconstitutional in 8 ways — Judge Leon, D.D.C., May 27, 2025",
+        "DOJ dropped appeals in all three cases"
+      ],
+      "sources": [
+        {
+          "title": "A federal judge lists 8 ways that Trump violated the Constitution by punishing a disfavored law firm",
+          "url": "https://reason.com/2025/05/28/a-federal-judge-lists-8-ways-that-trump-violated-the-constitution-by-punishing-a-disfavored-law-firm/",
+          "outlet": "Reason",
+          "date": "2025-05-28"
+        },
+        {
+          "title": "Trump executive order targeting Jenner & Block unconstitutional, judge rules",
+          "url": "https://www.nbcnews.com/politics/justice-department/trump-executive-order-targeting-jenner-law-firm-unconstitutional-judge-rcna205230",
+          "outlet": "NBC News",
+          "date": "2025-05-23"
+        }
+      ]
+    },
+    {
+      "id": "fcc-broadcast-license-threats",
+      "date": "2025-09-19",
+      "date_end": null,
+      "title": "FCC threats to revoke broadcaster licenses over news coverage — First Amendment",
+      "description": "FCC Chairman Brendan Carr's repeated threats to revoke or not renew broadcast licenses of ABC, NBC, and CBS over their news coverage have been identified by First Amendment scholars as potential violations of the First Amendment. The government conditioning broadcast license renewal on favorable news coverage would constitute viewpoint-based regulation of speech — a category the Supreme Court has consistently held is unconstitutional. The threats create a chilling effect on coverage even if no license is actually revoked. Carr successfully pressured ABC into pulling a Jimmy Kimmel broadcast. Press freedom organizations including Reporters Without Borders have cited the pattern as a threat to editorial independence.",
+      "action_type": "regulatory_threat",
+      "amendments_violated": ["1st"],
+      "constitutional_clauses": ["First Amendment (press freedom, viewpoint discrimination, prior restraint)"],
+      "who_claims_violation": ["First Amendment scholars", "Knight First Amendment Institute", "Reporters Without Borders", "ACLU", "press freedom advocates"],
+      "status": "alleged",
+      "court_rulings": [],
+      "sources": [
+        {
+          "title": "Trump threatening broadcast station licenses — explained",
+          "url": "https://www.cnbc.com/2025/09/19/trump-threatening-broadcast-station-licenses-explained.html",
+          "outlet": "CNBC",
+          "date": "2025-09-19"
+        }
+      ]
+    },
+    {
+      "id": "doge-federal-system-access",
+      "date": "2025-01-20",
+      "date_end": null,
+      "title": "DOGE unauthorized access to federal payment/personnel systems — 4th Amendment and statutory",
+      "description": "Elon Musk's DOGE team accessed federal payment systems (Treasury), personnel records (OPM), and benefits databases (SSA, HHS) without clear legal authorization. Courts found that DOGE's access to these systems likely violated federal privacy statutes including the Privacy Act, and raised Fourth Amendment concerns about warrantless access to personal records. Several states sued to block DOGE access to Treasury payment systems, arguing privacy violations. Courts temporarily blocked some access. The constitutional dimension involves whether DOGE — an informal advisory group led by a private citizen — could be granted access to sensitive federal systems and individual Americans' data without proper legal authority.",
+      "action_type": "executive_action",
+      "amendments_violated": ["4th"],
+      "constitutional_clauses": ["Fourth Amendment (unreasonable search — accessing private data without warrant or statutory authority)", "Privacy Act (statutory)"],
+      "who_claims_violation": ["State attorneys general (19 states sued)", "Federal employees unions", "ACLU", "EFF (Electronic Frontier Foundation)", "Privacy advocacy groups", "Several federal district courts"],
+      "status": "court_blocked",
+      "court_rulings": [
+        "Multiple courts temporarily blocked DOGE access to Treasury systems (Feb 2025)",
+        "Court found privacy concerns sufficient for preliminary injunction in several cases"
+      ],
+      "sources": [
+        {
+          "title": "Legal affairs of the second Trump presidency",
+          "url": "https://en.wikipedia.org/wiki/Legal_affairs_of_the_second_Trump_presidency",
+          "outlet": "Wikipedia (overview)",
+          "date": "2026-01-01"
+        }
+      ]
+    },
+    {
+      "id": "national-guard-chicago-deployment",
+      "date": "2025-02-01",
+      "date_end": null,
+      "title": "National Guard deployment to Chicago — Article II limits on federalization",
+      "description": "Trump sought to deploy the National Guard to Chicago and other cities for immigration enforcement against the wishes of the state governors. Federal courts ruled that Trump cannot deploy the National Guard in the Chicago area, and that the president's power to federalize the National Guard likely only applies in 'exceptional' circumstances. The constitutional issue is whether Article II war powers and the Insurrection Act allow the president to deploy National Guard units without a governor's consent for domestic law enforcement — an area courts have found is significantly constrained.",
+      "action_type": "executive_action",
+      "amendments_violated": [],
+      "constitutional_clauses": ["Article II (Commander in Chief — limits on domestic use)", "10th Amendment (State police power)", "Posse Comitatus Act (statutory)"],
+      "who_claims_violation": ["Federal district courts (blocked deployment)", "Gov. J.B. Pritzker (Illinois)", "State AGs", "civil liberties organizations"],
+      "status": "court_blocked",
+      "court_rulings": [
+        "Federal court blocked Chicago National Guard deployment (2025)",
+        "Court found federalization without exceptional circumstances likely unconstitutional"
+      ],
+      "sources": [
+        {
+          "title": "Recent court rulings are holding up some of Trump's highest-profile moves",
+          "url": "https://www.cnn.com/2025/09/03/politics/recent-court-rulings-holding-up-some-of-trumps-highest-profile-moves",
+          "outlet": "CNN",
+          "date": "2025-09-03"
+        }
+      ]
+    },
+    {
+      "id": "doj-selective-prosecution-enemies",
+      "date": "2025-01-20",
+      "date_end": null,
+      "title": "DOJ politically motivated prosecutions — 1st and 5th Amendment selective prosecution",
+      "description": "The pattern of DOJ investigations and prosecutions targeting Trump's political opponents — Comey, Bolton, Schiff, Letitia James, Miles Taylor, Christopher Krebs — raises selective prosecution claims under the First and Fifth Amendments. The First Amendment prohibits the government from prosecuting individuals based on their political speech or association. The Fifth Amendment's equal protection component prohibits selective prosecution based on viewpoint. The Supreme Court has held (Wayte v. United States, 1985) that selective prosecution requires showing discriminatory intent and discriminatory effect. Critics argue the pattern of Trump's public Truth Social demands followed by DOJ action is direct evidence of discriminatory intent. Courts have not yet ruled on selective prosecution claims in these specific cases.",
+      "action_type": "doj_investigations",
+      "amendments_violated": ["1st", "5th"],
+      "constitutional_clauses": [
+        "First Amendment (prosecution for political speech/association)",
+        "Fifth Amendment (equal protection — selective prosecution based on viewpoint)"
+      ],
+      "who_claims_violation": ["Legal scholars", "ACLU", "Defendants' counsel in each case", "Congressional Democrats", "Reporters Committee for Freedom of the Press"],
+      "status": "pending",
+      "court_rulings": [
+        "Comey charges dismissed (Nov 24, 2025) — DOJ could not make viable case",
+        "Other cases pending"
+      ],
+      "sources": [
+        {
+          "title": "The President and Constitutional Violations: Will the Federal Courts Contain the President's Power Grabs?",
+          "url": "https://www.americanprogress.org/article/the-president-and-constitutional-violations-will-the-federal-courts-contain-the-presidents-power-grabs/",
+          "outlet": "Center for American Progress",
+          "date": "2025-06-01"
+        },
+        {
+          "title": "Trump's catalog of constitutional crimes: Long and getting longer",
+          "url": "https://www.peoplesworld.org/article/trumps-catalog-of-constitutional-crimes-long-and-getting-longer/",
+          "outlet": "People's World",
+          "date": "2025-09-01"
+        }
+      ]
+    },
+    {
+      "id": "emoluments-clause-violations",
+      "date": "2025-01-20",
+      "date_end": null,
+      "title": "Foreign and domestic Emoluments Clause violations — Trump business payments",
+      "description": "The Constitution's Foreign Emoluments Clause (Art. I, Sec. 9) prohibits federal officeholders from accepting 'any present, emolument, office, or title, of any kind whatever, from any king, prince, or foreign state' without congressional consent. The Domestic Emoluments Clause (Art. II, Sec. 1) prohibits the president from receiving any emolument from the United States or any state beyond his fixed salary. CREW and other watchdog organizations argue that foreign governments paying for hotel stays, golf resort memberships, and events at Trump properties while Trump holds office violates the Foreign Emoluments Clause. Payments from US federal agencies or congressional groups to Trump properties may violate the Domestic Emoluments Clause. Trump argued (successfully in court in his first term) that the term 'emoluments' applies only to payments for official services, not commercial transactions. This question was not definitively resolved by SCOTUS.",
+      "action_type": "ongoing_business_conduct",
+      "amendments_violated": [],
+      "constitutional_clauses": [
+        "Foreign Emoluments Clause (Article I, Section 9, Clause 8)",
+        "Domestic Emoluments Clause (Article II, Section 1, Clause 7)"
+      ],
+      "who_claims_violation": ["CREW (Citizens for Responsibility and Ethics in Washington)", "ACLU", "Congressional Democrats (filed suits)", "Dozens of constitutional law professors"],
+      "status": "pending",
+      "court_rulings": [
+        "Emoluments lawsuits dismissed in Trump's first term on standing grounds",
+        "New suits filed Jan 2025 — pending"
+      ],
+      "sources": [
+        {
+          "title": "Trump's properties remain an epicenter of his conflicts and corruption in second term",
+          "url": "https://www.citizensforethics.org/reports-investigations/crew-reports/trumps-properties-remain-an-epicenter-of-his-conflicts-and-corruption-in-second-term/",
+          "outlet": "CREW",
+          "date": "2026-01-20"
+        }
+      ]
+    },
+    {
+      "id": "contempt-court-orders-el-salvador",
+      "date": "2025-03-15",
+      "date_end": null,
+      "title": "Contempt of court — deportations to El Salvador in defiance of court order",
+      "description": "In March 2025, the Trump administration deported Venezuelan nationals to El Salvador despite a direct federal court order prohibiting deportations under the Alien Enemies Act without due process. A judge found the administration in apparent contempt of court. White House officials, including Press Secretary Karoline Leavitt, acknowledged the deportations occurred while the court order was in effect. The administration argued the court order was unclear. Judges described the administration's conduct as 'deeply troubling' and 'a shocking affront to the rule of law.' This raised Article III separation-of-powers concerns — whether the executive branch could ignore judicial orders — as well as Fifth Amendment due process concerns for the deported individuals.",
+      "action_type": "executive_action",
+      "amendments_violated": ["5th"],
+      "constitutional_clauses": [
+        "Article III (Judicial Power — defiance of court order threatens rule of law)",
+        "Fifth Amendment (Due Process Clause — deportation without hearing)",
+        "Separation of Powers"
+      ],
+      "who_claims_violation": ["Federal district court judges (multiple)", "ACLU", "Human Rights organizations", "Congressional Democrats", "Rule-of-law advocates"],
+      "status": "pending",
+      "court_rulings": [
+        "Judge found apparent contempt (March 2025)",
+        "Administration disputed court authority; SCOTUS weighed in on due process requirements (Trump v. JGG)"
+      ],
+      "sources": [
+        {
+          "title": "What happens if Trump starts ignoring court rulings? We break it down",
+          "url": "https://www.npr.org/2025/02/12/nx-s1-5293132/trump-vance-constitutional-crisis-court-rulings",
+          "outlet": "NPR",
+          "date": "2025-02-12"
+        }
+      ]
+    }
+  ]
+}

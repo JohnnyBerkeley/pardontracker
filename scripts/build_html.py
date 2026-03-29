@@ -10,15 +10,19 @@ from datetime import date
 BASE = Path(__file__).parent.parent
 INCIDENTS_FILE = BASE / "data" / "incidents.json"
 PARDONS_FILE = BASE / "data" / "pardons.json"
+CONST_FILE = BASE / "data" / "constitutional_violations.json"
 OUTPUT = BASE / "index.html"
 
 with open(INCIDENTS_FILE, encoding="utf-8") as f:
     idata = json.load(f)
 with open(PARDONS_FILE, encoding="utf-8") as f:
     pdata = json.load(f)
+with open(CONST_FILE, encoding="utf-8") as f:
+    cdata = json.load(f)
 
 incidents = idata["incidents"]
 pardons = pdata["pardons"]
+const_violations = cdata["violations"]
 
 CATEGORY_LABELS = {
     "selling_access":      "Selling Access",
@@ -36,6 +40,8 @@ CATEGORY_LABELS = {
     "pardon_political":    "Pardons (Political)",
     "state_damages":       "State Damages",
     "arms_deal_conflict":  "Arms Deal Conflicts",
+    "coercion_threat":     "Coercion/Threats",
+    "investment_favoritism": "Investment Favoritism",
 }
 
 CATEGORY_COLORS = {
@@ -54,10 +60,13 @@ CATEGORY_COLORS = {
     "pardon_political":      "#27ae60",
     "state_damages":         "#2c3e50",
     "arms_deal_conflict":    "#e74c3c",
+    "coercion_threat":       "#8e44ad",
+    "investment_favoritism":  "#d4ac0d",
 }
 
 incidents_json = json.dumps(incidents, ensure_ascii=False)
 pardons_json = json.dumps(pardons, ensure_ascii=False)
+const_json = json.dumps(const_violations, ensure_ascii=False)
 category_labels_json = json.dumps(CATEGORY_LABELS, ensure_ascii=False)
 category_colors_json = json.dumps(CATEGORY_COLORS, ensure_ascii=False)
 
@@ -491,6 +500,32 @@ html = f"""<!DOCTYPE html>
       <span class="dot" style="background:#3498db"></span>
       Victims = Taxpayers
     </button>
+
+    <div class="nav-divider"></div>
+    <div class="nav-section">Incidents by Motivation</div>
+    <button class="nav-btn" onclick="showView('motivation-financial')" id="btn-motivation-financial">
+      <span class="dot" style="background:#f1c40f"></span>
+      Financial
+      <span class="count">{sum(1 for i in incidents if i.get('motivation')=='financial')}</span>
+    </button>
+    <button class="nav-btn" onclick="showView('motivation-political')" id="btn-motivation-political">
+      <span class="dot" style="background:#3498db"></span>
+      Political
+      <span class="count">{sum(1 for i in incidents if i.get('motivation')=='political')}</span>
+    </button>
+    <button class="nav-btn" onclick="showView('motivation-both')" id="btn-motivation-both">
+      <span class="dot" style="background:#9b59b6"></span>
+      Financial + Political
+      <span class="count">{sum(1 for i in incidents if i.get('motivation')=='both')}</span>
+    </button>
+
+    <div class="nav-divider"></div>
+    <div class="nav-section">Rule of Law</div>
+    <button class="nav-btn" onclick="showView('constitutional')" id="btn-constitutional">
+      <span class="dot" style="background:#e74c3c"></span>
+      Constitutional Violations
+      <span class="count">{len(const_violations)}</span>
+    </button>
   </nav>
 
   <main>
@@ -511,12 +546,13 @@ html = f"""<!DOCTYPE html>
 <script>
 const INCIDENTS = {incidents_json};
 const PARDONS = {pardons_json};
+const CONST_VIOLATIONS = {const_json};
 const CAT_LABELS = {category_labels_json};
 const CAT_COLORS = {category_colors_json};
 
 let currentView = 'all-incidents';
 let currentData = [];
-let currentType = 'incident'; // 'incident' | 'pardon'
+let currentType = 'incident'; // 'incident' | 'pardon' | 'constitutional'
 let sortCol = null;
 let sortDir = 'desc';
 let searchTerm = '';
@@ -614,6 +650,26 @@ function showView(view) {{
     currentData = PARDONS.filter(p => p.restitution_owed_to === 'government' || p.restitution_owed_to === 'both');
     document.getElementById('view-title').textContent = 'Pardons — Restitution Owed to Taxpayers/Government';
     renderPardons(currentData);
+  }} else if (view === 'motivation-financial') {{
+    currentType = 'incident';
+    currentData = INCIDENTS.filter(i => i.motivation === 'financial');
+    document.getElementById('view-title').textContent = 'Incidents — Primarily Financial Motivation';
+    renderIncidents(currentData);
+  }} else if (view === 'motivation-political') {{
+    currentType = 'incident';
+    currentData = INCIDENTS.filter(i => i.motivation === 'political');
+    document.getElementById('view-title').textContent = 'Incidents — Primarily Political Motivation';
+    renderIncidents(currentData);
+  }} else if (view === 'motivation-both') {{
+    currentType = 'incident';
+    currentData = INCIDENTS.filter(i => i.motivation === 'both');
+    document.getElementById('view-title').textContent = 'Incidents — Financial + Political Motivation';
+    renderIncidents(currentData);
+  }} else if (view === 'constitutional') {{
+    currentType = 'constitutional';
+    currentData = [...CONST_VIOLATIONS];
+    document.getElementById('view-title').textContent = 'Constitutional Violations & Challenges';
+    renderConstitutional(currentData);
   }}
 }}
 
@@ -621,6 +677,7 @@ function applySearch() {{
   searchTerm = document.getElementById('search').value.toLowerCase();
   expandedRow = null;
   if (currentType === 'incident') renderIncidents(currentData);
+  else if (currentType === 'constitutional') renderConstitutional(currentData);
   else renderPardons(currentData);
 }}
 
@@ -644,6 +701,7 @@ const INC_COLS = [
   {{ key:'title',      label:'Title',         sortable:false }},
   {{ key:'categories', label:'Categories',    sortable:false }},
   {{ key:'status',     label:'Status',        sortable:true  }},
+  {{ key:'motivation', label:'Motivation',    sortable:true  }},
   {{ key:'qpq',        label:'QPQ',           sortable:false }},
   {{ key:'beneficiary',label:'Benefits',      sortable:false }},
   {{ key:'amount_usd', label:'Amount ↕',      sortable:true  }},
@@ -670,7 +728,7 @@ function renderIncidents(data) {{
   html += `</tr></thead><tbody>`;
 
   if (!filtered.length) {{
-    html += `<tr><td colspan="8"><div class="no-results">No results found</div></td></tr>`;
+    html += `<tr><td colspan="9"><div class="no-results">No results found</div></td></tr>`;
   }}
 
   filtered.forEach((inc, idx) => {{
@@ -688,6 +746,7 @@ function renderIncidents(data) {{
       <td class="td-title"><div class="title-text">${{escape(inc.title||'')}}</div></td>
       <td style="min-width:140px">${{(inc.categories||[]).map(catBadge).join('')}}</td>
       <td>${{statusBadge(inc.status)}}</td>
+      <td>${{(() => {{ const m=inc.motivation||''; if(!m) return ''; const MC={{financial:'#f1c40f',political:'#3498db',both:'#9b59b6'}}; const c=MC[m]||'#888'; return '<span class="badge" style="background:'+c+'22;color:'+c+';border:1px solid '+c+'44">'+m+'</span>'; }})()}}</td>
       <td>${{qpq.alleged ? '<span class="badge badge-qpq">YES</span>' : '<span style="color:var(--text-dim);font-size:12px">No</span>'}}</td>
       <td style="min-width:120px">${{benChips(inc.beneficiary)}}</td>
       <td class="td-amount ${{!amt?'zero':''}}">${{amt ? fmt(amt) : '—'}}</td>
@@ -709,7 +768,7 @@ function buildIncidentDetail(inc) {{
   const srcs = inc.sources || [];
 
   return `<tr class="detail-row">
-    <td colspan="8">
+    <td colspan="9">
       <div class="detail-inner">
         <div class="detail-block" style="grid-column:1/-1">
           <h4>Summary</h4>
@@ -894,6 +953,71 @@ function buildPardonDetail(p) {{
       </div>
     </td>
   </tr>`;
+}}
+
+// ── Constitutional Violations ─────────────────────────────────────────────────
+function renderConstitutional(data) {{
+  document.getElementById('view-count').textContent = data.length + ' entries';
+  document.getElementById('view-total').textContent = '';
+  document.getElementById('view-total-header').textContent = '';
+
+  const STATUS_COLORS = {{
+    'court_blocked':            '#e67e22',
+    'ruled_unconstitutional':   '#e74c3c',
+    'supreme_court_ruled_illegal': '#c0392b',
+    'pending':                  '#f1c40f',
+    'alleged':                  '#7f8c8d',
+  }};
+
+  let term = searchTerm;
+  let filtered = term ? data.filter(v =>
+    (v.title||'').toLowerCase().includes(term) ||
+    (v.description||'').toLowerCase().includes(term) ||
+    (v.amendments_violated||[]).join(' ').toLowerCase().includes(term) ||
+    (v.who_claims_violation||[]).join(' ').toLowerCase().includes(term)
+  ) : data;
+
+  if (!filtered.length) {{
+    document.getElementById('table-container').innerHTML = '<div class="no-results">No results</div>';
+    return;
+  }}
+
+  let html = '<div style="display:flex;flex-direction:column;gap:16px;">';
+  filtered.forEach(v => {{
+    const col = STATUS_COLORS[v.status] || '#888';
+    const amends = (v.amendments_violated||[]).map(a =>
+      `<span class="badge" style="background:${{col}}22;color:${{col}};border:1px solid ${{col}}44">${{a}} Amend.</span>`
+    ).join('');
+    const clauses = (v.constitutional_clauses||[]).map(c =>
+      `<span class="badge" style="background:#1a2a3a;color:#7fb3d3;border:1px solid #2e4a6a;font-size:10px">${{escape(c)}}</span>`
+    ).join(' ');
+    const claimants = (v.who_claims_violation||[]).map(c => `<li>${{escape(c)}}</li>`).join('');
+    const rulings = (v.court_rulings||[]).map(r => `<li>${{escape(r)}}</li>`).join('');
+    const srcs = (v.sources||[]).map(s =>
+      `<li><a href="${{s.url}}" target="_blank" style="color:var(--accent2)">${{escape(s.title||s.url)}}</a>
+       <span style="color:var(--text-dim);font-size:11px"> · ${{s.outlet||''}} · ${{s.date||''}}</span></li>`
+    ).join('');
+
+    html += `<div style="background:var(--surface);border:1px solid var(--border);border-left:4px solid ${{col}};border-radius:var(--radius);padding:16px 20px;">
+      <div style="display:flex;align-items:baseline;gap:10px;margin-bottom:8px;flex-wrap:wrap;">
+        <span style="font-size:11px;color:var(--text-dim)">${{v.date||''}}</span>
+        <span class="badge" style="background:${{col}}22;color:${{col}};border:1px solid ${{col}}44;font-weight:700">
+          ${{(v.status||'').replace(/_/g,' ').toUpperCase()}}
+        </span>
+        ${{amends}}
+      </div>
+      <div style="font-weight:700;font-size:15px;margin-bottom:8px">${{escape(v.title||'')}}</div>
+      <div style="line-height:1.6;color:var(--text);margin-bottom:12px;font-size:13px">${{escape(v.description||'')}}</div>
+      ${{clauses ? `<div style="margin-bottom:10px">${{clauses}}</div>` : ''}}
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px;font-size:12px">
+        ${{claimants ? `<div><div style="font-size:10px;text-transform:uppercase;letter-spacing:0.5px;color:var(--text-dim);margin-bottom:4px">Claims violation</div><ul style="list-style:disc;padding-left:14px;color:var(--text-dim)">${{claimants}}</ul></div>` : ''}}
+        ${{rulings ? `<div><div style="font-size:10px;text-transform:uppercase;letter-spacing:0.5px;color:var(--text-dim);margin-bottom:4px">Court rulings</div><ul style="list-style:disc;padding-left:14px;color:var(--text-dim)">${{rulings}}</ul></div>` : ''}}
+      </div>
+      ${{srcs ? `<div style="margin-top:10px"><div style="font-size:10px;text-transform:uppercase;letter-spacing:0.5px;color:var(--text-dim);margin-bottom:4px">Sources</div><ul style="list-style:none">${{srcs}}</ul></div>` : ''}}
+    </div>`;
+  }});
+  html += '</div>';
+  document.getElementById('table-container').innerHTML = html;
 }}
 
 // ── Helpers ───────────────────────────────────────────────────────────────────

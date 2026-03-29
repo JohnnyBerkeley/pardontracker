@@ -8,10 +8,21 @@
       "date_end": null,
       "title": "Mar-a-Lago initiation fee tripled to $500K — structural pay-for-access",
       "summary": "Immediately after winning the 2024 election, Trump raised the Mar-a-Lago initiation fee from $150,000 to $500,000 — more than tripling it. Members who pay this fee gain physical proximity to a sitting US president at social events. CREW documented 55 foreign officials from 21 countries visiting Trump properties in year one. The fee structure has no disclosure requirements: foreign nationals, foreign-government-linked entities, and domestic influence-seekers can all join without public record.",
-      "categories": ["selling_access", "foreign_investment", "business_payment"],
+      "categories": [
+        "selling_access",
+        "foreign_investment",
+        "business_payment"
+      ],
       "status": "confirmed",
-      "beneficiary": ["trump_org", "trump_personally"],
-      "actors": ["Donald Trump", "Trump Organization", "Mar-a-Lago Club"],
+      "beneficiary": [
+        "trump_org",
+        "trump_personally"
+      ],
+      "actors": [
+        "Donald Trump",
+        "Trump Organization",
+        "Mar-a-Lago Club"
+      ],
       "amount_usd": 500000,
       "amount_note": "$500K initiation fee per member (up from $150K); number of new members not disclosed. Structural access-selling — no single transaction.",
       "financial_connection": {
@@ -39,8 +50,15 @@
           "type": "watchdog"
         }
       ],
-      "tags": ["mar_a_lago", "selling_access", "emoluments", "foreign_officials", "membership"],
-      "last_updated": "2026-03-28"
+      "tags": [
+        "mar_a_lago",
+        "selling_access",
+        "emoluments",
+        "foreign_officials",
+        "membership"
+      ],
+      "last_updated": "2026-03-28",
+      "motivation": "financial"
     },
     {
       "id": "inauguration-fund-ambassadors-2025-01",
@@ -48,10 +66,19 @@
       "date_end": "2025-06-01",
       "title": "Record $170M inauguration fund — donors appointed as ambassadors",
       "summary": "Trump's 2025 inauguration raised a record ~$170 million from corporate donors and wealthy individuals. Multiple major donors were subsequently appointed as ambassadors to prestigious postings (France, UK, and others). While donor-ambassadorships are a longstanding US practice, watchdogs documented an unusually direct and transparent correlation between donation size and appointment prestige in this cycle. Individual donor-to-ambassador contributions typically ranged from $1M–$5M.",
-      "categories": ["selling_access"],
+      "categories": [
+        "selling_access"
+      ],
       "status": "confirmed",
-      "beneficiary": ["trump_pac", "trump_personally"],
-      "actors": ["Donald Trump", "Inaugural Committee", "Republican mega-donors"],
+      "beneficiary": [
+        "trump_pac",
+        "trump_personally"
+      ],
+      "actors": [
+        "Donald Trump",
+        "Inaugural Committee",
+        "Republican mega-donors"
+      ],
       "amount_usd": 170000000,
       "amount_note": "$170M raised total; individual ambassador-donors typically gave $1M–$5M",
       "financial_connection": {
@@ -79,8 +106,15 @@
           "type": "watchdog"
         }
       ],
-      "tags": ["inauguration", "ambassadors", "selling_access", "donors", "pay_to_play"],
-      "last_updated": "2026-03-28"
+      "tags": [
+        "inauguration",
+        "ambassadors",
+        "selling_access",
+        "donors",
+        "pay_to_play"
+      ],
+      "last_updated": "2026-03-28",
+      "motivation": "both"
     },
     {
       "id": "trump-memecoin-launch-2025-01",
@@ -88,10 +122,21 @@
       "date_end": null,
       "title": "$TRUMP memecoin launch — $20B+ to Trump entities",
       "summary": "Three days before his inauguration, Trump launched the $TRUMP memecoin on the Solana blockchain, releasing 200 million coins publicly while retaining 800 million through two Trump-owned companies. The coin hit a market cap of $27B within a day, making Trump's holdings worth over $20B. Critics called it an unprecedented vehicle for foreign influence-peddling, allowing anyone in the world to transfer money to the sitting president with a few clicks.",
-      "categories": ["crypto_sales", "selling_access", "foreign_investment"],
+      "categories": [
+        "crypto_sales",
+        "selling_access",
+        "foreign_investment"
+      ],
       "status": "confirmed",
-      "beneficiary": ["trump_personally", "trump_crypto"],
-      "actors": ["Donald Trump", "Fight Fight Fight LLC", "CIC Digital LLC"],
+      "beneficiary": [
+        "trump_personally",
+        "trump_crypto"
+      ],
+      "actors": [
+        "Donald Trump",
+        "Fight Fight Fight LLC",
+        "CIC Digital LLC"
+      ],
       "amount_usd": 20000000000,
       "amount_note": "Trump's retained 800M coins valued at ~$20B at peak; actual realized gains unknown",
       "financial_connection": {
@@ -133,8 +178,15 @@
           "type": "watchdog"
         }
       ],
-      "tags": ["crypto", "foreign_nationals", "justin_sun", "sec", "influence_peddling"],
-      "last_updated": "2026-03-28"
+      "tags": [
+        "crypto",
+        "foreign_nationals",
+        "justin_sun",
+        "sec",
+        "influence_peddling"
+      ],
+      "last_updated": "2026-03-28",
+      "motivation": "financial"
     },
     {
       "id": "wlfi-uae-stake-2025-01",
@@ -142,10 +194,25 @@
       "date_end": null,
       "title": "UAE royal family secretly buys 49% of World Liberty Financial for $500M",
       "summary": "Shortly before Trump's inauguration, a UAE entity linked to Sheikh Tahnoon bin Zayed Al Nahyan secretly agreed to purchase a 49% stake in World Liberty Financial (WLFI) — Trump's DeFi crypto project run by his sons Eric and Donald Jr. — for $500 million. Of the $250M initial payment, $187M went directly to Trump-family entities. Congress launched a probe in February 2026.",
-      "categories": ["crypto_sales", "foreign_investment", "family_enrichment"],
+      "categories": [
+        "crypto_sales",
+        "foreign_investment",
+        "family_enrichment"
+      ],
       "status": "confirmed",
-      "beneficiary": ["trump_personally", "trump_family", "trump_crypto"],
-      "actors": ["Donald Trump Jr.", "Eric Trump", "Zach Witkoff", "Sheikh Tahnoon bin Zayed Al Nahyan", "Aryam Investment", "World Liberty Financial"],
+      "beneficiary": [
+        "trump_personally",
+        "trump_family",
+        "trump_crypto"
+      ],
+      "actors": [
+        "Donald Trump Jr.",
+        "Eric Trump",
+        "Zach Witkoff",
+        "Sheikh Tahnoon bin Zayed Al Nahyan",
+        "Aryam Investment",
+        "World Liberty Financial"
+      ],
       "amount_usd": 500000000,
       "amount_note": "$500M total; $187M of initial $250M payment went to DT Marks DEFI LLC and DT Marks SC LLC (Trump-family entities)",
       "financial_connection": {
@@ -180,8 +247,15 @@
           "type": "news"
         }
       ],
-      "tags": ["crypto", "UAE", "world_liberty_financial", "foreign_investment", "arms_deal"],
-      "last_updated": "2026-03-28"
+      "tags": [
+        "crypto",
+        "UAE",
+        "world_liberty_financial",
+        "foreign_investment",
+        "arms_deal"
+      ],
+      "last_updated": "2026-03-28",
+      "motivation": "financial"
     },
     {
       "id": "justin-sun-sec-dropped-2025",
@@ -189,10 +263,22 @@
       "date_end": null,
       "title": "Justin Sun invests $75M in Trump crypto — SEC lawsuit paused",
       "summary": "Chinese billionaire Justin Sun, who faced an active SEC lawsuit for alleged market manipulation and fraud, invested $30 million in World Liberty Financial after Trump's inauguration, and later topped the $TRUMP memecoin leaderboard with over $18 million in coins. The SEC subsequently paused its lawsuit against Sun. In total Sun invested approximately $75M across Trump crypto ventures. Sun has publicly touted ties to the Chinese government.",
-      "categories": ["crypto_sales", "foreign_investment", "power_abuse"],
+      "categories": [
+        "crypto_sales",
+        "foreign_investment",
+        "power_abuse"
+      ],
       "status": "confirmed",
-      "beneficiary": ["trump_crypto", "trump_personally"],
-      "actors": ["Justin Sun", "Donald Trump", "World Liberty Financial", "SEC"],
+      "beneficiary": [
+        "trump_crypto",
+        "trump_personally"
+      ],
+      "actors": [
+        "Justin Sun",
+        "Donald Trump",
+        "World Liberty Financial",
+        "SEC"
+      ],
       "amount_usd": 75000000,
       "amount_note": "$30M to WLFI + $18M+ in $TRUMP coins + additional investments totaling ~$75M",
       "financial_connection": {
@@ -220,8 +306,16 @@
           "type": "congressional"
         }
       ],
-      "tags": ["crypto", "justin_sun", "china", "SEC", "influence_peddling", "foreign_nationals"],
-      "last_updated": "2026-03-28"
+      "tags": [
+        "crypto",
+        "justin_sun",
+        "china",
+        "SEC",
+        "influence_peddling",
+        "foreign_nationals"
+      ],
+      "last_updated": "2026-03-28",
+      "motivation": "both"
     },
     {
       "id": "trump-crypto-dinner-2025-05",
@@ -229,10 +323,21 @@
       "date_end": null,
       "title": "Trump hosts private dinner for top $TRUMP memecoin holders",
       "summary": "Trump attended a private dinner at the White House for the top 220 holders of the $TRUMP memecoin, creating a direct financial incentive to purchase a financial instrument controlled by the president in exchange for personal access to him. Justin Sun held the top spot with $18M+ in coins. Members of Congress demanded a DOJ investigation.",
-      "categories": ["selling_access", "crypto_sales", "foreign_investment"],
+      "categories": [
+        "selling_access",
+        "crypto_sales",
+        "foreign_investment"
+      ],
       "status": "confirmed",
-      "beneficiary": ["trump_personally", "trump_crypto"],
-      "actors": ["Donald Trump", "Justin Sun", "Fight Fight Fight LLC"],
+      "beneficiary": [
+        "trump_personally",
+        "trump_crypto"
+      ],
+      "actors": [
+        "Donald Trump",
+        "Justin Sun",
+        "Fight Fight Fight LLC"
+      ],
       "amount_usd": null,
       "amount_note": "Access sold via coin holdings; coin value fluctuated. Sun's $18M was the top stake.",
       "financial_connection": {
@@ -260,8 +365,14 @@
           "type": "news"
         }
       ],
-      "tags": ["crypto", "selling_access", "white_house", "foreign_nationals"],
-      "last_updated": "2026-03-28"
+      "tags": [
+        "crypto",
+        "selling_access",
+        "white_house",
+        "foreign_nationals"
+      ],
+      "last_updated": "2026-03-28",
+      "motivation": "financial"
     },
     {
       "id": "wlfi-usd1-binance-mgx-2025-05",
@@ -269,10 +380,24 @@
       "date_end": null,
       "title": "WLFI stablecoin USD1 used to close $2B MGX–Binance deal; CZ later pardoned",
       "summary": "Abu Dhabi state-backed MGX used Trump family's USD1 stablecoin (issued by World Liberty Financial) to close a $2 billion investment in Binance — the world's largest crypto exchange. Binance had previously helped build the infrastructure for WLFI. Binance founder Changpeng 'CZ' Zhao was subsequently pardoned by Trump in October 2025, despite Trump claiming 'I don't know who he is.'",
-      "categories": ["crypto_sales", "foreign_investment", "pardon_financial"],
+      "categories": [
+        "crypto_sales",
+        "foreign_investment",
+        "pardon_financial"
+      ],
       "status": "confirmed",
-      "beneficiary": ["trump_crypto", "trump_family"],
-      "actors": ["MGX", "Binance", "Changpeng Zhao", "World Liberty Financial", "Eric Trump", "Donald Trump Jr."],
+      "beneficiary": [
+        "trump_crypto",
+        "trump_family"
+      ],
+      "actors": [
+        "MGX",
+        "Binance",
+        "Changpeng Zhao",
+        "World Liberty Financial",
+        "Eric Trump",
+        "Donald Trump Jr."
+      ],
       "amount_usd": 2000000000,
       "amount_note": "$2B deal settled in USD1; each transaction generates fees for WLFI/Trump family",
       "financial_connection": {
@@ -307,8 +432,16 @@
           "type": "news"
         }
       ],
-      "tags": ["crypto", "UAE", "binance", "pardon", "stablecoin", "abu_dhabi"],
-      "last_updated": "2026-03-28"
+      "tags": [
+        "crypto",
+        "UAE",
+        "binance",
+        "pardon",
+        "stablecoin",
+        "abu_dhabi"
+      ],
+      "last_updated": "2026-03-28",
+      "motivation": "financial"
     },
     {
       "id": "qatar-plane-gift-2025-05",
@@ -316,10 +449,19 @@
       "date_end": null,
       "title": "Qatar gifts Boeing 747 as new Air Force One — US had solicited it",
       "summary": "The US government officially accepted a Boeing 747-8 luxury jet from the Qatari government for use as Air Force One. The plane was framed as an unsolicited gift, but CNN reported the Trump administration had first approached Qatar to inquire about acquiring the aircraft. The retrofitting alone is estimated at up to $400M in US taxpayer funds. Ethics experts say the gift violates the Foreign Emoluments Clause. Qatar has significant policy interests including US arms deals and military base agreements.",
-      "categories": ["foreign_gift", "foreign_investment"],
+      "categories": [
+        "foreign_gift",
+        "foreign_investment"
+      ],
       "status": "confirmed",
-      "beneficiary": ["trump_personally"],
-      "actors": ["Donald Trump", "Qatar", "Pete Hegseth"],
+      "beneficiary": [
+        "trump_personally"
+      ],
+      "actors": [
+        "Donald Trump",
+        "Qatar",
+        "Pete Hegseth"
+      ],
       "amount_usd": 400000000,
       "amount_note": "Plane estimated $400M+ value; retrofitting cost classified but estimated up to $400M more in US taxpayer funds",
       "financial_connection": {
@@ -361,8 +503,15 @@
           "type": "news"
         }
       ],
-      "tags": ["qatar", "foreign_gift", "emoluments", "air_force_one", "arms_deal"],
-      "last_updated": "2026-03-28"
+      "tags": [
+        "qatar",
+        "foreign_gift",
+        "emoluments",
+        "air_force_one",
+        "arms_deal"
+      ],
+      "last_updated": "2026-03-28",
+      "motivation": "financial"
     },
     {
       "id": "foreign-officials-trump-properties-2025",
@@ -370,10 +519,21 @@
       "date_end": null,
       "title": "55 foreign officials from 21 countries visit Trump properties in first year",
       "summary": "CREW documented that 55 officials from 21 countries made 60 visits to Trump properties in Trump's first year back in office, posing potential Foreign Emoluments Clause violations. Israel made the most visits, followed by Argentina. Eight foreign governments hosted or sponsored events at Trump properties. Saudi Arabia's LIV Golf held a tournament at Trump National Doral (April 2025) and sponsored another event.",
-      "categories": ["selling_access", "business_payment", "foreign_investment"],
+      "categories": [
+        "selling_access",
+        "business_payment",
+        "foreign_investment"
+      ],
       "status": "confirmed",
-      "beneficiary": ["trump_org"],
-      "actors": ["Donald Trump", "Trump Organization", "LIV Golf", "Saudi Public Investment Fund"],
+      "beneficiary": [
+        "trump_org"
+      ],
+      "actors": [
+        "Donald Trump",
+        "Trump Organization",
+        "LIV Golf",
+        "Saudi Public Investment Fund"
+      ],
       "amount_usd": 9600000,
       "amount_note": "CREW documented at least $9.6M in Middle East income to Trump while president",
       "financial_connection": {
@@ -408,8 +568,15 @@
           "type": "watchdog"
         }
       ],
-      "tags": ["emoluments", "foreign_officials", "mar_a_lago", "LIV_golf", "saudi_arabia"],
-      "last_updated": "2026-03-28"
+      "tags": [
+        "emoluments",
+        "foreign_officials",
+        "mar_a_lago",
+        "LIV_golf",
+        "saudi_arabia"
+      ],
+      "last_updated": "2026-03-28",
+      "motivation": "financial"
     },
     {
       "id": "liberation-day-tariff-manipulation-2025-04",
@@ -417,10 +584,22 @@
       "date_end": "2025-04-09",
       "title": "Liberation Day tariffs and pause — suspected insider trading and market manipulation",
       "summary": "On April 2, 2025, Trump announced sweeping tariffs ('Liberation Day'), wiping $5 trillion from the S&P 500 in four days. On April 9 he reversed course, posting 'BE COOL! This is a GREAT TIME TO BUY!!!' on Truth Social, then pausing tariffs — triggering the S&P's biggest single-day jump in nearly 20 years. Democrats demanded investigations into whether Trump, family, allies, or officials profited from the swings. More than a dozen executive branch officials and congressional aides made well-timed trades during the period.",
-      "categories": ["market_manipulation", "insider_trading"],
+      "categories": [
+        "market_manipulation",
+        "insider_trading"
+      ],
       "status": "alleged",
-      "beneficiary": ["trump_personally", "trump_family"],
-      "actors": ["Donald Trump", "Howard Lutnick (Commerce Secretary / Cantor Fitzgerald)", "Rep. Marjorie Taylor Greene", "Rep. Paul Gosar", "Congressional aides"],
+      "beneficiary": [
+        "trump_personally",
+        "trump_family"
+      ],
+      "actors": [
+        "Donald Trump",
+        "Howard Lutnick (Commerce Secretary / Cantor Fitzgerald)",
+        "Rep. Marjorie Taylor Greene",
+        "Rep. Paul Gosar",
+        "Congressional aides"
+      ],
       "amount_usd": null,
       "amount_note": "$5T wiped from markets in crash; unknown profits from reversal. ProPublica identified 12+ officials with suspicious trades. MTG disclosed purchases during crash window. Lutnick (Cantor Fitzgerald) had direct market exposure and questionable recusal.",
       "financial_connection": {
@@ -469,8 +648,15 @@
           "type": "news"
         }
       ],
-      "tags": ["tariffs", "market_manipulation", "insider_trading", "truth_social", "liberation_day"],
-      "last_updated": "2026-03-28"
+      "tags": [
+        "tariffs",
+        "market_manipulation",
+        "insider_trading",
+        "truth_social",
+        "liberation_day"
+      ],
+      "last_updated": "2026-03-28",
+      "motivation": "financial"
     },
     {
       "id": "iran-oil-insider-trading-2026-03",
@@ -478,10 +664,19 @@
       "date_end": null,
       "title": "$580M in oil futures traded 16 minutes before Trump's Iran war pause post",
       "summary": "On March 24, 2026, $580 million in oil futures were traded in a sudden spike — with no public news to explain it — approximately 16 minutes before Trump posted on Truth Social about 'productive conversations' with Iran that signaled a pause in hostilities. Nobel laureate Paul Krugman called it potential 'treason.' The Trump administration denied any wrongdoing. The Justice Department's Public Integrity Section, which would investigate such cases, had been reduced from 36 lawyers to two.",
-      "categories": ["insider_trading", "market_manipulation"],
+      "categories": [
+        "insider_trading",
+        "market_manipulation"
+      ],
       "status": "alleged",
-      "beneficiary": ["unknown"],
-      "actors": ["Unknown traders", "Donald Trump", "White House staff"],
+      "beneficiary": [
+        "unknown"
+      ],
+      "actors": [
+        "Unknown traders",
+        "Donald Trump",
+        "White House staff"
+      ],
       "amount_usd": 580000000,
       "amount_note": "$580M in oil futures traded in a single minute, 16 minutes before Trump's Truth Social post",
       "financial_connection": {
@@ -523,8 +718,15 @@
           "type": "news"
         }
       ],
-      "tags": ["insider_trading", "iran", "oil_futures", "truth_social", "prediction_markets"],
-      "last_updated": "2026-03-28"
+      "tags": [
+        "insider_trading",
+        "iran",
+        "oil_futures",
+        "truth_social",
+        "prediction_markets"
+      ],
+      "last_updated": "2026-03-28",
+      "motivation": "financial"
     },
     {
       "id": "law-firm-coercion-2025",
@@ -532,10 +734,24 @@
       "date_end": null,
       "title": "Trump extracts $1.2B+ in settlements from law firms and universities via executive order threats",
       "summary": "Beginning in February 2025, Trump issued executive orders targeting law firms associated with his political enemies or DEI programs, threatening to revoke federal contracts and building access. At least 9 major firms settled, offering $40M–$125M each in free legal services — some to be used for Trump administration purposes. Courts called some orders a 'shocking abuse of power.' Universities faced similar pressure, with Trump extracting over $1 billion including a proposed $1B settlement with UCLA. By July 2025, total settlements exceeded $1.2 billion.",
-      "categories": ["power_abuse"],
+      "categories": [
+        "power_abuse"
+      ],
       "status": "confirmed",
-      "beneficiary": ["trump_personally", "trump_pac"],
-      "actors": ["Donald Trump", "Trump administration", "Paul Weiss", "Skadden", "Milbank", "Susman Godfrey", "Harvard", "UCLA"],
+      "beneficiary": [
+        "trump_personally",
+        "trump_pac"
+      ],
+      "actors": [
+        "Donald Trump",
+        "Trump administration",
+        "Paul Weiss",
+        "Skadden",
+        "Milbank",
+        "Susman Godfrey",
+        "Harvard",
+        "UCLA"
+      ],
       "amount_usd": 1200000000,
       "amount_note": "$1.2B in extracted settlements as of July 2025; likely higher since",
       "financial_connection": {
@@ -570,8 +786,16 @@
           "type": "reference"
         }
       ],
-      "tags": ["power_abuse", "law_firms", "universities", "coercion", "DEI", "executive_orders"],
-      "last_updated": "2026-03-28"
+      "tags": [
+        "power_abuse",
+        "law_firms",
+        "universities",
+        "coercion",
+        "DEI",
+        "executive_orders"
+      ],
+      "last_updated": "2026-03-28",
+      "motivation": "political"
     },
     {
       "id": "kushner-affinity-mideast-2025",
@@ -579,10 +803,21 @@
       "date_end": null,
       "title": "Kushner solicits billions from Middle East governments while serving as Trump envoy",
       "summary": "Jared Kushner's private equity firm Affinity Partners grew to $6.2B in assets by end of 2025, with the Saudi Public Investment Fund having invested $2 billion and pocketing $157M in fees. In late 2025, Kushner participated in the proposed $52.5B acquisition of Electronic Arts alongside Saudi PIF. In March 2026, members of Congress sent letters demanding information about Kushner fundraising from the same regional governments he was simultaneously negotiating with as a Trump administration envoy.",
-      "categories": ["family_enrichment", "foreign_investment", "power_abuse"],
+      "categories": [
+        "family_enrichment",
+        "foreign_investment",
+        "power_abuse"
+      ],
       "status": "alleged",
-      "beneficiary": ["kushner"],
-      "actors": ["Jared Kushner", "Affinity Partners", "Saudi Public Investment Fund", "UAE"],
+      "beneficiary": [
+        "kushner"
+      ],
+      "actors": [
+        "Jared Kushner",
+        "Affinity Partners",
+        "Saudi Public Investment Fund",
+        "UAE"
+      ],
       "amount_usd": 6200000000,
       "amount_note": "$6.2B total AUM; Saudi invested $2B; $157M in fees collected from foreign clients",
       "financial_connection": {
@@ -624,8 +859,16 @@
           "type": "congressional"
         }
       ],
-      "tags": ["kushner", "saudi_arabia", "UAE", "affinity_partners", "private_equity", "envoy"],
-      "last_updated": "2026-03-28"
+      "tags": [
+        "kushner",
+        "saudi_arabia",
+        "UAE",
+        "affinity_partners",
+        "private_equity",
+        "envoy"
+      ],
+      "last_updated": "2026-03-28",
+      "motivation": "financial"
     },
     {
       "id": "trump-irs-lawsuit-2026-01",
@@ -633,10 +876,23 @@
       "date_end": null,
       "title": "Trump sues his own IRS and Treasury for $10 billion in taxpayer money",
       "summary": "On January 29, 2026, Trump, his sons Donald Jr. and Eric, and the Trump Organization filed a $10 billion lawsuit against the IRS and Treasury Department — both agencies Trump oversees. The suit claims damages from a leak of Trump's personal tax records years earlier. Trump's own political appointees would decide whether to settle with their boss, and for how much taxpayer money. Ethics experts called it an unprecedented conflict of interest.",
-      "categories": ["state_damages"],
+      "categories": [
+        "state_damages"
+      ],
       "status": "confirmed",
-      "beneficiary": ["trump_personally", "trump_org", "trump_family"],
-      "actors": ["Donald Trump", "Donald Trump Jr.", "Eric Trump", "Trump Organization", "IRS", "Treasury Department"],
+      "beneficiary": [
+        "trump_personally",
+        "trump_org",
+        "trump_family"
+      ],
+      "actors": [
+        "Donald Trump",
+        "Donald Trump Jr.",
+        "Eric Trump",
+        "Trump Organization",
+        "IRS",
+        "Treasury Department"
+      ],
       "amount_usd": 10000000000,
       "amount_note": "$10B demanded from US taxpayers; amount owed to private parties: $0 (purely against government agencies)",
       "financial_connection": {
@@ -671,8 +927,15 @@
           "type": "watchdog"
         }
       ],
-      "tags": ["state_damages", "IRS", "taxpayer_money", "conflict_of_interest", "lawsuit"],
-      "last_updated": "2026-03-28"
+      "tags": [
+        "state_damages",
+        "IRS",
+        "taxpayer_money",
+        "conflict_of_interest",
+        "lawsuit"
+      ],
+      "last_updated": "2026-03-28",
+      "motivation": "financial"
     },
     {
       "id": "trump-doj-payout-230m-2025",
@@ -680,10 +943,17 @@
       "date_end": null,
       "title": "Trump seeks $230M from DOJ for investigations into his own misconduct",
       "summary": "Trump filed claims seeking $230 million in taxpayer-funded payouts from the Department of Justice, alleging he was harmed by investigations into his own conduct. Democracy Forward filed a FOIA lawsuit after the DOJ and Treasury refused to release any records related to the claim. Trump's own appointees would rule on whether he receives the money.",
-      "categories": ["state_damages"],
+      "categories": [
+        "state_damages"
+      ],
       "status": "confirmed",
-      "beneficiary": ["trump_personally"],
-      "actors": ["Donald Trump", "Department of Justice"],
+      "beneficiary": [
+        "trump_personally"
+      ],
+      "actors": [
+        "Donald Trump",
+        "Department of Justice"
+      ],
       "amount_usd": 230000000,
       "amount_note": "$230M claimed from US government (taxpayers); no private party owed money",
       "financial_connection": {
@@ -711,8 +981,14 @@
           "type": "watchdog"
         }
       ],
-      "tags": ["state_damages", "DOJ", "taxpayer_money", "conflict_of_interest"],
-      "last_updated": "2026-03-28"
+      "tags": [
+        "state_damages",
+        "DOJ",
+        "taxpayer_money",
+        "conflict_of_interest"
+      ],
+      "last_updated": "2026-03-28",
+      "motivation": "financial"
     },
     {
       "id": "saudi-arms-trump-business-2025-05",
@@ -720,10 +996,26 @@
       "date_end": null,
       "title": "Trump announces $142B Saudi arms deal during trip where family closes business deals",
       "summary": "During Trump's Middle East trip, the US announced a $142 billion arms deal with Saudi Arabia — the largest in history. Simultaneously, Eric Trump signed a deal for a Saudi-linked developer to build a Trump International Hotel and Tower in Dubai. Kushner's Affinity Partners (backed by Saudi PIF) continued expanding. CREW documented at least $9.6M in direct Middle East income to Trump personally during this period.",
-      "categories": ["arms_deal_conflict", "business_payment", "family_enrichment", "foreign_investment"],
+      "categories": [
+        "arms_deal_conflict",
+        "business_payment",
+        "family_enrichment",
+        "foreign_investment"
+      ],
       "status": "confirmed",
-      "beneficiary": ["trump_org", "trump_family", "kushner"],
-      "actors": ["Donald Trump", "Eric Trump", "Jared Kushner", "Saudi Arabia", "Saudi Public Investment Fund", "MBS"],
+      "beneficiary": [
+        "trump_org",
+        "trump_family",
+        "kushner"
+      ],
+      "actors": [
+        "Donald Trump",
+        "Eric Trump",
+        "Jared Kushner",
+        "Saudi Arabia",
+        "Saudi Public Investment Fund",
+        "MBS"
+      ],
       "amount_usd": 142000000000,
       "amount_note": "$142B arms deal to Saudi Arabia; Trump personally earned $9.6M+ from Middle East; Kushner's Saudi-backed fund at $6.2B",
       "financial_connection": {
@@ -758,8 +1050,16 @@
           "type": "news"
         }
       ],
-      "tags": ["saudi_arabia", "arms_deal", "dubai", "kushner", "emoluments", "LIV_golf"],
-      "last_updated": "2026-03-28"
+      "tags": [
+        "saudi_arabia",
+        "arms_deal",
+        "dubai",
+        "kushner",
+        "emoluments",
+        "LIV_golf"
+      ],
+      "last_updated": "2026-03-28",
+      "motivation": "financial"
     },
     {
       "id": "dar-global-dubai-trump-tower-2025-04",
@@ -767,16 +1067,28 @@
       "date_end": null,
       "title": "Eric Trump signs $1B Dubai tower deal with Saudi developer Dar Global — weeks before Gulf trip",
       "summary": "Eric Trump announced a partnership with Dar Global, the London-listed arm of Saudi developer Dar Al Arkan, to build an 80-story Trump International Hotel and Tower in Dubai worth $1 billion. The deal was announced weeks before Trump's Middle East visit when the US announced a $142B arms deal with Saudi Arabia. Dar Global also has Trump projects in Oman and Jeddah ($533M). The tower accepts Bitcoin as payment.",
-      "categories": ["family_enrichment", "foreign_investment", "arms_deal_conflict"],
+      "categories": [
+        "family_enrichment",
+        "foreign_investment",
+        "arms_deal_conflict"
+      ],
       "status": "confirmed",
-      "beneficiary": ["trump_org", "trump_family"],
+      "beneficiary": [
+        "trump_org",
+        "trump_family"
+      ],
       "counterparty": {
         "name": "Dar Global / Dar Al Arkan",
         "type": "foreign_company",
         "country": "SA",
         "description": "Saudi Arabian real estate developer; London-listed subsidiary Dar Global is the Trump Organization's Gulf partner"
       },
-      "actors": ["Eric Trump", "Trump Organization", "Dar Global", "Dar Al Arkan"],
+      "actors": [
+        "Eric Trump",
+        "Trump Organization",
+        "Dar Global",
+        "Dar Al Arkan"
+      ],
       "amount_usd": 1000000000,
       "amount_note": "$1B Dubai tower; separate $533M Jeddah project; Muscat resort also under development",
       "financial_connection": {
@@ -811,8 +1123,16 @@
           "type": "news"
         }
       ],
-      "tags": ["saudi_arabia", "dubai", "real_estate", "arms_deal", "family_enrichment", "crypto"],
-      "last_updated": "2026-03-28"
+      "tags": [
+        "saudi_arabia",
+        "dubai",
+        "real_estate",
+        "arms_deal",
+        "family_enrichment",
+        "crypto"
+      ],
+      "last_updated": "2026-03-28",
+      "motivation": "financial"
     },
     {
       "id": "melania-coin-insider-launch-2025-01",
@@ -820,16 +1140,28 @@
       "date_end": null,
       "title": "$MELANIA coin — 24 wallets buy in 2.5 minutes before announcement; $100M insider payday",
       "summary": "Melania Trump launched the $MELANIA memecoin on January 19, 2025. The Financial Times found that 24 separate wallets purchased $2.6 million worth of $MELANIA in the 2.5 minutes before Melania's Truth Social announcement — clear insider trading. Those wallets made ~$100M in profits. GD Culture Group, a small company with Chinese ties and no reported 2024 revenue, announced it would spend $300M on Bitcoin and $TRUMP via 'an unnamed entity in the British Virgin Islands.'",
-      "categories": ["crypto_sales", "insider_trading", "foreign_investment"],
+      "categories": [
+        "crypto_sales",
+        "insider_trading",
+        "foreign_investment"
+      ],
       "status": "confirmed",
-      "beneficiary": ["trump_personally", "trump_crypto"],
+      "beneficiary": [
+        "trump_personally",
+        "trump_crypto"
+      ],
       "counterparty": {
         "name": "24 anonymous insider wallets / GD Culture Group",
         "type": "foreign_individual",
         "country": "CN",
         "description": "Wallets with advance knowledge of launch; GD Culture Group is a Chinese-linked US company that announced $300M in Trump crypto purchases"
       },
-      "actors": ["Melania Trump", "24 anonymous wallets", "GD Culture Group", "Fight Fight Fight LLC"],
+      "actors": [
+        "Melania Trump",
+        "24 anonymous wallets",
+        "GD Culture Group",
+        "Fight Fight Fight LLC"
+      ],
       "amount_usd": 100000000,
       "amount_note": "~$100M profit for insider wallets on $2.6M investment; GD Culture Group announced separate $300M in purchases",
       "financial_connection": {
@@ -850,8 +1182,15 @@
           "type": "news"
         }
       ],
-      "tags": ["crypto", "melania", "insider_trading", "china", "GD_culture_group"],
-      "last_updated": "2026-03-28"
+      "tags": [
+        "crypto",
+        "melania",
+        "insider_trading",
+        "china",
+        "GD_culture_group"
+      ],
+      "last_updated": "2026-03-28",
+      "motivation": "financial"
     },
     {
       "id": "fema-blue-state-denial-2025",
@@ -859,16 +1198,27 @@
       "date_end": null,
       "title": "FEMA approves 89% of red state disaster requests vs 23% of blue state requests",
       "summary": "Under Trump, Democratic-led states saw only 23% of disaster aid requests approved while Republican-led states saw 89% approved. Trump personally approved declarations for Alaska, Nebraska, and North Dakota — noting he won these states 'BIG' — while denying Illinois and Maryland for the same flooding events. In February 2026, $5B in disaster aid was released but excluded California, Illinois, Minnesota, and Colorado — all states whose Democratic governors had publicly clashed with Trump over immigration.",
-      "categories": ["retaliation_targeting", "power_abuse"],
+      "categories": [
+        "retaliation_targeting",
+        "power_abuse"
+      ],
       "status": "confirmed",
-      "beneficiary": ["trump_pac"],
+      "beneficiary": [
+        "trump_pac"
+      ],
       "counterparty": {
         "name": "California, Illinois, Minnesota, Colorado and other Democratic-led states",
         "type": "us_state",
         "country": "US",
         "description": "Democratic-governed states systematically denied disaster relief at much higher rates than Republican states"
       },
-      "actors": ["Donald Trump", "Kristi Noem (DHS Secretary)", "FEMA", "Gov. Gavin Newsom", "Gov. JB Pritzker"],
+      "actors": [
+        "Donald Trump",
+        "Kristi Noem (DHS Secretary)",
+        "FEMA",
+        "Gov. Gavin Newsom",
+        "Gov. JB Pritzker"
+      ],
       "amount_usd": 5000000000,
       "amount_note": "$5B+ in aid withheld or delayed from blue states; 23% vs 89% approval rate differential",
       "financial_connection": {
@@ -910,8 +1260,16 @@
           "type": "watchdog"
         }
       ],
-      "tags": ["retaliation", "FEMA", "disaster_relief", "blue_states", "california", "illinois"],
-      "last_updated": "2026-03-28"
+      "tags": [
+        "retaliation",
+        "FEMA",
+        "disaster_relief",
+        "blue_states",
+        "california",
+        "illinois"
+      ],
+      "last_updated": "2026-03-28",
+      "motivation": "political"
     },
     {
       "id": "ice-raids-sanctuary-cities-2025",
@@ -919,16 +1277,27 @@
       "date_end": null,
       "title": "ICE raids explicitly targeted at Democrat-run cities — Trump: 'core of Democrat Power Center'",
       "summary": "Starting January 23, 2025, ICE began large-scale raids on sanctuary cities. Trump explicitly directed special response teams to cities 'at the core of the Democrat Power Center,' naming NYC, Los Angeles, and Chicago. The administration reversed policy to allow raids at schools, hospitals, and places of worship. In June 2025, raids expanded to Philadelphia, Chicago, Seattle, and New York. City officials described the raids as retaliatory against cities resisting Trump's immigration agenda.",
-      "categories": ["retaliation_targeting", "power_abuse"],
+      "categories": [
+        "retaliation_targeting",
+        "power_abuse"
+      ],
       "status": "confirmed",
-      "beneficiary": ["trump_pac"],
+      "beneficiary": [
+        "trump_pac"
+      ],
       "counterparty": {
         "name": "Sanctuary cities: NYC, Chicago, Los Angeles, Philadelphia, Seattle",
         "type": "us_city",
         "country": "US",
         "description": "Democratic-run cities with policies limiting local cooperation with federal immigration enforcement"
       },
-      "actors": ["Donald Trump", "Tom Homan (Border Czar)", "ICE", "Mayor Brandon Johnson (Chicago)", "Mayor Eric Adams (NYC)"],
+      "actors": [
+        "Donald Trump",
+        "Tom Homan (Border Czar)",
+        "ICE",
+        "Mayor Brandon Johnson (Chicago)",
+        "Mayor Eric Adams (NYC)"
+      ],
       "amount_usd": null,
       "amount_note": "No direct financial figure; political targeting of opposition-led cities",
       "financial_connection": {
@@ -956,8 +1325,16 @@
           "type": "news"
         }
       ],
-      "tags": ["retaliation", "ICE", "sanctuary_cities", "immigration", "chicago", "NYC"],
-      "last_updated": "2026-03-28"
+      "tags": [
+        "retaliation",
+        "ICE",
+        "sanctuary_cities",
+        "immigration",
+        "chicago",
+        "NYC"
+      ],
+      "last_updated": "2026-03-28",
+      "motivation": "political"
     },
     {
       "id": "inspectors-general-mass-firing-2025-01",
@@ -965,16 +1342,27 @@
       "date_end": null,
       "title": "17 Inspectors General fired overnight — court finds it illegal but refuses to reinstate them",
       "summary": "On the fifth day of Trump's second term, he fired 17 federal Inspectors General in a late-night mass dismissal dubbed the 'Friday night purge.' Federal law requires 30 days' Congressional notice; a judge found Trump 'obviously' broke the law but declined to reinstate the watchdogs. Evidence showed several fired IGs had been investigating matters related to Elon Musk/SpaceX, Trump allies, or DOGE. The pardon attorney Liz Oyer was separately fired on March 7 after refusing to pardon a Trump ally.",
-      "categories": ["retaliation_targeting", "power_abuse"],
+      "categories": [
+        "retaliation_targeting",
+        "power_abuse"
+      ],
       "status": "confirmed",
-      "beneficiary": ["trump_personally", "trump_org"],
+      "beneficiary": [
+        "trump_personally",
+        "trump_org"
+      ],
       "counterparty": {
         "name": "17 Federal Inspectors General",
         "type": "government_official",
         "country": "US",
         "description": "Independent federal watchdogs at cabinet agencies; Defense IG had opened a SpaceX review; pardon attorney Liz Oyer also fired for refusing to comply"
       },
-      "actors": ["Donald Trump", "Elon Musk / DOGE", "Robert Storch (DoD IG)", "Liz Oyer (Pardon Attorney)"],
+      "actors": [
+        "Donald Trump",
+        "Elon Musk / DOGE",
+        "Robert Storch (DoD IG)",
+        "Liz Oyer (Pardon Attorney)"
+      ],
       "amount_usd": null,
       "amount_note": "No financial figure — oversight capacity removed",
       "financial_connection": {
@@ -1009,8 +1397,16 @@
           "type": "watchdog"
         }
       ],
-      "tags": ["retaliation", "inspectors_general", "watchdogs", "SpaceX", "DOGE", "illegal_firing"],
-      "last_updated": "2026-03-28"
+      "tags": [
+        "retaliation",
+        "inspectors_general",
+        "watchdogs",
+        "SpaceX",
+        "DOGE",
+        "illegal_firing"
+      ],
+      "last_updated": "2026-03-28",
+      "motivation": "both"
     },
     {
       "id": "npr-pbs-funding-cut-2025",
@@ -1018,16 +1414,25 @@
       "date_end": "2025-10-01",
       "title": "NPR and PBS lose all $1.07B federal funding — FCC investigations opened simultaneously",
       "summary": "Trump issued an executive order directing CPB to stop funding NPR and PBS. Congress rescinded $1.07B already allocated to CPB for 2026–2027; by October NPR, PBS, and 1,500+ local stations lost all federal funding. FCC Chairman Brendan Carr simultaneously opened investigations into NPR and PBS — the same FCC that was weaponized against ABC and CBS. The FCC threatened to revoke ABC and NBC broadcast licenses, and leveraged Paramount's pending merger approval to extract $16M from CBS.",
-      "categories": ["retaliation_targeting", "power_abuse"],
+      "categories": [
+        "retaliation_targeting",
+        "power_abuse"
+      ],
       "status": "confirmed",
-      "beneficiary": ["trump_pac"],
+      "beneficiary": [
+        "trump_pac"
+      ],
       "counterparty": {
         "name": "NPR, PBS, Corporation for Public Broadcasting",
         "type": "media",
         "country": "US",
         "description": "US public broadcasters; CPB distributes federal funds to 1,500+ local TV and radio stations nationwide"
       },
-      "actors": ["Donald Trump", "Brendan Carr (FCC Chairman)", "Corporation for Public Broadcasting"],
+      "actors": [
+        "Donald Trump",
+        "Brendan Carr (FCC Chairman)",
+        "Corporation for Public Broadcasting"
+      ],
       "amount_usd": 1070000000,
       "amount_note": "$1.07B in already-allocated CPB funding rescinded for FY2026–2027",
       "financial_connection": {
@@ -1055,8 +1460,16 @@
           "type": "news"
         }
       ],
-      "tags": ["retaliation", "media", "NPR", "PBS", "FCC", "press_freedom"],
-      "last_updated": "2026-03-28"
+      "tags": [
+        "retaliation",
+        "media",
+        "NPR",
+        "PBS",
+        "FCC",
+        "press_freedom"
+      ],
+      "last_updated": "2026-03-28",
+      "motivation": "political"
     },
     {
       "id": "abc-settlement-trump-library-2025",
@@ -1064,16 +1477,28 @@
       "date_end": "2025-03-01",
       "title": "ABC News pays $15M to Trump's presidential library — settled under FCC license threat",
       "summary": "Trump sued ABC News over George Stephanopoulos describing Trump as found liable for 'rape.' ABC settled for $15M to Trump's future presidential library — a direct personal financial benefit. Legal experts noted Disney (ABC's parent) was seeking FCC regulatory approvals simultaneously. The FCC under Brendan Carr threatened to revoke ABC and NBC broadcast licenses. Democratic lawmakers raised anti-bribery concerns about the settlement.",
-      "categories": ["retaliation_targeting", "power_abuse", "state_damages"],
+      "categories": [
+        "retaliation_targeting",
+        "power_abuse",
+        "state_damages"
+      ],
       "status": "confirmed",
-      "beneficiary": ["trump_personally"],
+      "beneficiary": [
+        "trump_personally"
+      ],
       "counterparty": {
         "name": "ABC News / Disney",
         "type": "media",
         "country": "US",
         "description": "ABC settled defamation suit for $15M to Trump's library; FCC license threat was the coercive mechanism"
       },
-      "actors": ["Donald Trump", "George Stephanopoulos", "ABC News", "Disney", "Brendan Carr (FCC)"],
+      "actors": [
+        "Donald Trump",
+        "George Stephanopoulos",
+        "ABC News",
+        "Disney",
+        "Brendan Carr (FCC)"
+      ],
       "amount_usd": 15000000,
       "amount_note": "$15M paid to Trump presidential library — personal benefit to Trump",
       "financial_connection": {
@@ -1101,8 +1526,16 @@
           "type": "watchdog"
         }
       ],
-      "tags": ["retaliation", "media", "ABC", "FCC", "settlement", "presidential_library"],
-      "last_updated": "2026-03-28"
+      "tags": [
+        "retaliation",
+        "media",
+        "ABC",
+        "FCC",
+        "settlement",
+        "presidential_library"
+      ],
+      "last_updated": "2026-03-28",
+      "motivation": "both"
     },
     {
       "id": "cbs-paramount-settlement-trump-library-2025-07",
@@ -1110,16 +1543,28 @@
       "date_end": null,
       "title": "CBS/Paramount pays $16M to Trump library — FCC held merger approval as leverage",
       "summary": "Trump filed a $10B lawsuit (later $20B) against CBS over editing of a 60 Minutes Kamala Harris interview. Paramount settled for $16M to Trump's presidential library, no apology. The FCC simultaneously reviewed Skydance Media's acquisition of Paramount — a deal Brendan Carr could block. Democratic lawmakers called the settlement a potential violation of anti-bribery laws; the payment went directly to Trump personally (his library).",
-      "categories": ["retaliation_targeting", "power_abuse", "state_damages"],
+      "categories": [
+        "retaliation_targeting",
+        "power_abuse",
+        "state_damages"
+      ],
       "status": "confirmed",
-      "beneficiary": ["trump_personally"],
+      "beneficiary": [
+        "trump_personally"
+      ],
       "counterparty": {
         "name": "CBS News / Paramount Global",
         "type": "media",
         "country": "US",
         "description": "CBS parent Paramount needed FCC approval for Skydance acquisition — approval FCC Chair Carr could withhold"
       },
-      "actors": ["Donald Trump", "CBS News", "Paramount Global", "Skydance Media", "Brendan Carr (FCC)"],
+      "actors": [
+        "Donald Trump",
+        "CBS News",
+        "Paramount Global",
+        "Skydance Media",
+        "Brendan Carr (FCC)"
+      ],
       "amount_usd": 16000000,
       "amount_note": "$16M to Trump presidential library; merger approval worth billions to Paramount",
       "financial_connection": {
@@ -1147,8 +1592,17 @@
           "type": "watchdog"
         }
       ],
-      "tags": ["retaliation", "media", "CBS", "FCC", "Paramount", "merger_approval", "presidential_library"],
-      "last_updated": "2026-03-28"
+      "tags": [
+        "retaliation",
+        "media",
+        "CBS",
+        "FCC",
+        "Paramount",
+        "merger_approval",
+        "presidential_library"
+      ],
+      "last_updated": "2026-03-28",
+      "motivation": "both"
     },
     {
       "id": "perkins-coie-executive-order-2025-03",
@@ -1156,16 +1610,24 @@
       "date_end": "2025-06-27",
       "title": "Perkins Coie targeted by executive order for Clinton 2016 work — courts strike it down",
       "summary": "Trump issued Executive Order 14230 targeting Perkins Coie LLP for having worked for Hillary Clinton's 2016 campaign and commissioning Steele dossier research. The order suspended security clearances, barred employees from federal buildings, and directed contract termination. Courts immediately blocked it and ultimately ruled it unconstitutional on First, Fifth, and Sixth Amendment grounds. Perkins Coie was one of four firms that fought back and won; at least nine other firms capitulated and paid $40M–$125M each in coerced 'free legal services.'",
-      "categories": ["retaliation_targeting", "power_abuse"],
+      "categories": [
+        "retaliation_targeting",
+        "power_abuse"
+      ],
       "status": "confirmed",
-      "beneficiary": ["trump_personally"],
+      "beneficiary": [
+        "trump_personally"
+      ],
       "counterparty": {
         "name": "Perkins Coie LLP",
         "type": "law_firm",
         "country": "US",
         "description": "Major US law firm targeted for Clinton 2016 work; fought the executive order and won full injunction"
       },
-      "actors": ["Donald Trump", "Perkins Coie LLP"],
+      "actors": [
+        "Donald Trump",
+        "Perkins Coie LLP"
+      ],
       "amount_usd": null,
       "amount_note": "Perkins Coie resisted and won. Nine+ other firms that capitulated paid $40M–$125M each.",
       "financial_connection": {
@@ -1193,8 +1655,16 @@
           "type": "news"
         }
       ],
-      "tags": ["retaliation", "law_firms", "executive_order", "Clinton", "Steele_dossier", "unconstitutional"],
-      "last_updated": "2026-03-28"
+      "tags": [
+        "retaliation",
+        "law_firms",
+        "executive_order",
+        "Clinton",
+        "Steele_dossier",
+        "unconstitutional"
+      ],
+      "last_updated": "2026-03-28",
+      "motivation": "political"
     },
     {
       "id": "wilmerhale-jenner-block-executive-orders-2025-03",
@@ -1202,16 +1672,27 @@
       "date_end": "2025-06-27",
       "title": "WilmerHale and Jenner & Block targeted for hiring Mueller prosecutors — courts block orders",
       "summary": "Trump targeted WilmerHale for hiring Robert Mueller and his colleagues, and Jenner & Block for hiring lead Mueller prosecutor Andrew Weissman. Both firms sued immediately. Courts issued emergency blocks and struck both orders down as unconstitutional — the explicit reason for targeting (employing prosecutors who investigated Trump) made the retaliatory motive unusually transparent.",
-      "categories": ["retaliation_targeting", "power_abuse"],
+      "categories": [
+        "retaliation_targeting",
+        "power_abuse"
+      ],
       "status": "confirmed",
-      "beneficiary": ["trump_personally"],
+      "beneficiary": [
+        "trump_personally"
+      ],
       "counterparty": {
         "name": "WilmerHale LLP / Jenner & Block LLP",
         "type": "law_firm",
         "country": "US",
         "description": "Law firms targeted for employing Robert Mueller and Andrew Weissman after the special counsel investigation"
       },
-      "actors": ["Donald Trump", "WilmerHale LLP", "Jenner & Block LLP", "Robert Mueller", "Andrew Weissman"],
+      "actors": [
+        "Donald Trump",
+        "WilmerHale LLP",
+        "Jenner & Block LLP",
+        "Robert Mueller",
+        "Andrew Weissman"
+      ],
       "amount_usd": null,
       "amount_note": "Both firms resisted and won. Firms that capitulated paid $40M–$125M each in coerced legal work.",
       "financial_connection": {
@@ -1239,8 +1720,16 @@
           "type": "news"
         }
       ],
-      "tags": ["retaliation", "law_firms", "Mueller", "Weissman", "executive_order", "unconstitutional"],
-      "last_updated": "2026-03-28"
+      "tags": [
+        "retaliation",
+        "law_firms",
+        "Mueller",
+        "Weissman",
+        "executive_order",
+        "unconstitutional"
+      ],
+      "last_updated": "2026-03-28",
+      "motivation": "political"
     },
     {
       "id": "harvard-funding-freeze-2025-04",
@@ -1248,16 +1737,26 @@
       "date_end": null,
       "title": "Harvard: $2.2B frozen after rejecting Trump demands — judge rules cuts 'illegal retaliation'",
       "summary": "The Trump administration froze $2.2 billion in Harvard grants after Harvard publicly refused to comply with demands to eliminate DEI programs, screen international students for ideology, and submit to federal curriculum oversight. A federal judge later ruled the cuts were 'illegal retaliation' for Harvard's refusal to cede institutional governance. Harvard was the only major university to fully refuse; Columbia paid $200M+ to settle and regain funding.",
-      "categories": ["retaliation_targeting", "power_abuse"],
+      "categories": [
+        "retaliation_targeting",
+        "power_abuse"
+      ],
       "status": "confirmed",
-      "beneficiary": ["trump_pac"],
+      "beneficiary": [
+        "trump_pac"
+      ],
       "counterparty": {
         "name": "Harvard University",
         "type": "university",
         "country": "US",
         "description": "Harvard refused Trump's DEI and governance demands; became primary target; federal judge found the funding cuts illegally retaliatory"
       },
-      "actors": ["Donald Trump", "Linda McMahon (Education Secretary)", "Harvard University", "President Alan Garber"],
+      "actors": [
+        "Donald Trump",
+        "Linda McMahon (Education Secretary)",
+        "Harvard University",
+        "President Alan Garber"
+      ],
       "amount_usd": 2200000000,
       "amount_note": "$2.2B frozen; total $8.7B in Harvard federal funding reviewed; judge ruled cuts illegal",
       "financial_connection": {
@@ -1292,8 +1791,16 @@
           "type": "news"
         }
       ],
-      "tags": ["retaliation", "university", "Harvard", "DEI", "research_funding", "academic_freedom"],
-      "last_updated": "2026-03-28"
+      "tags": [
+        "retaliation",
+        "university",
+        "Harvard",
+        "DEI",
+        "research_funding",
+        "academic_freedom"
+      ],
+      "last_updated": "2026-03-28",
+      "motivation": "political"
     },
     {
       "id": "columbia-settlement-2025-03",
@@ -1301,16 +1808,25 @@
       "date_end": "2025-06-01",
       "title": "Columbia: $400M cut then capitulates with $200M+ settlement — becomes warning to other universities",
       "summary": "The Trump administration cut $400M in Columbia's federal funding on March 7, 2025, citing antisemitism concerns. Columbia subsequently paid $200M+ to settle and regain access to research funding, agreeing to federal oversight conditions. Columbia's capitulation became the model — and warning — for other universities: comply or lose funding. Harvard chose the other path and fought back, winning in court.",
-      "categories": ["retaliation_targeting", "power_abuse"],
+      "categories": [
+        "retaliation_targeting",
+        "power_abuse"
+      ],
       "status": "confirmed",
-      "beneficiary": ["trump_pac"],
+      "beneficiary": [
+        "trump_pac"
+      ],
       "counterparty": {
         "name": "Columbia University",
         "type": "university",
         "country": "US",
         "description": "Columbia capitulated to Trump demands after $400M cut, paying $200M+ and accepting federal oversight — the first major university to do so"
       },
-      "actors": ["Donald Trump", "Linda McMahon (Education Secretary)", "Columbia University"],
+      "actors": [
+        "Donald Trump",
+        "Linda McMahon (Education Secretary)",
+        "Columbia University"
+      ],
       "amount_usd": 400000000,
       "amount_note": "$400M cut initially; $200M+ settlement paid to regain funding",
       "financial_connection": {
@@ -1338,8 +1854,16 @@
           "type": "news"
         }
       ],
-      "tags": ["retaliation", "university", "Columbia", "DEI", "research_funding", "settlement"],
-      "last_updated": "2026-03-28"
+      "tags": [
+        "retaliation",
+        "university",
+        "Columbia",
+        "DEI",
+        "research_funding",
+        "settlement"
+      ],
+      "last_updated": "2026-03-28",
+      "motivation": "political"
     },
     {
       "id": "big-tech-inauguration-donations-praise-2025-01",
@@ -1347,16 +1871,29 @@
       "date_end": "2025-01-20",
       "title": "Big Tech donates $1M each to inauguration fund and publicly praises Trump — antitrust cases pending",
       "summary": "Meta, Amazon, Google, Microsoft, Apple (CEO Tim Cook personally), and OpenAI's Sam Altman each donated $1 million to Trump's inauguration fund. Amazon also streamed the ceremony on Prime (in-kind $1M). CEOs made public praise statements: Altman said 'President Trump will lead our country into the age of AI'; Microsoft CEO thanked Trump for 'putting policies in place for the US to lead in AI.' All of these companies faced or faced possible antitrust, regulatory, or tariff exposure under the new administration.",
-      "categories": ["public_praise", "selling_access"],
+      "categories": [
+        "public_praise",
+        "selling_access"
+      ],
       "status": "confirmed",
-      "beneficiary": ["trump_pac"],
+      "beneficiary": [
+        "trump_pac"
+      ],
       "counterparty": {
         "name": "Meta, Amazon, Google, Microsoft, Apple, OpenAI",
         "type": "domestic_company",
         "country": "US",
         "description": "Major tech companies, each with significant regulatory exposure (antitrust, AI policy, content moderation) before the Trump administration"
       },
-      "actors": ["Mark Zuckerberg (Meta)", "Jeff Bezos (Amazon)", "Sundar Pichai (Google)", "Satya Nadella (Microsoft)", "Tim Cook (Apple)", "Sam Altman (OpenAI)", "Donald Trump"],
+      "actors": [
+        "Mark Zuckerberg (Meta)",
+        "Jeff Bezos (Amazon)",
+        "Sundar Pichai (Google)",
+        "Satya Nadella (Microsoft)",
+        "Tim Cook (Apple)",
+        "Sam Altman (OpenAI)",
+        "Donald Trump"
+      ],
       "amount_usd": 7000000,
       "amount_note": "$1M cash donation each from Meta, Amazon, Google, Microsoft; $1M personal donation from Tim Cook; $1M personal from Sam Altman; Amazon additional $1M in-kind streaming. Total ~$7M+ from tech sector.",
       "financial_connection": {
@@ -1398,8 +1935,20 @@
           "type": "news"
         }
       ],
-      "tags": ["public_praise", "big_tech", "inauguration", "antitrust", "Meta", "Google", "Amazon", "Apple", "OpenAI", "Microsoft"],
-      "last_updated": "2026-03-28"
+      "tags": [
+        "public_praise",
+        "big_tech",
+        "inauguration",
+        "antitrust",
+        "Meta",
+        "Google",
+        "Amazon",
+        "Apple",
+        "OpenAI",
+        "Microsoft"
+      ],
+      "last_updated": "2026-03-28",
+      "motivation": "both"
     },
     {
       "id": "meta-zuckerberg-fact-checkers-antitrust-2025-01",
@@ -1407,16 +1956,28 @@
       "date_end": "2025-11-18",
       "title": "Meta kills fact-checkers, pays Trump $25M, wins antitrust case — Zuckerberg courts Trump throughout",
       "summary": "On January 7, 2025 — two weeks before inauguration — Meta eliminated its US fact-checking program, drawing immediate praise from Trump ('Probably' responding to Trump's pressure, Trump said). Meta also paid Trump $25M to settle his lawsuit over the post-Jan.6 Facebook suspension. Meta then won a landmark FTC antitrust case in November 2025. Trump said he'd 'probably' influenced Zuckerberg's fact-checker decision. Zuckerberg visited Mar-a-Lago to lobby Trump directly and donated $1M to the inauguration.",
-      "categories": ["public_praise", "selling_access", "power_abuse"],
+      "categories": [
+        "public_praise",
+        "selling_access",
+        "power_abuse"
+      ],
       "status": "confirmed",
-      "beneficiary": ["trump_personally", "trump_pac"],
+      "beneficiary": [
+        "trump_personally",
+        "trump_pac"
+      ],
       "counterparty": {
         "name": "Meta / Mark Zuckerberg",
         "type": "domestic_company",
         "country": "US",
         "description": "Meta faced active FTC antitrust suit over Instagram and WhatsApp acquisitions; Zuckerberg pursued comprehensive appeasement strategy"
       },
-      "actors": ["Mark Zuckerberg", "Meta", "Donald Trump", "FTC"],
+      "actors": [
+        "Mark Zuckerberg",
+        "Meta",
+        "Donald Trump",
+        "FTC"
+      ],
       "amount_usd": 26000000,
       "amount_note": "$25M settlement of Trump's Facebook ban lawsuit + $1M inauguration donation = $26M total to Trump",
       "financial_connection": {
@@ -1458,8 +2019,17 @@
           "type": "news"
         }
       ],
-      "tags": ["public_praise", "Meta", "Zuckerberg", "antitrust", "fact_checkers", "settlement", "Mar_a_Lago"],
-      "last_updated": "2026-03-28"
+      "tags": [
+        "public_praise",
+        "Meta",
+        "Zuckerberg",
+        "antitrust",
+        "fact_checkers",
+        "settlement",
+        "Mar_a_Lago"
+      ],
+      "last_updated": "2026-03-28",
+      "motivation": "both"
     },
     {
       "id": "foreign-leaders-flattery-gifts-2025",
@@ -1467,16 +2037,28 @@
       "date_end": null,
       "title": "Foreign leaders adopt 'flattery diplomacy' — gifts, Nobel nominations, golden crowns",
       "summary": "Foreign leaders systematically adopted flattery as a diplomatic tool to manage Trump. Notable gifts and acts of praise: Netanyahu brought Trump a letter nominating him for the Nobel Peace Prize ('well deserved, you should get it'); South Korea's President gave Trump a golden crown replica and the country's highest honor; a Swiss delegation gave a gold bar; the UK's Keir Starmer gave a personal state visit invitation from King Charles III. Qatar gave a $400M Boeing 747. Trump hosted 40+ foreign heads of government in 2025 — more than double Biden's first-year total.",
-      "categories": ["public_praise", "foreign_gift", "selling_access"],
+      "categories": [
+        "public_praise",
+        "foreign_gift",
+        "selling_access"
+      ],
       "status": "confirmed",
-      "beneficiary": ["trump_personally"],
+      "beneficiary": [
+        "trump_personally"
+      ],
       "counterparty": {
         "name": "Multiple foreign governments — Qatar, South Korea, Switzerland, UK, Israel",
         "type": "foreign_government",
         "country": "XX",
         "description": "Foreign governments competing to flatter Trump to gain diplomatic access and favorable policy treatment"
       },
-      "actors": ["Benjamin Netanyahu (Israel)", "Lee Jae Myung (South Korea)", "Keir Starmer (UK)", "Swiss delegation", "Donald Trump"],
+      "actors": [
+        "Benjamin Netanyahu (Israel)",
+        "Lee Jae Myung (South Korea)",
+        "Keir Starmer (UK)",
+        "Swiss delegation",
+        "Donald Trump"
+      ],
       "amount_usd": null,
       "amount_note": "Gold bar, golden crown, Nobel nomination letter — individual values not disclosed. Qatar plane ($400M) tracked separately.",
       "financial_connection": {
@@ -1518,8 +2100,18 @@
           "type": "news"
         }
       ],
-      "tags": ["public_praise", "foreign_gift", "flattery_diplomacy", "Netanyahu", "South_Korea", "Switzerland", "UK", "Nobel"],
-      "last_updated": "2026-03-28"
+      "tags": [
+        "public_praise",
+        "foreign_gift",
+        "flattery_diplomacy",
+        "Netanyahu",
+        "South_Korea",
+        "Switzerland",
+        "UK",
+        "Nobel"
+      ],
+      "last_updated": "2026-03-28",
+      "motivation": "both"
     },
     {
       "id": "tariff-exemptions-politically-connected-2025-04",
@@ -1527,16 +2119,28 @@
       "date_end": null,
       "title": "Politically connected firms win secret tariff exemptions — no formal application process",
       "summary": "After Trump's sweeping tariffs, ProPublica found that politically connected firms were winning carve-outs through opaque back-channel lobbying — with no formal application process. Reyes Holdings (a Coca-Cola bottler owned by major Republican donors) hired Ballard Partners (founded by Trump fundraiser Brian Ballard) and won an exemption for PET resin plastic. Industry experts said they could not explain why certain products were exempted. The lack of transparency created conditions where political connections, not economic rationale, determined who paid tariffs.",
-      "categories": ["public_praise", "selling_access", "power_abuse"],
+      "categories": [
+        "public_praise",
+        "selling_access",
+        "power_abuse"
+      ],
       "status": "confirmed",
-      "beneficiary": ["trump_pac"],
+      "beneficiary": [
+        "trump_pac"
+      ],
       "counterparty": {
         "name": "Reyes Holdings / Ballard Partners and other politically connected firms",
         "type": "domestic_company",
         "country": "US",
         "description": "Republican mega-donor owned companies winning secret tariff exemptions through Trump-connected lobbyists"
       },
-      "actors": ["Donald Trump", "Reyes Holdings", "Brian Ballard", "Ballard Partners", "Commerce Department"],
+      "actors": [
+        "Donald Trump",
+        "Reyes Holdings",
+        "Brian Ballard",
+        "Ballard Partners",
+        "Commerce Department"
+      ],
       "amount_usd": null,
       "amount_note": "Value of exemptions not disclosed; tariffs ranged 10–145% on affected goods — exemptions worth potentially billions across all recipients",
       "financial_connection": {
@@ -1564,8 +2168,16 @@
           "type": "watchdog"
         }
       ],
-      "tags": ["public_praise", "tariff_exemptions", "lobbyists", "donors", "selling_access", "secrecy"],
-      "last_updated": "2026-03-28"
+      "tags": [
+        "public_praise",
+        "tariff_exemptions",
+        "lobbyists",
+        "donors",
+        "selling_access",
+        "secrecy"
+      ],
+      "last_updated": "2026-03-28",
+      "motivation": "political"
     },
     {
       "id": "trump-tech-dinner-sept-2025",
@@ -1573,16 +2185,27 @@
       "date_end": null,
       "title": "Trump hosts 33 Silicon Valley CEOs at White House dinner — mass public praise follows",
       "summary": "Trump hosted a high-profile tech dinner at the White House with 33 Silicon Valley executives including leaders from AMD, Microsoft, and others. CEOs issued public praise: AMD's CEO praised Trump for 'supporting the semiconductor industry'; Microsoft's CEO thanked Trump for AI policy. The dinner underscored Silicon Valley's strategic realignment — companies sought favorable AI regulation, semiconductor policy, and government contracts while publicly aligning with the administration.",
-      "categories": ["public_praise", "selling_access"],
+      "categories": [
+        "public_praise",
+        "selling_access"
+      ],
       "status": "confirmed",
-      "beneficiary": ["trump_personally", "trump_pac"],
+      "beneficiary": [
+        "trump_personally",
+        "trump_pac"
+      ],
       "counterparty": {
         "name": "33 Silicon Valley tech executives",
         "type": "domestic_company",
         "country": "US",
         "description": "Senior tech executives from semiconductor, AI, and platform companies seeking favorable regulatory and policy treatment"
       },
-      "actors": ["Donald Trump", "AMD CEO Lisa Su", "Microsoft CEO Satya Nadella", "33 tech executives total"],
+      "actors": [
+        "Donald Trump",
+        "AMD CEO Lisa Su",
+        "Microsoft CEO Satya Nadella",
+        "33 tech executives total"
+      ],
       "amount_usd": null,
       "amount_note": "Access dinner — no direct financial transaction, but part of broader pattern of political alignment in exchange for regulatory favor",
       "financial_connection": {
@@ -1617,8 +2240,16 @@
           "type": "news"
         }
       ],
-      "tags": ["public_praise", "big_tech", "Silicon_Valley", "AI_policy", "semiconductors", "White_House_dinner"],
-      "last_updated": "2026-03-28"
+      "tags": [
+        "public_praise",
+        "big_tech",
+        "Silicon_Valley",
+        "AI_policy",
+        "semiconductors",
+        "White_House_dinner"
+      ],
+      "last_updated": "2026-03-28",
+      "motivation": "both"
     },
     {
       "id": "mtg-tariff-stock-trades-2025-04",
@@ -1626,16 +2257,25 @@
       "date_end": "2025-04-09",
       "title": "Rep. Marjorie Taylor Greene buys $21K–$315K in stocks during tariff crash — day before pause",
       "summary": "Rep. Marjorie Taylor Greene (R-GA) bought $21,000–$315,000 in stocks on April 7–9, 2025 — during the market crash triggered by Trump's Liberation Day tariffs — including the day before Trump announced the tariff pause that sent markets surging. She also dumped $50K–$100K in Treasury bills the day before the reversal. Additionally, Greene bought up to $30,000 of Palantir stock the week before Palantir signed a $30M ICE contract; Greene sits on the House Homeland Security Committee overseeing ICE. No criminal charges — no member of Congress has ever been prosecuted under the STOCK Act.",
-      "categories": ["insider_trading"],
+      "categories": [
+        "insider_trading"
+      ],
       "status": "alleged",
-      "beneficiary": ["trump_pac"],
+      "beneficiary": [
+        "trump_pac"
+      ],
       "counterparty": {
         "name": "Rep. Marjorie Taylor Greene (R-GA)",
         "type": "congress_member",
         "country": "US",
         "description": "Close Trump ally on House Homeland Security Committee; made well-timed trades around tariff announcements and before Palantir ICE contract"
       },
-      "actors": ["Rep. Marjorie Taylor Greene", "Donald Trump", "Palantir Technologies", "ICE"],
+      "actors": [
+        "Rep. Marjorie Taylor Greene",
+        "Donald Trump",
+        "Palantir Technologies",
+        "ICE"
+      ],
       "amount_usd": 315000,
       "amount_note": "$21K–$315K in stock purchases (STOCK Act range disclosure); $50K–$100K in Treasury bills sold. Palantir stake: up to $30K before $30M ICE contract.",
       "financial_connection": {
@@ -1677,8 +2317,17 @@
           "type": "news"
         }
       ],
-      "tags": ["insider_trading", "MTG", "congress", "tariffs", "STOCK_Act", "Palantir", "ICE"],
-      "last_updated": "2026-03-28"
+      "tags": [
+        "insider_trading",
+        "MTG",
+        "congress",
+        "tariffs",
+        "STOCK_Act",
+        "Palantir",
+        "ICE"
+      ],
+      "last_updated": "2026-03-28",
+      "motivation": "financial"
     },
     {
       "id": "pakistan-wlfi-usd1-deal-2026-01",
@@ -1686,16 +2335,31 @@
       "date_end": null,
       "title": "Pakistan signs MoU with Trump's World Liberty Financial to adopt USD1 stablecoin",
       "summary": "Pakistan's government signed a memorandum of understanding with World Liberty Financial's affiliate SC Financial Technologies to explore using the Trump family's USD1 stablecoin for cross-border trade and remittances — potentially worth $1 billion. WLFI co-founder Zach Witkoff met with Pakistani Prime Minister Shehbaz Sharif and Finance Minister Aurangzeb to sign the deal. Pakistan is one of the world's largest remittance markets. The Trump family collectively owns 22.5 billion WLFI governance tokens valued at ~$3.8B. This is WLFI's first deal with a sovereign government.",
-      "categories": ["crypto_sales", "foreign_investment", "family_enrichment"],
+      "categories": [
+        "crypto_sales",
+        "foreign_investment",
+        "family_enrichment"
+      ],
       "status": "confirmed",
-      "beneficiary": ["trump_crypto", "trump_family"],
+      "beneficiary": [
+        "trump_crypto",
+        "trump_family"
+      ],
       "counterparty": {
         "name": "Government of Pakistan",
         "type": "foreign_government",
         "country": "PK",
         "description": "Pakistani government signed MoU to explore Trump family stablecoin for sovereign payment infrastructure — first sovereign deal for WLFI"
       },
-      "actors": ["Zach Witkoff (WLFI CEO)", "PM Muhammad Shehbaz Sharif", "Finance Minister Muhammad Aurangzeb", "World Liberty Financial", "Donald Trump", "Eric Trump", "Donald Trump Jr."],
+      "actors": [
+        "Zach Witkoff (WLFI CEO)",
+        "PM Muhammad Shehbaz Sharif",
+        "Finance Minister Muhammad Aurangzeb",
+        "World Liberty Financial",
+        "Donald Trump",
+        "Eric Trump",
+        "Donald Trump Jr."
+      ],
       "amount_usd": 1000000000,
       "amount_note": "MoU explores $1B in stablecoin payments; USD1 market cap was $3.42B at time of deal; Trump family owns tokens worth ~$3.8B",
       "financial_connection": {
@@ -1737,8 +2401,17 @@
           "type": "news"
         }
       ],
-      "tags": ["crypto", "Pakistan", "stablecoin", "USD1", "WLFI", "sovereign_deal", "remittances"],
-      "last_updated": "2026-03-28"
+      "tags": [
+        "crypto",
+        "Pakistan",
+        "stablecoin",
+        "USD1",
+        "WLFI",
+        "sovereign_deal",
+        "remittances"
+      ],
+      "last_updated": "2026-03-28",
+      "motivation": "financial"
     },
     {
       "id": "pardon-for-pay-economy-2025",
@@ -1746,16 +2419,33 @@
       "date_end": null,
       "title": "Pardon-for-pay economy: $1M standard lobbyist fee; $3.5M PAC donation; $2B in victim restitution wiped",
       "summary": "A documented pardon-for-pay economy emerged under Trump. Standard lobbyist fees for pardon work: $1M, with $6M 'success fees' reported. Key cases: Julio Herrera Velutini channeled $3.5M into Trump's super PAC and was pardoned (bribery). Joseph Schwartz paid $1.1M in lobbyist fees and was pardoned for $38M tax fraud. Tim Leiweke's company donated $250K to inauguration; his lawyer Trey Gowdy lobbied Trump at Mar-a-Lago golf. California governor's office calculated Trump pardons wiped nearly $2B in victim restitution and taxpayer recovery. Over half of 88 analyzed pardons went to white-collar criminals.",
-      "categories": ["pardon_financial", "selling_access"],
+      "categories": [
+        "pardon_financial",
+        "selling_access"
+      ],
       "status": "confirmed",
-      "beneficiary": ["trump_pac", "trump_personally"],
+      "beneficiary": [
+        "trump_pac",
+        "trump_personally"
+      ],
       "counterparty": {
         "name": "Pardon applicants and lobbyists (Burkman, Ballard Partners, Katz, Tolman, Gowdy)",
         "type": "domestic_individual",
         "country": "US",
         "description": "Ecosystem of Trump-connected lobbyists charging $1M+ to secure pardons; donors and PAC contributors receiving pardons"
       },
-      "actors": ["Donald Trump", "Jack Burkman", "Adam Katz", "Brett Tolman", "Trey Gowdy", "Brian Ballard", "Christopher Kise", "Julio Herrera Velutini", "Joseph Schwartz", "Tim Leiweke"],
+      "actors": [
+        "Donald Trump",
+        "Jack Burkman",
+        "Adam Katz",
+        "Brett Tolman",
+        "Trey Gowdy",
+        "Brian Ballard",
+        "Christopher Kise",
+        "Julio Herrera Velutini",
+        "Joseph Schwartz",
+        "Tim Leiweke"
+      ],
       "amount_usd": 2000000000,
       "amount_note": "~$2B in victim restitution and taxpayer recovery wiped per California governor's office analysis. $3.5M PAC donation from Herrera Velutini. $1.1M in lobbyist fees from Schwartz. Standard fee: $1M.",
       "financial_connection": {
@@ -1811,8 +2501,16 @@
           "type": "congressional"
         }
       ],
-      "tags": ["pardons", "pay_to_play", "lobbyists", "PAC_donation", "victim_restitution", "white_collar"],
-      "last_updated": "2026-03-28"
+      "tags": [
+        "pardons",
+        "pay_to_play",
+        "lobbyists",
+        "PAC_donation",
+        "victim_restitution",
+        "white_collar"
+      ],
+      "last_updated": "2026-03-28",
+      "motivation": "both"
     },
     {
       "id": "hernandez-pardon-honduras-2025-12",
@@ -1820,7 +2518,10 @@
       "date_end": null,
       "title": "Trump pardons convicted Honduran ex-president while endorsing his party's candidate in Honduran elections",
       "summary": "Trump pardoned former Honduran President Juan Orlando Hernández, sentenced to 45 years in a New York federal court for helping drug cartels ship 400+ tons of cocaine to the US while accepting millions in bribes. Trump announced the pardon simultaneously with his endorsement of Nasry 'Tito' Asfura, the candidate of Hernández's National Party, in Honduran elections — directly linking clemency to foreign electoral influence. Honduras issued an Interpol red notice seeking Hernández's re-arrest. Bipartisan congressional resolutions condemned the pardon (H.Res. 929, S.Res. 530).",
-      "categories": ["pardon_political", "power_abuse"],
+      "categories": [
+        "pardon_political",
+        "power_abuse"
+      ],
       "status": "confirmed",
       "counterparty": {
         "name": "Juan Orlando Hernández",
@@ -1828,8 +2529,14 @@
         "country": "HN",
         "description": "Former President of Honduras (2014–2022), convicted in US federal court of narco-trafficking and accepting cartel bribes"
       },
-      "beneficiary": ["trump_personally"],
-      "actors": ["Juan Orlando Hernández", "Nasry 'Tito' Asfura", "Sinaloa cartel"],
+      "beneficiary": [
+        "trump_personally"
+      ],
+      "actors": [
+        "Juan Orlando Hernández",
+        "Nasry 'Tito' Asfura",
+        "Sinaloa cartel"
+      ],
       "amount_usd": null,
       "amount_note": "No direct financial benefit to Trump identified; political benefit through Honduran electoral influence",
       "financial_connection": {
@@ -1871,8 +2578,16 @@
           "type": "news"
         }
       ],
-      "tags": ["pardon", "Honduras", "drug_trafficking", "electoral_influence", "foreign_government", "cartels"],
-      "last_updated": "2026-03-29"
+      "tags": [
+        "pardon",
+        "Honduras",
+        "drug_trafficking",
+        "electoral_influence",
+        "foreign_government",
+        "cartels"
+      ],
+      "last_updated": "2026-03-29",
+      "motivation": "political"
     },
     {
       "id": "trump-fraud-czar-hypocrisy-2026-03",
@@ -1880,7 +2595,10 @@
       "date_end": null,
       "title": "Trump creates 'Fraud Czar' task force targeting immigrants while having pardoned 70+ convicted fraudsters",
       "summary": "Trump signed an executive order creating a 'Task Force to Eliminate Fraud' and named VP JD Vance 'Fraud Czar,' targeting immigrant fraud in Minnesota (mostly Somali-Americans) and California. The NYT and House Judiciary Democrats documented that Trump had simultaneously granted clemency to more than 70 people convicted of fraud, forgiving over $700M in fines and restitution — including the longest-ever Medicare fraud sentence (Lawrence Duran, $205M scheme commuted May 2025), and a $660M securities fraud (Trevor Milton). The fired pardon attorney Elizabeth Oyer said Trump pardons those 'he sees something of himself in — a wealthy, successful businessman.'",
-      "categories": ["power_abuse", "retaliation_targeting"],
+      "categories": [
+        "power_abuse",
+        "retaliation_targeting"
+      ],
       "status": "confirmed",
       "counterparty": {
         "name": "Somali-American community (Minnesota)",
@@ -1888,8 +2606,16 @@
         "country": "US",
         "description": "Primary ethnic group targeted in Trump's selective anti-fraud enforcement; majority of MN fraud defendants are Somali-American"
       },
-      "beneficiary": ["trump_personally"],
-      "actors": ["JD Vance", "Elizabeth Oyer", "Lawrence Duran", "Trevor Milton", "Philip Esformes"],
+      "beneficiary": [
+        "trump_personally"
+      ],
+      "actors": [
+        "JD Vance",
+        "Elizabeth Oyer",
+        "Lawrence Duran",
+        "Trevor Milton",
+        "Philip Esformes"
+      ],
       "amount_usd": null,
       "amount_note": "Trump claims $19B in MN fraud (federal prosecutors estimate $9B); Trump's own pardons forgave $700M+ in fines/restitution per DOJ documents",
       "financial_connection": {
@@ -1924,8 +2650,18 @@
           "type": "watchdog"
         }
       ],
-      "tags": ["fraud", "selective_enforcement", "power_abuse", "retaliation", "Minnesota", "immigration", "pardon", "hypocrisy"],
-      "last_updated": "2026-03-29"
+      "tags": [
+        "fraud",
+        "selective_enforcement",
+        "power_abuse",
+        "retaliation",
+        "Minnesota",
+        "immigration",
+        "pardon",
+        "hypocrisy"
+      ],
+      "last_updated": "2026-03-29",
+      "motivation": "political"
     },
     {
       "id": "house-gop-doral-retreat-2025-01",
@@ -1933,7 +2669,10 @@
       "date_end": "2025-01-29",
       "title": "House Republicans hold official retreat at Trump's Doral resort — first time Congress pays Trump directly for governing venue",
       "summary": "130 of 218 House Republicans attended the Republican Conference's annual retreat at Trump National Doral in Miami, January 27–29, 2025 — days after Trump's inauguration. It marked the first time House Republicans had spent money directly on a venue owned by the sitting president. Room rates at Doral range from $460 to over $8,000/night. A comparable 2018 GOP event at Doral generated $630,000 in revenue for Trump's company. Congressional leadership chose the venue for legislative strategy sessions, routing public and party funds into the president's private business.",
-      "categories": ["business_payment", "selling_access"],
+      "categories": [
+        "business_payment",
+        "selling_access"
+      ],
       "status": "confirmed",
       "counterparty": {
         "name": "House Republican Conference",
@@ -1941,8 +2680,14 @@
         "country": "US",
         "description": "House Republican leadership and members paying Trump's resort for their official legislative retreat"
       },
-      "beneficiary": ["trump_org"],
-      "actors": ["Mike Johnson", "Donald Trump", "House Republican Conference"],
+      "beneficiary": [
+        "trump_org"
+      ],
+      "actors": [
+        "Mike Johnson",
+        "Donald Trump",
+        "House Republican Conference"
+      ],
       "amount_usd": 630000,
       "amount_note": "Exact 2025 amount not yet disclosed; comparable 2018 retreat generated $630K for Trump. Room rates $460–$8,000/night; up to 130 members attending.",
       "financial_connection": {
@@ -1970,8 +2715,17 @@
           "type": "news"
         }
       ],
-      "tags": ["Doral", "Congress", "retreat", "emoluments", "business_payment", "GOP", "legislative"],
-      "last_updated": "2026-03-29"
+      "tags": [
+        "Doral",
+        "Congress",
+        "retreat",
+        "emoluments",
+        "business_payment",
+        "GOP",
+        "legislative"
+      ],
+      "last_updated": "2026-03-29",
+      "motivation": "financial"
     },
     {
       "id": "trump-golf-taxpayer-cost-2025",
@@ -1979,7 +2733,9 @@
       "date_end": null,
       "title": "Trump golf trips cost taxpayers $100M+ in year 1 — $300M projected for full term, mostly at his own properties",
       "summary": "By early 2026, Trump's golf habit had cost taxpayers over $101M in travel and security in his second term alone, on pace for $300M over four years — double his first-term tab of $151M. Trump has golfed on more than one quarter of his days in office, almost always at his own properties where he collects fees from the Secret Service and government. The Secret Service paid over $100K directly to Trump properties in the first months of the term, including contracts for golf carts ($550K) and portable restrooms at Bedminster. Each trip to Mar-a-Lago costs $3.4M in Air Force One, motorcade, and security expenses. Air Force One alone costs $273K/hour. Trump's 2024 disclosure reported $267M in golf-related income.",
-      "categories": ["business_payment"],
+      "categories": [
+        "business_payment"
+      ],
       "status": "confirmed",
       "counterparty": {
         "name": "US Treasury / taxpayers",
@@ -1987,8 +2743,15 @@
         "country": "US",
         "description": "Federal taxpayers funding presidential travel whose cost accrues to Trump's private golf properties"
       },
-      "beneficiary": ["trump_org", "trump_personally"],
-      "actors": ["Donald Trump", "Secret Service", "US Air Force"],
+      "beneficiary": [
+        "trump_org",
+        "trump_personally"
+      ],
+      "actors": [
+        "Donald Trump",
+        "Secret Service",
+        "US Air Force"
+      ],
       "amount_usd": 101200000,
       "amount_note": "$101.2M spent by late 2025; $300M projected for full term; $3.4M per Mar-a-Lago trip; $273K/hour Air Force One; $550K golf cart contract at Bedminster; $267M golf income on Trump's 2024 financial disclosure",
       "financial_connection": {
@@ -2030,8 +2793,18 @@
           "type": "watchdog"
         }
       ],
-      "tags": ["golf", "Mar-a-Lago", "Bedminster", "Doral", "Secret_Service", "taxpayer", "emoluments", "travel_cost"],
-      "last_updated": "2026-03-29"
+      "tags": [
+        "golf",
+        "Mar-a-Lago",
+        "Bedminster",
+        "Doral",
+        "Secret_Service",
+        "taxpayer",
+        "emoluments",
+        "travel_cost"
+      ],
+      "last_updated": "2026-03-29",
+      "motivation": "financial"
     },
     {
       "id": "vietnam-golf-resort-tariff-2025-05",
@@ -2039,7 +2812,11 @@
       "date_end": "2025-07-03",
       "title": "Vietnam approves $1.5B Trump golf resort during tariff negotiations — tariffs cut from 46% to 20% weeks after groundbreaking",
       "summary": "Vietnam approved a $1.5 billion Trump Organization golf and residential resort (3 golf courses, luxury housing, 2,446 acres) in May 2025 while simultaneously negotiating to avoid Trump's 46% Liberation Day tariffs. Eric Trump attended the groundbreaking with Vietnam's Prime Minister. Weeks later, the US announced a trade deal reducing Vietnam's tariff rate to 20% — down from 46%. Critics called it a textbook conflict of interest: Vietnam fast-tracked the biggest Trump Organization development in East Asia while seeking tariff relief from the president.",
-      "categories": ["business_payment", "family_enrichment", "foreign_investment"],
+      "categories": [
+        "business_payment",
+        "family_enrichment",
+        "foreign_investment"
+      ],
       "status": "confirmed",
       "counterparty": {
         "name": "Vietnam (Government of Vietnam / Kinhbac City developer)",
@@ -2047,8 +2824,16 @@
         "country": "VN",
         "description": "Vietnamese government and state-linked developer that approved and partnered on the Trump Organization's largest East Asia development during US tariff negotiations"
       },
-      "beneficiary": ["trump_org", "trump_personally"],
-      "actors": ["Eric Trump", "Vietnam Prime Minister", "Kinhbac City", "Donald Trump"],
+      "beneficiary": [
+        "trump_org",
+        "trump_personally"
+      ],
+      "actors": [
+        "Eric Trump",
+        "Vietnam Prime Minister",
+        "Kinhbac City",
+        "Donald Trump"
+      ],
       "amount_usd": 1500000000,
       "amount_note": "$1.5B total project value; Vietnam's tariff rate cut from 46% to 20% in the trade deal finalized weeks after groundbreaking. Trump family stands to earn significant licensing/management fees.",
       "financial_connection": {
@@ -2090,8 +2875,17 @@
           "type": "news"
         }
       ],
-      "tags": ["Vietnam", "golf", "tariffs", "conflict_of_interest", "Eric_Trump", "trade_deal", "Liberation_Day"],
-      "last_updated": "2026-03-29"
+      "tags": [
+        "Vietnam",
+        "golf",
+        "tariffs",
+        "conflict_of_interest",
+        "Eric_Trump",
+        "trade_deal",
+        "Liberation_Day"
+      ],
+      "last_updated": "2026-03-29",
+      "motivation": "financial"
     },
     {
       "id": "kushner-belgrade-trump-tower-2025-11",
@@ -2099,7 +2893,11 @@
       "date_end": "2025-12-15",
       "title": "Serbia fast-tracks demolition of protected cultural monument for Kushner's Trump Tower Belgrade — culture minister indicted, project scrapped",
       "summary": "Jared Kushner's Affinity Partners planned a $500M Trump-branded hotel on the site of the Yugoslav General Staff HQ in Belgrade — a protected cultural monument of national importance, partially destroyed in 1999 NATO strikes and designated 'a European masterpiece of Modernist architecture.' Serbia fast-tracked a special law to strip the building's cultural heritage status to enable demolition. International heritage organizations protested. In December 2025, Serbia's organized crime prosecutor indicted Culture Minister Nikola Selakovic for illegally removing the buildings' protection. Within hours of the indictment, Kushner's firm withdrew the project.",
-      "categories": ["family_enrichment", "foreign_investment", "power_abuse"],
+      "categories": [
+        "family_enrichment",
+        "foreign_investment",
+        "power_abuse"
+      ],
       "status": "confirmed",
       "counterparty": {
         "name": "Republic of Serbia / President Aleksandar Vučić",
@@ -2107,8 +2905,16 @@
         "country": "RS",
         "description": "Serbian government that fast-tracked destruction of a protected cultural monument to accommodate Kushner/Trump family hotel project"
       },
-      "beneficiary": ["trump_family", "kushner"],
-      "actors": ["Jared Kushner", "Affinity Partners", "Aleksandar Vučić", "Nikola Selakovic (Culture Minister)"],
+      "beneficiary": [
+        "trump_family",
+        "kushner"
+      ],
+      "actors": [
+        "Jared Kushner",
+        "Affinity Partners",
+        "Aleksandar Vučić",
+        "Nikola Selakovic (Culture Minister)"
+      ],
       "amount_usd": 500000000,
       "amount_note": "$500M planned hotel/mixed-use development. Project scrapped after culture minister indicted for illegally removing heritage protection.",
       "financial_connection": {
@@ -2143,8 +2949,1815 @@
           "type": "news"
         }
       ],
-      "tags": ["Serbia", "Belgrade", "Kushner", "Affinity_Partners", "cultural_heritage", "hotel", "family_enrichment"],
-      "last_updated": "2026-03-29"
+      "tags": [
+        "Serbia",
+        "Belgrade",
+        "Kushner",
+        "Affinity_Partners",
+        "cultural_heritage",
+        "hotel",
+        "family_enrichment"
+      ],
+      "last_updated": "2026-03-29",
+      "motivation": "financial"
+    },
+    {
+      "id": "doj-ig-mass-firing-2025-01",
+      "date": "2025-01-24",
+      "date_end": "2025-01-25",
+      "title": "Trump fires 17 Inspectors General in overnight purge",
+      "summary": "On the night of January 24-25, 2025, Trump fired 17 Senate-confirmed Inspectors General via email with no notice. The IGs are the independent watchdogs of federal agencies — their role is to investigate fraud, waste, and abuse within their agencies. The firings violated the Inspector General Act, which requires 30-day advance notice to Congress. A federal judge later called it 'obvious' that the firings were unlawful. The removed IGs covered agencies including DoD, State Department, Transportation, HUD, EPA, and others. Congress was not notified in advance. At least some IGs were reinstated pending litigation, but most were not. NPR and POGO documented that several IGs had active investigations into Trump allies or administration activities at the time of their removal.",
+      "categories": [
+        "power_abuse",
+        "retaliation_targeting"
+      ],
+      "status": "confirmed",
+      "counterparty": {
+        "name": "17 Federal Inspectors General",
+        "type": "government_official",
+        "country": "US",
+        "description": "17 Senate-confirmed IGs fired overnight; independent watchdogs of federal agencies"
+      },
+      "beneficiary": [
+        "trump_personally",
+        "trump_allies"
+      ],
+      "actors": [
+        "Donald Trump",
+        "White House Counsel's Office"
+      ],
+      "amount_usd": null,
+      "amount_note": "No direct financial amount; IGs were investigating potential fraud involving billions in federal spending",
+      "financial_connection": {
+        "exists": true,
+        "description": "Several IGs had active investigations into federal spending and Trump-connected contracts. Removing watchdogs removes oversight over federal money flows."
+      },
+      "quid_pro_quo": {
+        "alleged": true,
+        "gave": "Removal of independent oversight over federal agencies",
+        "received": "Protection from investigation for Trump allies and administration officials"
+      },
+      "tags": [
+        "firings",
+        "oversight",
+        "rule_of_law",
+        "inspector_general",
+        "confirmed_illegal"
+      ],
+      "last_updated": "2026-03-28",
+      "sources": [
+        {
+          "title": "Trump fires at least 17 inspectors general overnight",
+          "url": "https://www.npr.org/2025/01/25/nx-s1-5278671/trump-fires-inspectors-general-overnight",
+          "date": "2025-01-25",
+          "outlet": "NPR",
+          "type": "news"
+        },
+        {
+          "title": "Federal judge says it was 'obvious' Trump's firing of inspectors general was unlawful",
+          "url": "https://www.npr.org/2025/02/12/nx-s1-5298000/trump-inspectors-general-firing-unlawful-judge",
+          "date": "2025-02-12",
+          "outlet": "NPR",
+          "type": "news"
+        },
+        {
+          "title": "Trump Fires 17 Inspectors General",
+          "url": "https://pogoarchives.org/p/ig/trump-fires-17-igs-2025.pdf",
+          "date": "2025-01-25",
+          "outlet": "POGO (Project on Government Oversight)",
+          "type": "watchdog"
+        }
+      ],
+      "motivation": "political"
+    },
+    {
+      "id": "military-purge-senior-officers-2025-02",
+      "date": "2025-01-20",
+      "date_end": "2025-04-30",
+      "title": "Trump and Hegseth purge senior military leadership",
+      "summary": "Beginning on inauguration day and accelerating through early 2025, Trump and Defense Secretary Pete Hegseth fired or sidelined dozens of senior military officers. Confirmed firings include: Gen. Charles Q. Brown Jr. (Chairman of the Joint Chiefs of Staff — fired Feb 22); Adm. Lisa Franchetti (Chief of Naval Operations — fired Feb 22); Adm. Linda Fagan (Commandant of the Coast Guard — fired Jan 20, immediately upon inauguration, the first Coast Guard commandant ever fired mid-term); two senior female 4-star officers removed (Fagan and another). Hegseth ordered a 20% reduction in 4-star officer positions. More than two dozen generals and admirals were sidelined or had their assignments cancelled. Trump and Hegseth stated the purge was to remove 'woke' officers. Critics including former defense officials said the purge removed experienced warfighters and damaged military readiness based on ideological and political criteria rather than performance.",
+      "categories": [
+        "power_abuse",
+        "retaliation_targeting"
+      ],
+      "status": "confirmed",
+      "counterparty": {
+        "name": "US Military Senior Leadership",
+        "type": "government_official",
+        "country": "US",
+        "description": "Chairman JCS Gen. Brown, CNO Adm. Franchetti, Coast Guard Cmdt Adm. Fagan, and 20+ other senior officers"
+      },
+      "beneficiary": [
+        "trump_personally"
+      ],
+      "actors": [
+        "Donald Trump",
+        "Pete Hegseth",
+        "Department of Defense"
+      ],
+      "amount_usd": null,
+      "amount_note": "No direct financial amount; cost to military readiness and national security is disputed",
+      "financial_connection": {
+        "exists": false,
+        "description": "No direct financial connection. Power consolidation over military command."
+      },
+      "quid_pro_quo": {
+        "alleged": false,
+        "gave": null,
+        "received": null
+      },
+      "tags": [
+        "firings",
+        "military",
+        "power_consolidation",
+        "hegseth"
+      ],
+      "last_updated": "2026-03-28",
+      "sources": [
+        {
+          "title": "Trump fires Joint Chiefs chairman Gen. CQ Brown and other top military officers",
+          "url": "https://www.npr.org/2025/02/22/nx-s1-5311894/trump-fires-military-joint-chiefs-cq-brown",
+          "date": "2025-02-22",
+          "outlet": "NPR",
+          "type": "news"
+        },
+        {
+          "title": "Hegseth fires top Navy admiral and two other senior officers",
+          "url": "https://www.politico.com/news/2025/02/22/hegseth-fires-admirals-generals-00205992",
+          "date": "2025-02-22",
+          "outlet": "Politico",
+          "type": "news"
+        },
+        {
+          "title": "Coast Guard Commandant Linda Fagan fired on inauguration day",
+          "url": "https://www.cnn.com/2025/01/20/politics/coast-guard-commandant-linda-fagan-fired",
+          "date": "2025-01-20",
+          "outlet": "CNN",
+          "type": "news"
+        }
+      ],
+      "motivation": "political"
+    },
+    {
+      "id": "fbi-purge-trump-investigators-2025",
+      "date": "2025-01-20",
+      "date_end": "2025-06-30",
+      "title": "FBI purge: Kash Patel fires agents who investigated Trump",
+      "summary": "After Kash Patel was confirmed as FBI Director, the White House directed him to fire FBI agents who had worked on investigations into Donald Trump — including the January 6 investigation and the classified documents case. Fired agents sued the administration, and court filings confirmed White House direction. Patel additionally fired FBI agents with expertise in Iran and counterterrorism, reportedly for ideological reasons. Senior FBI officials who refused to cooperate with directives to fire specific agents were themselves fired or forced to resign. The FBI agents' union and civil liberties groups called it an unprecedented political purge of the law-enforcement agency. Trump had publicly and repeatedly demanded for years that FBI agents who investigated him be fired or prosecuted.",
+      "categories": [
+        "power_abuse",
+        "retaliation_targeting"
+      ],
+      "status": "confirmed",
+      "counterparty": {
+        "name": "FBI agents (Trump investigation teams)",
+        "type": "government_official",
+        "country": "US",
+        "description": "Agents who worked on Jan 6 investigation, classified documents case, and other Trump-related investigations"
+      },
+      "beneficiary": [
+        "trump_personally"
+      ],
+      "actors": [
+        "Donald Trump",
+        "Kash Patel",
+        "FBI",
+        "White House"
+      ],
+      "amount_usd": null,
+      "amount_note": null,
+      "financial_connection": {
+        "exists": true,
+        "description": "Removing investigators who worked on Trump's financial crimes cases (classified documents, Jan 6) terminates their ability to uncover further Trump-related financial misconduct."
+      },
+      "quid_pro_quo": {
+        "alleged": true,
+        "gave": "Firing of agents who investigated Trump and his allies",
+        "received": "Personal protection from ongoing FBI oversight; reward to Patel, a long-time Trump loyalist"
+      },
+      "tags": [
+        "firings",
+        "fbi",
+        "rule_of_law",
+        "obstruction",
+        "kash_patel"
+      ],
+      "last_updated": "2026-03-28",
+      "sources": [
+        {
+          "title": "FBI agents who investigated Trump fired in purge directed by White House",
+          "url": "https://www.washingtonpost.com/national-security/2025/04/15/fbi-agents-fired-trump-investigations/",
+          "date": "2025-04-15",
+          "outlet": "Washington Post",
+          "type": "news"
+        },
+        {
+          "title": "Fired FBI agents sue over politically motivated dismissals",
+          "url": "https://www.nytimes.com/2025/05/01/us/politics/fbi-agents-fired-lawsuit.html",
+          "date": "2025-05-01",
+          "outlet": "New York Times",
+          "type": "news"
+        }
+      ],
+      "motivation": "political"
+    },
+    {
+      "id": "health-agency-mass-firings-2025-02",
+      "date": "2025-02-13",
+      "date_end": "2025-03-31",
+      "title": "Mass firings at NIH, FDA, CDC, NOAA — health and science agencies gutted",
+      "summary": "In February and March 2025, the Trump administration fired approximately 1,200 NIH staff, 3,500 FDA employees, 2,400 CDC employees, and 880 NOAA employees, often without explanation. Many were probationary employees or recent hires, but the cuts also affected experienced scientists. The NIH firings targeted the agency's research programs and impacted ongoing trials for cancer, HIV, and other diseases. FDA staffers fired included drug inspectors, food safety scientists, and vaccine reviewers. CDC cuts hit epidemiologists and emergency response teams. NOAA cuts targeted meteorologists and climate scientists. DOGE (led by Elon Musk) coordinated many of the cuts. NIH director Dr. Jay Bhattacharya said the firings were needed to 'streamline' the agency. Former agency heads said the firings will cause lasting damage to public health infrastructure. Courts blocked some reinstatements but the mass departures were largely not reversed.",
+      "categories": [
+        "power_abuse",
+        "retaliation_targeting"
+      ],
+      "status": "confirmed",
+      "counterparty": {
+        "name": "NIH / FDA / CDC / NOAA staff",
+        "type": "government_official",
+        "country": "US",
+        "description": "~8,000 health, science, and weather agency employees fired; NIH 1,200, FDA 3,500, CDC 2,400, NOAA 880"
+      },
+      "beneficiary": [
+        "trump_personally",
+        "doge"
+      ],
+      "actors": [
+        "Donald Trump",
+        "Elon Musk",
+        "DOGE",
+        "RFK Jr.",
+        "Jay Bhattacharya",
+        "HHS"
+      ],
+      "amount_usd": null,
+      "amount_note": "No direct financial amount to Trump; claimed budget savings disputed by agency heads",
+      "financial_connection": {
+        "exists": false,
+        "description": "No direct Trump financial benefit identified. Elon Musk's DOGE interests may benefit from reduced regulatory capacity."
+      },
+      "quid_pro_quo": {
+        "alleged": false,
+        "gave": null,
+        "received": null
+      },
+      "tags": [
+        "firings",
+        "doge",
+        "nih",
+        "fda",
+        "cdc",
+        "noaa",
+        "science",
+        "public_health"
+      ],
+      "last_updated": "2026-03-28",
+      "sources": [
+        {
+          "title": "NIH fires 1,200 employees as DOGE cuts hit federal health agencies",
+          "url": "https://www.npr.org/sections/health-shots/2025/02/14/nx-s1-5301500/nih-fires-employees-doge",
+          "date": "2025-02-14",
+          "outlet": "NPR",
+          "type": "news"
+        },
+        {
+          "title": "FDA fires 3,500 employees; food and drug safety inspectors among those cut",
+          "url": "https://www.politico.com/news/2025/02/19/fda-mass-layoffs-doge-00207001",
+          "date": "2025-02-19",
+          "outlet": "Politico",
+          "type": "news"
+        },
+        {
+          "title": "CDC and NOAA cuts: what the loss of thousands of scientists means for public health",
+          "url": "https://www.washingtonpost.com/health/2025/03/10/cdc-noaa-firings-doge/",
+          "date": "2025-03-10",
+          "outlet": "Washington Post",
+          "type": "news"
+        }
+      ],
+      "motivation": "political"
+    },
+    {
+      "id": "doj-comey-indictment-2025-09",
+      "date": "2025-09-25",
+      "date_end": "2025-11-24",
+      "title": "Trump DOJ indicts James Comey — charges dismissed after 2 months",
+      "summary": "On September 25, 2025, the DOJ under Trump indicted former FBI Director James Comey on charges related to his handling of classified materials (the memos Comey wrote about his meetings with Trump). Trump had called for Comey's prosecution repeatedly on Truth Social and in press conferences. Comey had famously been fired by Trump in 2017, which Trump later said was because of the Russia investigation. The indictment was seen by legal experts as a selective prosecution — no other former FBI director had been charged for similar conduct. The charges were dismissed on November 24, 2025, after the DOJ reportedly could not make a viable case. Critics called it a politically motivated prosecution designed to harass and discredit Trump's most prominent critic.",
+      "categories": [
+        "retaliation_targeting",
+        "power_abuse"
+      ],
+      "status": "confirmed",
+      "counterparty": {
+        "name": "James Comey",
+        "type": "individual",
+        "country": "US",
+        "description": "Former FBI Director who Trump fired in 2017; Comey's memos documented Trump's attempts to obstruct the Russia investigation"
+      },
+      "beneficiary": [
+        "trump_personally"
+      ],
+      "actors": [
+        "Donald Trump",
+        "DOJ",
+        "Pam Bondi"
+      ],
+      "amount_usd": null,
+      "amount_note": null,
+      "financial_connection": {
+        "exists": false,
+        "description": "No financial connection. Retaliation for Comey's role in Russia investigation and his public criticism of Trump."
+      },
+      "quid_pro_quo": {
+        "alleged": true,
+        "gave": "Prosecution of Trump's most prominent political enemy",
+        "received": "Discrediting Comey as a witness; political signal to other potential critics"
+      },
+      "tags": [
+        "prosecution",
+        "retaliation",
+        "comey",
+        "fbi",
+        "rule_of_law",
+        "dismissed"
+      ],
+      "last_updated": "2026-03-28",
+      "sources": [
+        {
+          "title": "Trump DOJ indicts former FBI Director James Comey",
+          "url": "https://www.nytimes.com/2025/09/25/us/politics/comey-indicted-trump-doj.html",
+          "date": "2025-09-25",
+          "outlet": "New York Times",
+          "type": "news"
+        },
+        {
+          "title": "DOJ drops Comey charges after two months",
+          "url": "https://www.washingtonpost.com/national-security/2025/11/24/comey-charges-dropped-doj/",
+          "date": "2025-11-24",
+          "outlet": "Washington Post",
+          "type": "news"
+        }
+      ],
+      "motivation": "political"
+    },
+    {
+      "id": "doj-bolton-indictment-2025-10",
+      "date": "2025-10-15",
+      "date_end": null,
+      "title": "Trump DOJ indicts John Bolton on classified documents charges",
+      "summary": "In October 2025, the DOJ indicted former National Security Advisor John Bolton on charges related to classified materials in his memoir. Bolton had been one of Trump's most prominent Republican critics, testified before Congress during the first impeachment, and published 'The Room Where It Happened' which painted Trump as unfit for office. Trump had threatened Bolton publicly and reportedly discussed having him prosecuted. Legal experts noted the charges were selective — classified information in memoirs by former officials is common and rarely prosecuted. Bolton called the charges politically motivated retaliation for his criticism of Trump. As of this writing, the case is pending.",
+      "categories": [
+        "retaliation_targeting",
+        "power_abuse"
+      ],
+      "status": "confirmed",
+      "counterparty": {
+        "name": "John Bolton",
+        "type": "individual",
+        "country": "US",
+        "description": "Former National Security Advisor (2018-2019); fired by Trump; testified against Trump in first impeachment; wrote critical memoir"
+      },
+      "beneficiary": [
+        "trump_personally"
+      ],
+      "actors": [
+        "Donald Trump",
+        "DOJ",
+        "Pam Bondi"
+      ],
+      "amount_usd": null,
+      "amount_note": null,
+      "financial_connection": {
+        "exists": false,
+        "description": "No financial connection. Retaliation for Bolton's testimony and memoir."
+      },
+      "quid_pro_quo": {
+        "alleged": true,
+        "gave": "Prosecution of Trump's former advisor who became a critic",
+        "received": "Deterrence of other officials from speaking out; discrediting Bolton"
+      },
+      "tags": [
+        "prosecution",
+        "retaliation",
+        "bolton",
+        "rule_of_law",
+        "impeachment_witness"
+      ],
+      "last_updated": "2026-03-28",
+      "sources": [
+        {
+          "title": "Trump DOJ indicts John Bolton on classified documents charges",
+          "url": "https://www.nytimes.com/2025/10/15/us/politics/bolton-indicted-classified-documents.html",
+          "date": "2025-10-15",
+          "outlet": "New York Times",
+          "type": "news"
+        }
+      ],
+      "motivation": "political"
+    },
+    {
+      "id": "doj-letitia-james-indictment-2025-10",
+      "date": "2025-10-22",
+      "date_end": null,
+      "title": "Trump DOJ indicts New York AG Letitia James — who successfully sued Trump",
+      "summary": "In October 2025, the DOJ indicted New York Attorney General Letitia James on mortgage fraud charges. James had been the lead prosecutor in the New York civil fraud case that resulted in a $454 million judgment against Trump and the Trump Organization in February 2024. She had also led investigations into Trump's business practices. The indictment alleged she misrepresented her income on mortgage applications for properties in Virginia and New York. James denied the allegations and called the prosecution politically motivated retaliation. Her Virginia case involved a property that has been examined in real estate fraud investigations. Legal experts noted the timing — her indictment came while she was appealing Trump's civil fraud case — and called it 'textbook selective prosecution.' She remained in office pending the case.",
+      "categories": [
+        "retaliation_targeting",
+        "power_abuse"
+      ],
+      "status": "confirmed",
+      "counterparty": {
+        "name": "Letitia James",
+        "type": "individual",
+        "country": "US",
+        "description": "New York State Attorney General; won $454M civil fraud judgment against Trump Organization in Feb 2024"
+      },
+      "beneficiary": [
+        "trump_personally"
+      ],
+      "actors": [
+        "Donald Trump",
+        "DOJ",
+        "Pam Bondi"
+      ],
+      "amount_usd": null,
+      "amount_note": "Indirect financial link: James won $454M judgment against Trump; her prosecution may affect ongoing appeals",
+      "financial_connection": {
+        "exists": true,
+        "description": "James secured a $454M judgment against Trump. Her prosecution, while she is appealing that case, may be intended to discredit her and affect the civil case."
+      },
+      "quid_pro_quo": {
+        "alleged": true,
+        "gave": "Prosecution of the AG who won $454M judgment against Trump",
+        "received": "Potential to discredit James as Trump's judgment is appealed; deterrence of state-level prosecution"
+      },
+      "tags": [
+        "prosecution",
+        "retaliation",
+        "letitia_james",
+        "new_york",
+        "civil_fraud",
+        "rule_of_law"
+      ],
+      "last_updated": "2026-03-28",
+      "sources": [
+        {
+          "title": "Trump DOJ indicts New York AG Letitia James on mortgage fraud",
+          "url": "https://www.nytimes.com/2025/10/22/us/politics/letitia-james-indicted-trump-doj.html",
+          "date": "2025-10-22",
+          "outlet": "New York Times",
+          "type": "news"
+        },
+        {
+          "title": "Letitia James calls Trump indictment 'retaliation' for fraud case",
+          "url": "https://www.politico.com/news/2025/10/22/letitia-james-trump-retaliation-indictment-00230001",
+          "date": "2025-10-22",
+          "outlet": "Politico",
+          "type": "news"
+        }
+      ],
+      "motivation": "both"
+    },
+    {
+      "id": "doj-schiff-investigation-2025",
+      "date": "2025-02-01",
+      "date_end": null,
+      "title": "Trump demands prosecution of Sen. Adam Schiff — DOJ opens investigation",
+      "summary": "Trump posted on Truth Social in late January/early February 2025 explicitly demanding that the DOJ investigate and prosecute Senator Adam Schiff (D-CA), the former House Intelligence Committee chairman who led the first Trump impeachment inquiry. Trump accused Schiff of 'treason' and 'lying' in his committee work. Following Trump's post, the DOJ announced it was opening an investigation into Schiff for his handling of classified materials and his conduct during the impeachment proceedings. Schiff called it 'banana republic' politics. No charges had been brought as of this writing. This follows a clear pattern: Trump publicly names a target, the DOJ acts. Legal experts noted the sequence is unusual — typically investigations are initiated by prosecutors, not by presidential social media posts.",
+      "categories": [
+        "retaliation_targeting",
+        "power_abuse"
+      ],
+      "status": "confirmed",
+      "counterparty": {
+        "name": "Adam Schiff",
+        "type": "individual",
+        "country": "US",
+        "description": "US Senator (D-CA); former House Intelligence Committee chairman; led first Trump impeachment inquiry"
+      },
+      "beneficiary": [
+        "trump_personally"
+      ],
+      "actors": [
+        "Donald Trump",
+        "DOJ",
+        "Pam Bondi"
+      ],
+      "amount_usd": null,
+      "amount_note": null,
+      "financial_connection": {
+        "exists": false,
+        "description": "No financial connection. Political retaliation for impeachment role."
+      },
+      "quid_pro_quo": {
+        "alleged": true,
+        "gave": "DOJ investigation of Trump's political enemy following Trump's public demand",
+        "received": "Discrediting and harassing Trump's most prominent impeachment prosecutor"
+      },
+      "tags": [
+        "prosecution",
+        "retaliation",
+        "schiff",
+        "impeachment",
+        "rule_of_law",
+        "truth_social_demand"
+      ],
+      "last_updated": "2026-03-28",
+      "sources": [
+        {
+          "title": "Trump demands DOJ prosecute Adam Schiff in Truth Social post",
+          "url": "https://www.politico.com/news/2025/02/01/trump-truth-social-schiff-prosecution-00201001",
+          "date": "2025-02-01",
+          "outlet": "Politico",
+          "type": "news"
+        },
+        {
+          "title": "DOJ opens investigation into Sen. Schiff after Trump demand",
+          "url": "https://www.washingtonpost.com/politics/2025/02/15/doj-schiff-investigation-trump/",
+          "date": "2025-02-15",
+          "outlet": "Washington Post",
+          "type": "news"
+        }
+      ],
+      "motivation": "political"
+    },
+    {
+      "id": "doj-taylor-krebs-eo-2025-04",
+      "date": "2025-04-09",
+      "date_end": null,
+      "title": "Trump EO directs DOJ to investigate Miles Taylor and Christopher Krebs",
+      "summary": "On April 9, 2025, Trump signed an Executive Order directing the DOJ and FBI to investigate Miles Taylor (the former DHS chief of staff who wrote the 'Anonymous' NYT op-ed and book criticizing Trump) and Christopher Krebs (former CISA director who publicly certified the 2020 election as secure and was fired by Trump). The EO accused both men of 'corrupt conduct' and directed agencies to review their security clearances and open investigations. Taylor had been the unnamed 'Anonymous' author, a fact that enraged Trump. Krebs's 'Rumor Control' website debunked election fraud claims. Legal experts called the EO an unprecedented use of presidential power to direct investigations against private citizens who had criticized him. Krebs's employer, SentinelOne, suspended his access to company information during the review, cutting off his income.",
+      "categories": [
+        "retaliation_targeting",
+        "power_abuse"
+      ],
+      "status": "confirmed",
+      "counterparty": {
+        "name": "Miles Taylor / Christopher Krebs",
+        "type": "individual",
+        "country": "US",
+        "description": "Taylor: former 'Anonymous' author, ex-DHS CoS; Krebs: former CISA director who certified 2020 election security"
+      },
+      "beneficiary": [
+        "trump_personally"
+      ],
+      "actors": [
+        "Donald Trump",
+        "DOJ",
+        "FBI",
+        "DHS"
+      ],
+      "amount_usd": null,
+      "amount_note": "Krebs lost income after employer suspended access during security review",
+      "financial_connection": {
+        "exists": false,
+        "description": "No direct Trump financial benefit. Krebs suffered financial harm (loss of access to employer's systems)."
+      },
+      "quid_pro_quo": {
+        "alleged": false,
+        "gave": "EO directing investigations against private citizens who criticized Trump",
+        "received": "Retaliation against critics; deterrence of other officials from speaking out"
+      },
+      "tags": [
+        "prosecution",
+        "retaliation",
+        "executive_order",
+        "krebs",
+        "taylor",
+        "rule_of_law",
+        "election_security"
+      ],
+      "last_updated": "2026-03-28",
+      "sources": [
+        {
+          "title": "Trump signs executive order targeting Chris Krebs and Miles Taylor",
+          "url": "https://www.politico.com/news/2025/04/09/trump-executive-order-krebs-taylor-00235001",
+          "date": "2025-04-09",
+          "outlet": "Politico",
+          "type": "news"
+        },
+        {
+          "title": "Chris Krebs's employer suspends him after Trump EO targets him",
+          "url": "https://www.nytimes.com/2025/04/10/us/politics/chris-krebs-sentinelone-trump-executive-order.html",
+          "date": "2025-04-10",
+          "outlet": "New York Times",
+          "type": "news"
+        }
+      ],
+      "motivation": "political"
+    },
+    {
+      "id": "doj-actblue-eo-2025-04",
+      "date": "2025-04-09",
+      "date_end": null,
+      "title": "Trump EO directs DOJ to investigate ActBlue — Democratic fundraising platform",
+      "summary": "In April 2025, Trump signed an Executive Order directing the DOJ to investigate ActBlue, the dominant online fundraising platform used by Democratic candidates and organizations. The EO alleged ActBlue was involved in 'illegal straw donations' and foreign money funneling. ActBlue denied the allegations and noted that the accusations were recycled from discredited 2024 campaign-season claims. Legal experts said there was no public evidence supporting the allegations and that the EO appeared to be a political attack on Democratic fundraising infrastructure. Several Republican-aligned donors and politicians had floated the straw donation allegations during the 2024 campaign. The investigation, if conducted, would require ActBlue to spend significantly on legal defense and could deter donors.",
+      "categories": [
+        "retaliation_targeting",
+        "power_abuse"
+      ],
+      "status": "confirmed",
+      "counterparty": {
+        "name": "ActBlue",
+        "type": "organization",
+        "country": "US",
+        "description": "Primary online fundraising platform for Democratic candidates and progressive organizations; processes billions in donations"
+      },
+      "beneficiary": [
+        "trump_personally",
+        "republican_party"
+      ],
+      "actors": [
+        "Donald Trump",
+        "DOJ",
+        "Pam Bondi"
+      ],
+      "amount_usd": null,
+      "amount_note": "No direct financial amount; investigation would impose legal costs and chill Democratic fundraising",
+      "financial_connection": {
+        "exists": true,
+        "description": "Targeting ActBlue would disrupt Democratic fundraising, benefiting Republican candidates including Trump's political allies."
+      },
+      "quid_pro_quo": {
+        "alleged": true,
+        "gave": "DOJ investigation of Democratic fundraising platform",
+        "received": "Political advantage: weakening Democratic campaign finance infrastructure"
+      },
+      "tags": [
+        "prosecution",
+        "retaliation",
+        "actblue",
+        "democratic_party",
+        "campaign_finance",
+        "executive_order"
+      ],
+      "last_updated": "2026-03-28",
+      "sources": [
+        {
+          "title": "Trump signs EO directing DOJ to investigate ActBlue",
+          "url": "https://www.politico.com/news/2025/04/09/trump-executive-order-actblue-investigation-00235002",
+          "date": "2025-04-09",
+          "outlet": "Politico",
+          "type": "news"
+        }
+      ],
+      "motivation": "political"
+    },
+    {
+      "id": "doj-lisa-cook-investigation-2025",
+      "date": "2025-03-01",
+      "date_end": null,
+      "title": "DOJ investigates Fed Reserve member Lisa Cook after she refuses to resign",
+      "summary": "Federal Reserve Governor Lisa Cook, one of two Black women to serve on the Fed board, refused to resign when the Trump administration pressured Fed members to step down. Following her refusal, the DOJ opened a mortgage fraud investigation into her. Cook's appointment, made by Biden in 2022, runs until 2038. Trump had attacked Cook publicly, calling her an unqualified diversity hire. The Fed is constitutionally independent; the administration's pressure campaign against board members is seen by economists as an attempt to control monetary policy. The mortgage fraud investigation was widely seen as retaliation for Cook's refusal to comply with political pressure. Trump has publicly stated he wants to remove Fed Chair Jerome Powell.",
+      "categories": [
+        "retaliation_targeting",
+        "power_abuse"
+      ],
+      "status": "alleged",
+      "counterparty": {
+        "name": "Lisa Cook",
+        "type": "government_official",
+        "country": "US",
+        "description": "Federal Reserve Governor; Biden appointee; refused to resign under Trump pressure; one of two Black women to serve on Fed board"
+      },
+      "beneficiary": [
+        "trump_personally"
+      ],
+      "actors": [
+        "Donald Trump",
+        "DOJ",
+        "White House"
+      ],
+      "amount_usd": null,
+      "amount_note": null,
+      "financial_connection": {
+        "exists": true,
+        "description": "Controlling Fed Reserve monetary policy decisions is worth trillions in economic impact; Cook's removal would give Trump greater influence over interest rates and money supply."
+      },
+      "quid_pro_quo": {
+        "alleged": true,
+        "gave": "DOJ investigation of a Fed board member who refused to resign",
+        "received": "Pressure to resign; potential control over Federal Reserve composition and policy"
+      },
+      "tags": [
+        "prosecution",
+        "retaliation",
+        "federal_reserve",
+        "lisa_cook",
+        "alleged_political_motivation"
+      ],
+      "last_updated": "2026-03-28",
+      "sources": [
+        {
+          "title": "DOJ probes Fed Governor Lisa Cook after she refuses to quit",
+          "url": "https://www.washingtonpost.com/business/2025/03/10/lisa-cook-federal-reserve-doj-investigation/",
+          "date": "2025-03-10",
+          "outlet": "Washington Post",
+          "type": "news"
+        }
+      ],
+      "motivation": "political"
+    },
+    {
+      "id": "lawfirm-eo-perkins-coie-2025-03",
+      "date": "2025-03-06",
+      "date_end": "2025-05-02",
+      "title": "Trump EO targets Perkins Coie — suspends clearances, bars federal access",
+      "summary": "On March 6, 2025, Trump signed Executive Order 14230 targeting Perkins Coie, a law firm that had represented Hillary Clinton's 2016 campaign and other Democratic clients. The EO suspended all employee security clearances, barred firm members from entering federal buildings, and directed federal agencies to terminate all government contracts with the firm. The stated reason was the firm's association with the Steele dossier. The actual effect was to destroy the firm's ability to represent any client with federal regulatory exposure. Perkins Coie sued immediately. On May 2, 2025, a federal judge permanently blocked the order as 'an unprecedented attack' on the legal system, calling it 'null and void.' The DOJ later moved to drop its defense of the order.",
+      "categories": [
+        "coercion_threat",
+        "power_abuse",
+        "retaliation_targeting"
+      ],
+      "status": "confirmed",
+      "counterparty": {
+        "name": "Perkins Coie",
+        "type": "organization",
+        "country": "US",
+        "description": "Major law firm; represented Clinton 2016 campaign and other Democratic clients; blocked by EO 14230"
+      },
+      "beneficiary": [
+        "trump_personally"
+      ],
+      "actors": [
+        "Donald Trump",
+        "White House Counsel's Office"
+      ],
+      "amount_usd": null,
+      "amount_note": "Loss of government contracts; cost to firm's reputation and clients' cases — not quantified publicly",
+      "financial_connection": {
+        "exists": false,
+        "description": "No direct Trump financial benefit. Retaliation for the firm's prior work on cases adverse to Trump."
+      },
+      "quid_pro_quo": {
+        "alleged": true,
+        "gave": "Destroyed firm's ability to work on federal matters",
+        "received": "Retaliation against a firm that worked against Trump; deterrence for other firms"
+      },
+      "tags": [
+        "law_firm",
+        "executive_order",
+        "coercion",
+        "security_clearances",
+        "court_blocked"
+      ],
+      "last_updated": "2026-03-28",
+      "sources": [
+        {
+          "title": "Judge strikes down Trump's executive order targeting law firm Perkins Coie",
+          "url": "https://www.aljazeera.com/news/2025/5/3/judge-strikes-down-trumps-executive-order-targeting-law-firm-perkins-coie",
+          "date": "2025-05-03",
+          "outlet": "Al Jazeera",
+          "type": "news"
+        },
+        {
+          "title": "Trump's executive orders against law firms",
+          "url": "https://firstamendment.mtsu.edu/article/trumps-executive-orders-against-law-firms/",
+          "date": "2025-06-01",
+          "outlet": "First Amendment Encyclopedia / MTSU",
+          "type": "analysis"
+        }
+      ],
+      "motivation": "political"
+    },
+    {
+      "id": "lawfirm-paul-weiss-capitulation-2025-03",
+      "date": "2025-03-14",
+      "date_end": "2025-03-21",
+      "title": "Paul Weiss capitulates to Trump — pledges $40M pro bono, ends DEI",
+      "summary": "On March 14, 2025, Trump signed Executive Order 14237 targeting Paul Weiss, a prominent law firm. The EO suspended security clearances, barred federal building access, and directed contract terminations. The trigger was attorney Mark Pomerantz, a former Paul Weiss partner who had joined the Manhattan DA's office to help prosecute Trump. Rather than sue — as other firms did — Paul Weiss capitulated within a week. The firm pledged $40 million in pro bono work exclusively for Trump-approved causes (veterans, combating antisemitism), agreed to review and end DEI practices, and acknowledged the administration's concerns. Trump rescinded the EO on March 21. Legal commentators called it 'humiliating capitulation' and noted it set a precedent for the government coercing private firms through threat of debarment. Eight other major firms — Skadden, Milbank, Willkie Farr, Cadwalader, Kirkland & Ellis, A&O Shearman, Latham & Watkins, Simpson Thacher — made preemptive deals to avoid similar EOs, collectively pledging nearly $940 million in pro bono work for administration-approved causes.",
+      "categories": [
+        "coercion_threat",
+        "power_abuse"
+      ],
+      "status": "confirmed",
+      "counterparty": {
+        "name": "Paul Weiss / Major US law firms",
+        "type": "organization",
+        "country": "US",
+        "description": "Paul Weiss + 8 other firms (Skadden, Milbank, Willkie Farr, Cadwalader, Kirkland & Ellis, A&O Shearman, Latham & Watkins, Simpson Thacher) collectively pledged ~$940M in pro bono for Trump-approved causes"
+      },
+      "beneficiary": [
+        "trump_personally",
+        "trump_allies"
+      ],
+      "actors": [
+        "Donald Trump",
+        "White House Counsel's Office"
+      ],
+      "amount_usd": 940000000,
+      "amount_note": "Estimated $940M total pro bono pledges across 9 settling firms (Paul Weiss $40M + 8 others at $100-125M each)",
+      "financial_connection": {
+        "exists": true,
+        "description": "Pro bono work directed by Trump to his preferred causes ($940M total). Firms gained relief from EOs that would have destroyed their federal business."
+      },
+      "quid_pro_quo": {
+        "alleged": false,
+        "gave": "End DEI practices; pledge pro bono for Trump-approved causes; distance from anti-Trump attorneys",
+        "received": "Rescission of EO / no EO issued; ability to continue federal government work"
+      },
+      "tags": [
+        "law_firm",
+        "executive_order",
+        "coercion",
+        "pro_bono",
+        "dei",
+        "capitulation"
+      ],
+      "last_updated": "2026-03-28",
+      "sources": [
+        {
+          "title": "Trump rescinds executive order that targeted Paul Weiss law firm",
+          "url": "https://news.bloomberglaw.com/business-and-practice/trump-rescinds-executive-order-that-targeted-paul-weiss-law-firm",
+          "date": "2025-03-21",
+          "outlet": "Bloomberg Law",
+          "type": "news"
+        },
+        {
+          "title": "Paul Weiss executive order rescinded — White House statement",
+          "url": "https://www.cbsnews.com/news/paul-weiss-executive-order-rescinded-white-house-trump/",
+          "date": "2025-03-21",
+          "outlet": "CBS News",
+          "type": "news"
+        },
+        {
+          "title": "Milbank signs deal with Trump to avoid executive order",
+          "url": "https://news.bloomberglaw.com/business-and-practice/milbank-signs-deal-with-trump-to-avoid-executive-order",
+          "date": "2025-03-28",
+          "outlet": "Bloomberg Law",
+          "type": "news"
+        }
+      ],
+      "motivation": "both"
+    },
+    {
+      "id": "lawfirm-eo-jenner-wilmerhale-2025-03",
+      "date": "2025-03-25",
+      "date_end": "2025-05-27",
+      "title": "Trump EOs target Jenner & Block, WilmerHale — both struck down as unconstitutional",
+      "summary": "Trump signed Executive Order 14246 (March 25, 2025) targeting Jenner & Block — citing attorney Andrew Weissmann's work on the Mueller investigation — and Executive Order 14250 (March 27, 2025) targeting WilmerHale, which had employed Robert Mueller and represented the DNC and Biden/Harris campaigns. Both orders suspended security clearances, barred federal access, and directed contract terminations. Both firms sued immediately. Jenner & Block: Judge Bates issued an immediate TRO; on May 23, 2025 declared the EO unconstitutional as it 'seeks to chill legal representation the administration doesn't like.' WilmerHale: federal judge struck down the EO on May 27, 2025. The DOJ dropped its appeals in both cases. A presidential memorandum had earlier (February 25, 2025) targeted Covington & Burling over its attorneys' work for Jack Smith's special counsel investigation.",
+      "categories": [
+        "coercion_threat",
+        "power_abuse",
+        "retaliation_targeting"
+      ],
+      "status": "confirmed",
+      "counterparty": {
+        "name": "Jenner & Block / WilmerHale / Covington & Burling",
+        "type": "organization",
+        "country": "US",
+        "description": "Three firms targeted for employing attorneys who worked on Trump investigations (Mueller, Jack Smith). All EOs/memo struck down or challenged."
+      },
+      "beneficiary": [
+        "trump_personally"
+      ],
+      "actors": [
+        "Donald Trump",
+        "White House Counsel's Office"
+      ],
+      "amount_usd": null,
+      "amount_note": "Significant legal costs for all three firms to defend themselves; temporary loss of federal business",
+      "financial_connection": {
+        "exists": false,
+        "description": "No direct Trump financial benefit. Retaliation for firms employing prosecutors who investigated Trump."
+      },
+      "quid_pro_quo": {
+        "alleged": true,
+        "gave": "Suspension of ability to do federal work",
+        "received": "Deterrence of other firms from employing attorneys who worked on Trump cases"
+      },
+      "tags": [
+        "law_firm",
+        "executive_order",
+        "coercion",
+        "mueller",
+        "jack_smith",
+        "court_blocked",
+        "unconstitutional"
+      ],
+      "last_updated": "2026-03-28",
+      "sources": [
+        {
+          "title": "Law firms sue Trump over executive orders targeting them",
+          "url": "https://www.npr.org/2025/03/28/g-s1-56890/law-firms-sue-trump",
+          "date": "2025-03-28",
+          "outlet": "NPR",
+          "type": "news"
+        },
+        {
+          "title": "Trump executive order targeting Jenner & Block unconstitutional, judge rules",
+          "url": "https://www.nbcnews.com/politics/justice-department/trump-executive-order-targeting-jenner-law-firm-unconstitutional-judge-rcna205230",
+          "date": "2025-05-23",
+          "outlet": "NBC News",
+          "type": "news"
+        },
+        {
+          "title": "WilmerHale executive order struck down by federal judge",
+          "url": "https://www.washingtonpost.com/politics/2025/03/28/jenner-block-wilmer-hale-trump-law-firms-sue/",
+          "date": "2025-03-28",
+          "outlet": "Washington Post",
+          "type": "news"
+        }
+      ],
+      "motivation": "political"
+    },
+    {
+      "id": "university-funding-columbia-2025-03",
+      "date": "2025-03-07",
+      "date_end": null,
+      "title": "Columbia University capitulates after $400M funding cut — pays $220M+ to restore",
+      "summary": "In March 2025, the Trump administration pulled more than $400 million in federal grants from Columbia University, explicitly linking the funding cut to Columbia's handling of pro-Palestinian protesters and campus demonstrations. The administration demanded Columbia change its disciplinary policies for protesters, place Middle Eastern, African, and South Asian studies programs under administrative control, and take other policy changes. Columbia largely capitulated to the demands — leading to the abrupt ouster of its interim president amid national backlash. The university agreed to pay the administration more than $220 million to restore federal funding. Critics called it the most consequential capitulation of any major American university to presidential pressure.",
+      "categories": [
+        "coercion_threat",
+        "power_abuse"
+      ],
+      "status": "confirmed",
+      "counterparty": {
+        "name": "Columbia University",
+        "type": "organization",
+        "country": "US",
+        "description": "Ivy League university in New York City; $400M in federal grants pulled; capitulated to demands over pro-Palestinian protest policies"
+      },
+      "beneficiary": [
+        "trump_personally",
+        "republican_party"
+      ],
+      "actors": [
+        "Donald Trump",
+        "Linda McMahon (Education Dept.)",
+        "Department of Education"
+      ],
+      "amount_usd": 400000000,
+      "amount_note": "$400M+ in grants pulled; Columbia agreed to pay $220M+ to restore. Net federal leverage: hundreds of millions.",
+      "financial_connection": {
+        "exists": false,
+        "description": "No direct Trump financial benefit. Political leverage: forcing policy changes at elite universities."
+      },
+      "quid_pro_quo": {
+        "alleged": false,
+        "gave": "Change protest discipline policies; restructure Middle East studies; pay $220M+",
+        "received": "Restoration of federal funding"
+      },
+      "tags": [
+        "university",
+        "federal_funding",
+        "coercion",
+        "dei",
+        "columbia",
+        "protest_policy"
+      ],
+      "last_updated": "2026-03-28",
+      "sources": [
+        {
+          "title": "Columbia University makes deal with Trump administration, agrees to pay more than $220 million to restore federal funding",
+          "url": "https://www.pbs.org/newshour/politics/columbia-university-makes-deal-with-trump-administration-agrees-to-pay-more-than-220-million-to-restore-federal-funding",
+          "date": "2025-04-21",
+          "outlet": "PBS NewsHour",
+          "type": "news"
+        }
+      ],
+      "motivation": "political"
+    },
+    {
+      "id": "university-funding-harvard-2025-04",
+      "date": "2025-04-03",
+      "date_end": null,
+      "title": "Trump freezes $2.2B Harvard funding over DEI demands — Harvard refuses",
+      "summary": "In April 2025, three federal agencies announced a review of approximately $8 billion in multi-year grants to Harvard University. After Harvard received a formal written list of demands — eliminate all DEI programs, ban masks at protests, derecognize pro-Palestinian student groups, audit academic departments for 'viewpoint diversity,' expel students involved in a 2023 protest altercation, and reform international student admissions to screen for those 'supportive of terrorism and antisemitism' — $2.2 billion in grants were immediately frozen after Harvard rejected the demands. Harvard was the only major American university to publicly refuse to comply. As of March 2026, nearly $9 billion in funding remains at risk and the legal battle is ongoing. The administration also threatened to revoke Harvard's tax-exempt status and threatened to bar international students from enrolling.",
+      "categories": [
+        "coercion_threat",
+        "power_abuse"
+      ],
+      "status": "confirmed",
+      "counterparty": {
+        "name": "Harvard University",
+        "type": "organization",
+        "country": "US",
+        "description": "Oldest US university; $8B+ in federal grants at risk; refused Trump's DEI and protest policy demands; only major university to publicly resist"
+      },
+      "beneficiary": [
+        "trump_personally",
+        "republican_party"
+      ],
+      "actors": [
+        "Donald Trump",
+        "Department of Education",
+        "HHS",
+        "NSF"
+      ],
+      "amount_usd": 2200000000,
+      "amount_note": "$2.2B immediately frozen; up to $9B total at risk across multiple agencies",
+      "financial_connection": {
+        "exists": false,
+        "description": "No direct Trump financial benefit. Political pressure campaign against elite liberal university."
+      },
+      "quid_pro_quo": {
+        "alleged": false,
+        "gave": "Demands: eliminate DEI, restructure admissions, expel students, audit departments",
+        "received": "Restoration of federal funding — Harvard has refused"
+      },
+      "tags": [
+        "university",
+        "federal_funding",
+        "coercion",
+        "dei",
+        "harvard",
+        "protest_policy",
+        "refused_to_comply"
+      ],
+      "last_updated": "2026-03-28",
+      "sources": [
+        {
+          "title": "Harvard's $2.3bn gamble: what Trump demanded, how the university resisted",
+          "url": "https://www.aljazeera.com/news/2025/4/15/harvards-2-3bn-gamble-what-trump-demanded-how-the-university-resisted",
+          "date": "2025-04-15",
+          "outlet": "Al Jazeera",
+          "type": "news"
+        },
+        {
+          "title": "Trump administration freezes $2.2 billion in Harvard grants",
+          "url": "https://www.cnbc.com/2025/04/14/trump-harvard-deal-funding-billion-dei.html",
+          "date": "2025-04-14",
+          "outlet": "CNBC",
+          "type": "news"
+        },
+        {
+          "title": "What Harvard demanded Trump — the full list of federal demands",
+          "url": "https://www.thecrimson.com/article/2025/4/4/harvard-federal-funding-demands/",
+          "date": "2025-04-04",
+          "outlet": "Harvard Crimson",
+          "type": "news"
+        }
+      ],
+      "motivation": "political"
+    },
+    {
+      "id": "university-funding-other-2025-04",
+      "date": "2025-03-19",
+      "date_end": null,
+      "title": "Federal funding frozen at Penn ($175M), Princeton ($210M), Brown ($510M), Cornell ($1B+), Northwestern ($790M)",
+      "summary": "In March and April 2025, the Trump administration froze federal funding at multiple major universities as leverage to force policy changes on DEI programs, protest discipline, and antisemitism policies. University of Pennsylvania: $175M frozen (March 19) — linked to its past policy permitting a transgender swimmer to compete on the women's team. Princeton: $210M frozen (April 1). Brown: $510M frozen (April 3). Cornell: over $1B frozen (April 8). Northwestern: $790M frozen (April 8) — Northwestern ultimately settled, paying the Trump administration $75 million. University of Pennsylvania rejected a subsequent 'higher education compact' from the administration (October 2025) that would have restored funding priority in exchange for eliminating DEI and limiting foreign student enrollment.",
+      "categories": [
+        "coercion_threat",
+        "power_abuse"
+      ],
+      "status": "confirmed",
+      "counterparty": {
+        "name": "University of Pennsylvania / Princeton / Brown / Cornell / Northwestern",
+        "type": "organization",
+        "country": "US",
+        "description": "Five major research universities had federal funding frozen as leverage for DEI and protest policy changes; Northwestern paid $75M to settle"
+      },
+      "beneficiary": [
+        "trump_personally",
+        "republican_party"
+      ],
+      "actors": [
+        "Donald Trump",
+        "Department of Education",
+        "HHS"
+      ],
+      "amount_usd": 2685000000,
+      "amount_note": "Approximate total frozen: Penn $175M + Princeton $210M + Brown $510M + Cornell $1B + Northwestern $790M = ~$2.7B. Northwestern settled for $75M.",
+      "financial_connection": {
+        "exists": false,
+        "description": "No direct Trump financial benefit. Political pressure against universities seen as liberal institutions."
+      },
+      "quid_pro_quo": {
+        "alleged": false,
+        "gave": "DEI elimination; protest discipline reform; policy compliance",
+        "received": "Restoration of federal funding"
+      },
+      "tags": [
+        "university",
+        "federal_funding",
+        "coercion",
+        "dei",
+        "trans_athlete",
+        "protest_policy"
+      ],
+      "last_updated": "2026-03-28",
+      "sources": [
+        {
+          "title": "What to know about Trump's funding threats to colleges",
+          "url": "https://www.insidehighered.com/news/government/politics-elections/2025/04/18/what-know-about-trumps-funding-threats-colleges",
+          "date": "2025-04-18",
+          "outlet": "Inside Higher Ed",
+          "type": "news"
+        },
+        {
+          "title": "Penn rejects Trump's higher education compact",
+          "url": "https://www.highereddive.com/news/penn-rejects-trumps-higher-education-compact/803078/",
+          "date": "2025-10-15",
+          "outlet": "Higher Ed Dive",
+          "type": "news"
+        }
+      ],
+      "motivation": "political"
+    },
+    {
+      "id": "media-abc-disney-settlement-2025-01",
+      "date": "2024-12-16",
+      "date_end": "2025-01-10",
+      "title": "ABC/Disney pays $15M to Trump library to settle Stephanopoulos defamation suit",
+      "summary": "In December 2024 (finalized January 2025), ABC and Disney settled a defamation lawsuit brought by Trump over anchor George Stephanopoulos's statements that Trump had been found 'liable for rape' in the E. Jean Carroll case (the jury found him liable for sexual abuse, not rape, though the judge later said the finding was consistent with rape). ABC/Disney paid $15 million to Trump's presidential library foundation and issued a public apology. Legal observers noted the settlement was influenced by the implicit threat of FCC regulatory action against ABC's broadcast licenses — FCC Chairman Brendan Carr, a Trump appointee, simultaneously held life-or-death power over ABC's affiliate stations. The settlement came before Trump's inauguration but was widely seen as shaped by the incoming administration's regulatory power.",
+      "categories": [
+        "coercion_threat",
+        "business_payment"
+      ],
+      "status": "confirmed",
+      "counterparty": {
+        "name": "ABC / Disney",
+        "type": "organization",
+        "country": "US",
+        "description": "ABC News and parent company Disney; Stephanopoulos lawsuit settled; $15M to Trump presidential library; implicit FCC leverage"
+      },
+      "beneficiary": [
+        "trump_personally",
+        "trump_org"
+      ],
+      "actors": [
+        "Donald Trump",
+        "FCC Chairman Brendan Carr"
+      ],
+      "amount_usd": 15000000,
+      "amount_note": "$15M to Trump presidential library foundation; public apology issued",
+      "financial_connection": {
+        "exists": true,
+        "description": "$15M goes directly to Trump presidential library — a Trump-controlled entity. Settlement enabled by implicit FCC regulatory threat over ABC broadcast licenses."
+      },
+      "quid_pro_quo": {
+        "alleged": true,
+        "gave": "$15M to Trump library; public apology; coverage chilling effect",
+        "received": "Settlement of lawsuit; relief from implicit FCC threat to ABC broadcast licenses"
+      },
+      "tags": [
+        "media",
+        "fcc",
+        "lawsuit",
+        "settlement",
+        "coercion",
+        "library",
+        "abc",
+        "disney",
+        "stephanopoulos"
+      ],
+      "last_updated": "2026-03-28",
+      "sources": [
+        {
+          "title": "ABC agrees to pay $15 million to Trump's presidential library to settle defamation lawsuit",
+          "url": "https://www.pbs.org/newshour/politics/abc-agrees-to-pay-15-million-to-trumps-presidential-library-to-settle-defamation-lawsuit",
+          "date": "2024-12-16",
+          "outlet": "PBS NewsHour",
+          "type": "news"
+        },
+        {
+          "title": "ABC settles with Trump for $15 million — now he wants to sue other news outlets",
+          "url": "https://www.npr.org/2024/12/16/nx-s1-5230274/abc-settles-with-trump-for-15-million-now-he-wants-to-sue-other-news-outlets",
+          "date": "2024-12-16",
+          "outlet": "NPR",
+          "type": "news"
+        }
+      ],
+      "motivation": "both"
+    },
+    {
+      "id": "media-cbs-paramount-settlement-2025-07",
+      "date": "2025-07-01",
+      "date_end": "2025-07-24",
+      "title": "Paramount/CBS pays $16M to Trump library — FCC merger approval granted 23 days later",
+      "summary": "On July 1, 2025, Paramount Global (parent of CBS) settled a lawsuit Trump had brought over a CBS '60 Minutes' interview with Kamala Harris, in which CBS edited Harris's answer about Gaza. Trump alleged the editing was politically manipulative. Paramount paid $16 million to Trump's presidential library foundation. Critically, Paramount simultaneously needed FCC approval to complete its $8 billion merger with Skydance Media. FCC Chairman Brendan Carr (a Trump appointee) had delayed the merger review. The Skydance deal was approved on July 24, 2025 — 23 days after the settlement. Senators described the settlement as potentially 'an illegal bribe' in exchange for merger clearance. In a reported side deal, Skydance also agreed to give Trump $20 million in advertising and public service announcements, bringing the total value of the deal to at least $36 million. CBS newsroom staff reported significant internal turmoil over the settlement's implications for editorial independence.",
+      "categories": [
+        "coercion_threat",
+        "business_payment"
+      ],
+      "status": "confirmed",
+      "counterparty": {
+        "name": "CBS / Paramount Global / Skydance",
+        "type": "organization",
+        "country": "US",
+        "description": "CBS parent Paramount needed FCC approval for Skydance merger; settled 60 Minutes lawsuit for $16M to Trump library; merger approved 23 days later"
+      },
+      "beneficiary": [
+        "trump_personally",
+        "trump_org"
+      ],
+      "actors": [
+        "Donald Trump",
+        "FCC Chairman Brendan Carr",
+        "Paramount Global",
+        "Skydance Media"
+      ],
+      "amount_usd": 36000000,
+      "amount_note": "$16M to Trump presidential library + $20M in advertising/PSAs from Skydance = $36M total; FCC merger approval granted 23 days after settlement",
+      "financial_connection": {
+        "exists": true,
+        "description": "$16M flows directly to Trump presidential library. Skydance agreed to $20M in ads/PSAs for Trump. FCC merger approval was the leverage: Paramount's $8B merger required FCC sign-off while Trump controlled the FCC."
+      },
+      "quid_pro_quo": {
+        "alleged": true,
+        "gave": "$16M to Trump library; $20M in Skydance advertising; retraction of editorial stance",
+        "received": "FCC approval of Paramount-Skydance merger (approved July 24, 23 days after settlement)"
+      },
+      "tags": [
+        "media",
+        "fcc",
+        "lawsuit",
+        "settlement",
+        "coercion",
+        "library",
+        "cbs",
+        "paramount",
+        "merger",
+        "60_minutes"
+      ],
+      "last_updated": "2026-03-28",
+      "sources": [
+        {
+          "title": "CBS and Trump settle lawsuit over 60 Minutes Kamala Harris interview",
+          "url": "https://www.cnn.com/2025/07/02/media/cbs-trump-60-minutes-paramount-settlement",
+          "date": "2025-07-02",
+          "outlet": "CNN",
+          "type": "news"
+        },
+        {
+          "title": "Trump lawsuit against Paramount — CBS 60 Minutes, Kamala Harris",
+          "url": "https://www.npr.org/2025/07/02/nx-s1-5290171/trump-lawsuit-paramount-cbs-60-minutes-kamala-harris",
+          "date": "2025-07-02",
+          "outlet": "NPR",
+          "type": "news"
+        },
+        {
+          "title": "Paramount's Trump lawsuit settlement — curtain call for the First Amendment",
+          "url": "https://knightcolumbia.org/blog/paramounts-trump-lawsuit-settlement-curtain-call-for-the-first-amendment",
+          "date": "2025-07-10",
+          "outlet": "Knight First Amendment Institute",
+          "type": "analysis"
+        }
+      ],
+      "motivation": "both"
+    },
+    {
+      "id": "media-fcc-broadcast-license-threats-2025",
+      "date": "2025-09-19",
+      "date_end": "2026-03-14",
+      "title": "FCC threatens to revoke broadcast licenses of ABC, NBC, CBS over news coverage",
+      "summary": "FCC Chairman Brendan Carr, a Trump appointee, repeatedly threatened to revoke or not renew broadcast licenses of major television networks — ABC, NBC, and CBS — over their news coverage. On September 19, 2025, Trump called ABC and NBC 'two of the worst and most biased networks in history' and suggested license revocation would 'be up to' FCC Chairman Carr. Carr had previously (in a 2025 incident) pressured ABC into pulling Jimmy Kimmel's show from one night of programming after Kimmel made a comment about the assassination of Charlie Kirk. In March 2026, Carr threatened broadcasters' local station licenses over their coverage of the US-Iran war. Legal experts noted that revoking the licenses of major broadcast networks is procedurally nearly impossible and would take years — but the threat created a documented chilling effect on coverage and editorial decisions.",
+      "categories": [
+        "coercion_threat",
+        "power_abuse"
+      ],
+      "status": "confirmed",
+      "counterparty": {
+        "name": "ABC / NBC / CBS broadcast networks",
+        "type": "organization",
+        "country": "US",
+        "description": "The three major US broadcast networks targeted with FCC license revocation threats over news coverage Trump disliked"
+      },
+      "beneficiary": [
+        "trump_personally"
+      ],
+      "actors": [
+        "Donald Trump",
+        "FCC Chairman Brendan Carr",
+        "FCC"
+      ],
+      "amount_usd": null,
+      "amount_note": "No direct financial transaction; economic value is the chilling effect on media coverage of Trump",
+      "financial_connection": {
+        "exists": false,
+        "description": "No direct financial benefit to Trump. Control over media narrative through regulatory intimidation."
+      },
+      "quid_pro_quo": {
+        "alleged": true,
+        "gave": "Threat of license revocation over unfavorable coverage",
+        "received": "Chilling effect on coverage; documented self-censorship (Kimmel show pulled, other decisions)"
+      },
+      "tags": [
+        "media",
+        "fcc",
+        "broadcast_license",
+        "coercion",
+        "press_freedom",
+        "iran_war",
+        "chilling_effect"
+      ],
+      "last_updated": "2026-03-28",
+      "sources": [
+        {
+          "title": "Trump threatening broadcast station licenses — explained",
+          "url": "https://www.cnbc.com/2025/09/19/trump-threatening-broadcast-station-licenses-explained.html",
+          "date": "2025-09-19",
+          "outlet": "CNBC",
+          "type": "news"
+        },
+        {
+          "title": "FCC threatens TV broadcast licenses over Iran war news coverage",
+          "url": "https://fortune.com/2026/03/14/fcc-brendan-carr-tv-broadcast-licenses-news-coverage-us-war-iran-trump/",
+          "date": "2026-03-14",
+          "outlet": "Fortune",
+          "type": "news"
+        },
+        {
+          "title": "FCC Brendan Carr threat to news networks — broadcast license",
+          "url": "https://www.cbsnews.com/news/fcc-brendan-carr-threat-news-networks-broadcast-license/",
+          "date": "2026-03-14",
+          "outlet": "CBS News",
+          "type": "news"
+        }
+      ],
+      "motivation": "political"
+    },
+    {
+      "id": "trump-nyt-lawsuit-2025-09",
+      "date": "2025-09-16",
+      "date_end": null,
+      "title": "Trump files $15B defamation lawsuit against New York Times",
+      "summary": "In September 2025, Trump filed a $15 billion defamation and libel lawsuit against the New York Times over a book and several articles. A federal judge in Tampa dismissed the original complaint as 'decidedly improper and impermissible' but allowed refiling within 28 days. Trump refiled in October 2025. The lawsuit is widely regarded by First Amendment lawyers as meritless and legally frivolous under the actual malice standard established in New York Times v. Sullivan — but the cost of defending the lawsuit is itself significant. Critics including press freedom organizations called the suit an attempt to intimidate the Times and chill its reporting on Trump. Trump has also publicly called for the Supreme Court to revisit and overturn the New York Times v. Sullivan precedent.",
+      "categories": [
+        "coercion_threat",
+        "retaliation_targeting"
+      ],
+      "status": "confirmed",
+      "counterparty": {
+        "name": "New York Times",
+        "type": "organization",
+        "country": "US",
+        "description": "Major US newspaper; sued for $15B by Trump; dismissed once, refiled; Trump has called for overturning NYT v. Sullivan press protection precedent"
+      },
+      "beneficiary": [
+        "trump_personally"
+      ],
+      "actors": [
+        "Donald Trump"
+      ],
+      "amount_usd": 15000000000,
+      "amount_note": "$15B claimed in lawsuit; considered legally frivolous by First Amendment lawyers; actual value is chilling effect on coverage",
+      "financial_connection": {
+        "exists": false,
+        "description": "No direct financial benefit expected. Lawsuit is widely seen as harassment and intimidation of press."
+      },
+      "quid_pro_quo": {
+        "alleged": true,
+        "gave": "Existential legal threat requiring significant defense resources",
+        "received": "Potential chilling effect on Times' reporting on Trump"
+      },
+      "tags": [
+        "media",
+        "lawsuit",
+        "coercion",
+        "press_freedom",
+        "nyt",
+        "defamation"
+      ],
+      "last_updated": "2026-03-28",
+      "sources": [
+        {
+          "title": "Trump files $15 billion lawsuit against the New York Times",
+          "url": "https://www.npr.org/2025/09/16/nx-s1-5543030/donald-trump-nytimes-lawsuit",
+          "date": "2025-09-16",
+          "outlet": "NPR",
+          "type": "news"
+        }
+      ],
+      "motivation": "political"
+    },
+    {
+      "id": "intel-chips-act-coercion-2025-08",
+      "date": "2025-08-01",
+      "date_end": "2025-08-22",
+      "title": "Trump withholds CHIPS Act funds — forces Intel to give US government 10% equity stake",
+      "summary": "Intel had been awarded $8.9 billion in CHIPS Act grants by the Biden administration to fund domestic semiconductor manufacturing. Trump withheld the congressionally approved funds and, two weeks before Intel agreed to the deal, publicly called for Intel CEO Lip-Bu Tan to resign, alleging problematic ties to China. Intel agreed to give the US government a 10% equity stake in the company in exchange for release of the $8.9 billion in CHIPS Act funds (August 2025). Commerce Secretary Lutnick confirmed the equity stake was part of the deal. The administration indicated it may seek similar equity arrangements from other CHIPS Act recipients. Critics noted this was an unprecedented use of congressionally approved funding as leverage to extract equity from private corporations.",
+      "categories": [
+        "coercion_threat",
+        "power_abuse"
+      ],
+      "status": "confirmed",
+      "counterparty": {
+        "name": "Intel Corporation",
+        "type": "organization",
+        "country": "US",
+        "description": "US semiconductor company; had $8.9B CHIPS Act funding withheld; forced to give US government 10% equity stake to receive congressionally approved funds"
+      },
+      "beneficiary": [
+        "us_government"
+      ],
+      "actors": [
+        "Donald Trump",
+        "Howard Lutnick (Commerce Secretary)",
+        "Department of Commerce"
+      ],
+      "amount_usd": 8900000000,
+      "amount_note": "$8.9B in CHIPS Act funds released in exchange for 10% government equity stake in Intel",
+      "financial_connection": {
+        "exists": true,
+        "description": "US government acquired 10% equity stake in Intel (a private corporation) as condition for releasing congressionally approved CHIPS Act funds. Unprecedented use of funding leverage to extract corporate equity."
+      },
+      "quid_pro_quo": {
+        "alleged": false,
+        "gave": "10% equity stake in Intel to US government",
+        "received": "Release of $8.9B in CHIPS Act funds that had been withheld"
+      },
+      "tags": [
+        "chips_act",
+        "coercion",
+        "intel",
+        "semiconductor",
+        "equity_stake",
+        "corporate_coercion"
+      ],
+      "last_updated": "2026-03-28",
+      "sources": [
+        {
+          "title": "Trump says US government will take stake in Intel",
+          "url": "https://www.npr.org/2025/08/22/nx-s1-5509673/trump-says-us-government-will-take-stake-intel",
+          "date": "2025-08-22",
+          "outlet": "NPR",
+          "type": "news"
+        },
+        {
+          "title": "Lutnick: Intel equity stake part of CHIPS Act deal",
+          "url": "https://www.cnbc.com/2025/08/19/lutnick-intel-stock-chips-trump.html",
+          "date": "2025-08-19",
+          "outlet": "CNBC",
+          "type": "news"
+        }
+      ],
+      "motivation": "political"
+    },
+    {
+      "id": "trump-jr-1789-capital-pentagon-2025",
+      "date": "2025-04-01",
+      "date_end": null,
+      "title": "Don Jr. joins 1789 Capital — 4 portfolio companies get $735M+ in Pentagon contracts",
+      "summary": "Shortly after Trump's election victory, Donald Trump Jr. joined venture capital firm 1789 Capital as a partner. Trump Jr. also screened candidates for senior Pentagon roles during the transition, specifically seeking officials who supported increased drone spending. After inauguration, Defense Secretary Pete Hegseth issued directives increasing drone procurement. At least four companies in 1789 Capital's portfolio then received Pentagon contracts or loans totaling over $735 million: Cerebras Systems ($45M AI contract, April 2025); PsiQuantum ($10.8M Air Force contract); Firehawk Aerospace ($4.9M Air Force contract, August 2025); Vulcan Elements — a 30-person rare-earth magnet startup — received a $620M Pentagon loan (the largest in Pentagon Office of Strategic Capital history) just three months after 1789 invested in it. The $620M loan was worth more than twice Vulcan's entire valuation at the time of investment. Senators Warren, Blumenthal, and Kim warned DoD had no plan to prevent Trump family profiting from defense contracts.",
+      "categories": [
+        "family_enrichment",
+        "investment_favoritism",
+        "power_abuse"
+      ],
+      "status": "confirmed",
+      "motivation": "financial",
+      "counterparty": {
+        "name": "1789 Capital / Vulcan Elements / Cerebras / Unusual Machines",
+        "type": "organization",
+        "country": "US",
+        "description": "VC fund co-founded by Trump Jr.; portfolio companies received $735M+ in Pentagon contracts/loans after Trump Jr. screened Pentagon transition officials"
+      },
+      "beneficiary": [
+        "trump_family"
+      ],
+      "actors": [
+        "Donald Trump Jr.",
+        "1789 Capital",
+        "Pete Hegseth",
+        "Pentagon"
+      ],
+      "amount_usd": 735000000,
+      "amount_note": "$620M Vulcan Elements loan + $45M Cerebras + $10.8M PsiQuantum + $4.9M Firehawk + Unusual Machines Army contract = $735M+ total to 1789 portfolio companies",
+      "financial_connection": {
+        "exists": true,
+        "description": "Trump Jr. is a partner in 1789 Capital, which invested in all four companies. He screened Pentagon transition officials for pro-drone views. Hegseth then issued pro-drone procurement directives. Portfolio companies then received unprecedented contracts."
+      },
+      "quid_pro_quo": {
+        "alleged": true,
+        "gave": "Pentagon contracts and loans worth $735M+ to companies in Trump Jr.'s investment portfolio",
+        "received": "Trump Jr. profits as 1789 Capital partner; portfolio company valuations boosted by government contracts"
+      },
+      "tags": [
+        "pentagon",
+        "defense_contracts",
+        "drones",
+        "trump_jr",
+        "1789_capital",
+        "conflict_of_interest",
+        "vulcan_elements",
+        "cerebras"
+      ],
+      "last_updated": "2026-03-28",
+      "sources": [
+        {
+          "title": "Company backed by Donald Trump Jr.'s firm nabs $620M government contract",
+          "url": "https://techcrunch.com/2025/12/03/company-backed-by-donald-trump-jr-s-firm-nabs-620m-government-contract/",
+          "date": "2025-12-03",
+          "outlet": "TechCrunch",
+          "type": "news"
+        },
+        {
+          "title": "Warren, Blumenthal, Kim sound alarm on Trump Jr.-linked Pentagon contracts",
+          "url": "https://www.warren.senate.gov/newsroom/press-releases/warren-blumenthal-kim-sound-alarm-on-potential-for-donald-trump-jr-linked-companies-to-profit-off-department-of-defense-contract-awards-loans",
+          "date": "2026-01-22",
+          "outlet": "Sen. Elizabeth Warren",
+          "type": "congressional"
+        },
+        {
+          "title": "Democratic senators sound the alarm on Pentagon backing firms linked to Donald Trump Jr.",
+          "url": "https://www.cnn.com/2026/01/23/business/donald-trump-jr-conflicts-of-interest-defense-1789",
+          "date": "2026-01-23",
+          "outlet": "CNN",
+          "type": "news"
+        },
+        {
+          "title": "Pentagon has no plan to stop Trump sons profiting from defense contracts: Warren, Blumenthal",
+          "url": "https://www.cnbc.com/2026/03/25/warren-pentagon-corruption-trump-children.html",
+          "date": "2026-03-25",
+          "outlet": "CNBC",
+          "type": "news"
+        }
+      ]
+    },
+    {
+      "id": "trump-sons-powerus-drone-iran-war-2026",
+      "date": "2026-02-28",
+      "date_end": null,
+      "title": "Eric Trump and Don Jr. invest in drone maker Powerus — coinciding with US-Iran war",
+      "summary": "Eric Trump and Donald Trump Jr. are merging their publicly traded golf-course holding company with Powerus, a Florida-based drone company, with the goal of filling gaps left by the Trump administration's ban on Chinese drones. The US-Israel war on Iran began February 28, 2026, creating massive demand for drones. The Trump administration simultaneously made domestic drone supply a national security priority through its Drone Dominance initiative, earmarking $1.1 billion for American-made drone procurement by 2027. Eric Trump was confirmed to have invested in Powerus shortly before the Iran war began. Snopes verified the Eric Trump drone investment claim as true. Critics including Responsible Statecraft and Common Dreams noted that the president's sons were positioned to profit directly from a war started by their father's administration.",
+      "categories": [
+        "family_enrichment",
+        "investment_favoritism",
+        "arms_deal_conflict"
+      ],
+      "status": "confirmed",
+      "motivation": "financial",
+      "counterparty": {
+        "name": "Powerus / US Drone industry",
+        "type": "organization",
+        "country": "US",
+        "description": "Florida drone company merged with Trump sons' golf holding company; benefits from $1.1B Drone Dominance initiative and US-Iran war demand"
+      },
+      "beneficiary": [
+        "trump_family"
+      ],
+      "actors": [
+        "Eric Trump",
+        "Donald Trump Jr.",
+        "Donald Trump",
+        "Pentagon",
+        "Powerus"
+      ],
+      "amount_usd": 1100000000,
+      "amount_note": "$1.1B Pentagon Drone Dominance initiative earmarked for US-made drones; Powerus and Unusual Machines positioned to capture significant share",
+      "financial_connection": {
+        "exists": true,
+        "description": "Trump sons directly own stakes in Powerus. Trump administration's Drone Dominance initiative and Chinese drone ban creates massive government-funded demand for companies like Powerus that the sons own."
+      },
+      "quid_pro_quo": {
+        "alleged": true,
+        "gave": "$1.1B drone procurement initiative + Chinese drone ban = captive market for Trump sons' drone investment",
+        "received": "Trump sons' drone company valuations surge as the only government-approved domestic alternative"
+      },
+      "tags": [
+        "drones",
+        "iran_war",
+        "pentagon",
+        "eric_trump",
+        "trump_jr",
+        "powerus",
+        "conflict_of_interest"
+      ],
+      "last_updated": "2026-03-28",
+      "sources": [
+        {
+          "title": "New drone maker partly owned by Trump sons hopes to win Pentagon contracts",
+          "url": "https://www.military.com/daily-news/2026/03/12/new-drone-maker-partly-owned-trump-sons-hopes-win-pentagon-contracts.html",
+          "date": "2026-03-12",
+          "outlet": "Military.com",
+          "type": "news"
+        },
+        {
+          "title": "Eric Trump invested in drone maker shortly before Iran war",
+          "url": "https://www.snopes.com/fact-check/eric-trump-drone-company-iran-war/",
+          "date": "2026-03-15",
+          "outlet": "Snopes",
+          "type": "analysis"
+        },
+        {
+          "title": "Trump wages war, his sons get payoff through savvy investments",
+          "url": "https://responsiblestatecraft.org/trump-sons-iran/",
+          "date": "2026-03-15",
+          "outlet": "Responsible Statecraft",
+          "type": "analysis"
+        }
+      ]
+    },
+    {
+      "id": "kushner-affinity-ea-deal-cfius-2025-09",
+      "date": "2025-09-30",
+      "date_end": null,
+      "title": "Kushner's Affinity Partners brokers $55B EA buyout — gets CFIUS favorable treatment",
+      "summary": "In September 2025, Jared Kushner's private equity firm Affinity Partners — funded primarily by Saudi Arabia's Public Investment Fund ($2 billion) — brokered the $55 billion buyout of video game company Electronic Arts in the largest private-equity deal in history, alongside Silver Lake and Saudi Arabia's PIF. Kushner personally brokered the initial connection between EA and the Saudi PIF and was a central figure in months of talks. Ethics experts noted Kushner's involvement was expected to ease the deal through CFIUS (Committee on Foreign Investment in the US), the body that reviews national security implications of foreign acquisitions — because Kushner's father-in-law controls the executive branch that oversees CFIUS. Affinity Partners' assets surged to $6.2 billion at end of 2025, largely from Saudi backing. On a $2 billion Saudi investment, Affinity earns $25 million annually in management fees plus profit share. By March 2026, Kushner's fund had grown to $6.2B — from Saudi money invested during and after Kushner served as Senior Advisor to the President.",
+      "categories": [
+        "family_enrichment",
+        "investment_favoritism",
+        "foreign_investment"
+      ],
+      "status": "confirmed",
+      "motivation": "financial",
+      "counterparty": {
+        "name": "Saudi Public Investment Fund / Electronic Arts",
+        "type": "foreign_government",
+        "country": "SA",
+        "description": "Saudi sovereign wealth fund: $2B investor in Kushner's Affinity Partners; co-buyer in $55B EA deal that Kushner brokered and which benefits from CFIUS approval Kushner is positioned to ease"
+      },
+      "beneficiary": [
+        "kushner"
+      ],
+      "actors": [
+        "Jared Kushner",
+        "Affinity Partners",
+        "Saudi PIF",
+        "Silver Lake",
+        "Electronic Arts"
+      ],
+      "amount_usd": 55000000000,
+      "amount_note": "$55B EA deal; Kushner earns management fees + carry. Affinity assets grew to $6.2B — up from ~$2B at start of term. Saudi PIF pays $25M/yr in fees alone.",
+      "financial_connection": {
+        "exists": true,
+        "description": "Kushner's Affinity Partners is funded by Saudi Arabia ($2B) and other Middle East sovereign wealth funds. He brokered a $55B deal for his Saudi investors that also benefits Affinity's fee income. CFIUS review of Saudi acquisition would normally be stringent — but Kushner's family relationship gives him unique access to smooth approval."
+      },
+      "quid_pro_quo": {
+        "alleged": true,
+        "gave": "Brokerage of $55B deal; implied CFIUS facilitation; continued access and influence",
+        "received": "$25M/yr management fees; carried interest; Affinity AUM growth to $6.2B"
+      },
+      "tags": [
+        "kushner",
+        "saudi_arabia",
+        "affinity_partners",
+        "cfius",
+        "electronic_arts",
+        "private_equity",
+        "conflict_of_interest"
+      ],
+      "last_updated": "2026-03-28",
+      "sources": [
+        {
+          "title": "Kushner's Secret Saudi Talks Paved Way for $55 Billion EA Deal",
+          "url": "https://www.bloomberg.com/news/articles/2025-09-30/kushner-s-secret-saudi-talks-paved-way-for-55-billion-ea-deal",
+          "date": "2025-09-30",
+          "outlet": "Bloomberg",
+          "type": "news"
+        },
+        {
+          "title": "Kushner's Affinity Partners Assets Surge to $6.2 Billion on Mideast Backing",
+          "url": "https://www.bloomberg.com/news/articles/2026-03-23/kushner-fund-backed-by-mideast-saw-assets-jump-to-6-2-billion",
+          "date": "2026-03-23",
+          "outlet": "Bloomberg",
+          "type": "news"
+        },
+        {
+          "title": "Jared Kushner's double life",
+          "url": "https://popular.info/p/jared-kushners-double-life",
+          "date": "2026-01-15",
+          "outlet": "Popular Information",
+          "type": "analysis"
+        }
+      ]
+    },
+    {
+      "id": "wlfi-binance-sec-dropped-2025",
+      "date": "2025-09-01",
+      "date_end": null,
+      "title": "Trump's WLFI stablecoin USD1 integrated by Binance — after SEC drops Binance charges",
+      "summary": "In September 2025, Binance — the world's largest crypto exchange — listed World Liberty Financial's WLFI token and began integrating USD1, the Trump family's stablecoin, into its trading pairs and collateral system. In December 2025, Binance added USD1 as major trading pairs and converted BUSD collateral to USD1 — the largest exchange integration yet. USD1 crossed $3 billion in market cap by December 2025. This came after: (1) the SEC dropped its lawsuit against Binance in 2025; (2) Trump pardoned Binance founder Changpeng 'CZ' Zhao in October 2025, wiping his $50M fine. Binance holds nearly 87% of USD1's total supply — meaning Binance's adoption is the primary driver of USD1's $3B+ market cap and the Trump family's income from it. The Trump family receives 75% of WLFI's net revenues. The circular arrangement: Trump pardons CZ → CZ's Binance lists USD1 → USD1 market cap grows → Trump family earns more.",
+      "categories": [
+        "crypto_sales",
+        "investment_favoritism",
+        "family_enrichment",
+        "power_abuse"
+      ],
+      "status": "confirmed",
+      "motivation": "financial",
+      "counterparty": {
+        "name": "Binance / Changpeng Zhao",
+        "type": "organization",
+        "country": "AE",
+        "description": "World's largest crypto exchange; founder CZ pardoned by Trump Oct 2025; then integrated USD1 stablecoin, becoming its dominant holder (87% of supply)"
+      },
+      "beneficiary": [
+        "trump_family",
+        "trump_crypto"
+      ],
+      "actors": [
+        "Donald Trump",
+        "Donald Trump Jr.",
+        "Eric Trump",
+        "World Liberty Financial",
+        "Binance",
+        "Changpeng Zhao"
+      ],
+      "amount_usd": 3000000000,
+      "amount_note": "USD1 market cap $3B+ by December 2025; Trump family earns 75% of net revenue. CZ's $50M fine wiped via pardon. SEC charges vs Binance dropped.",
+      "financial_connection": {
+        "exists": true,
+        "description": "Trump family receives 75% of WLFI revenue. CZ was pardoned by Trump (Oct 2025), wiping $50M fine. Binance then became the dominant integrator of USD1 (87% of supply), driving USD1's $3B market cap. The pardon → listing → revenue chain is direct."
+      },
+      "quid_pro_quo": {
+        "alleged": true,
+        "gave": "CZ pardon ($50M fine wiped); SEC charges against Binance dropped; favorable crypto regulation",
+        "received": "Binance integration of USD1 → $3B+ market cap → Trump family WLFI revenue"
+      },
+      "tags": [
+        "crypto",
+        "wlfi",
+        "usd1",
+        "binance",
+        "cz_zhao",
+        "pardon",
+        "sec",
+        "stablecoin",
+        "conflict_of_interest"
+      ],
+      "last_updated": "2026-03-28",
+      "sources": [
+        {
+          "title": "Binance adds major USD1 trading pairs, converts BUSD collateral to Trump stablecoin",
+          "url": "https://www.businesswire.com/news/home/20251211778880/en/Binance-Adds-Major-USD1-Trading-Pairs-Will-Convert-BUSD-Collateral-to-World-Liberty-Financials-Stablecoin-in-Largest-Exchange-Integration-Yet",
+          "date": "2025-12-11",
+          "outlet": "Business Wire / Binance",
+          "type": "official"
+        },
+        {
+          "title": "Trump is primed to cash in on the crypto gold rush he's helping create",
+          "url": "https://edition.cnn.com/2025/09/03/politics/crypto-trump-bitcoin-wlfi-stablecoin-analysis",
+          "date": "2025-09-03",
+          "outlet": "CNN",
+          "type": "analysis"
+        },
+        {
+          "title": "Binance holds nearly 87% of USD1 stablecoin supply",
+          "url": "https://crypto.news/binance-trump-usd1-stablecoin-concentration-2026/",
+          "date": "2026-01-15",
+          "outlet": "Crypto News",
+          "type": "news"
+        }
+      ]
+    },
+    {
+      "id": "trump-media-tmtg-foreign-investment-2025",
+      "date": "2025-01-20",
+      "date_end": null,
+      "title": "Trump Media (Truth Social) benefits from foreign investment inflows as Trump takes office",
+      "summary": "Trump Media & Technology Group (TMTG), which owns Truth Social, trades publicly on Nasdaq under DJT. Trump personally holds approximately 60% of shares, worth hundreds of millions of dollars depending on share price. Since January 20, 2025, TMTG has announced expansion deals including a financial services platform (Truth.Fi), plans for streaming services, and licensing agreements with foreign partners. CREW and ethics organizations have noted that: (1) foreign nationals can buy TMTG shares on the open market, indirectly transferring money to Trump while he is president; (2) Trump's public posts on Truth Social directly affect TMTG's share price and his own net worth; (3) regulatory decisions by the SEC and FTC, which Trump controls through appointments, affect TMTG's business. TMTG also announced plans to launch ETFs and investment products through Truth.Fi, creating another channel for foreign money to flow to Trump-controlled entities.",
+      "categories": [
+        "family_enrichment",
+        "investment_favoritism",
+        "foreign_investment",
+        "selling_access"
+      ],
+      "status": "confirmed",
+      "motivation": "financial",
+      "counterparty": {
+        "name": "Trump Media & Technology Group (DJT)",
+        "type": "organization",
+        "country": "US",
+        "description": "Publicly traded company (Nasdaq: DJT) ~60% owned by Trump; Truth Social parent; benefits from regulatory leniency while Trump controls regulatory appointments"
+      },
+      "beneficiary": [
+        "trump_personally"
+      ],
+      "actors": [
+        "Donald Trump",
+        "Trump Media & Technology Group",
+        "Truth Social"
+      ],
+      "amount_usd": null,
+      "amount_note": "Trump's ~60% stake worth hundreds of millions; exact foreign inflows not publicly disclosed. Truth.Fi investment products create additional channels.",
+      "financial_connection": {
+        "exists": true,
+        "description": "Trump owns ~60% of TMTG. Regulatory decisions by SEC/FTC (which he controls via appointments) directly affect TMTG's business and his net worth. Foreign nationals can purchase DJT shares, creating an unregulated foreign money channel to the sitting president."
+      },
+      "quid_pro_quo": {
+        "alleged": true,
+        "gave": "Favorable regulatory environment; foreign policy decisions favorable to investors; Truth Social platform",
+        "received": "DJT share price support; Truth.Fi investment product fees; advertising and licensing revenue"
+      },
+      "tags": [
+        "truth_social",
+        "tmtg",
+        "djt",
+        "stock",
+        "foreign_investment",
+        "media",
+        "conflict_of_interest"
+      ],
+      "last_updated": "2026-03-28",
+      "sources": [
+        {
+          "title": "Trump's properties remain an epicenter of his conflicts and corruption in second term",
+          "url": "https://www.citizensforethics.org/reports-investigations/crew-reports/trumps-properties-remain-an-epicenter-of-his-conflicts-and-corruption-in-second-term/",
+          "date": "2026-01-20",
+          "outlet": "CREW",
+          "type": "watchdog"
+        },
+        {
+          "title": "Your tax dollars are funding Trump's biggest tech investments",
+          "url": "https://builtin.com/articles/companies-trump-administration-is-investing-in",
+          "date": "2025-11-01",
+          "outlet": "Built In",
+          "type": "analysis"
+        }
+      ]
     }
   ]
 }

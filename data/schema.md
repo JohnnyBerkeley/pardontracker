@@ -35,6 +35,7 @@ Each entry in the `incidents` array has the following fields:
       "type": "news | official | watchdog | congressional"
     }
   ],
+  "motivation": "financial | political | both — primary motivation: financial=personal/family enrichment; political=power/suppression/election advantage; both=serves both purposes",
   "tags": ["array of freeform tags"],
   "last_updated": "YYYY-MM-DD"
 }
@@ -72,6 +73,35 @@ Every incident is organized around the primary non-Trump party involved. This ma
 | `arms_deal_conflict` | Arms or policy deals where Trump business interests may influence decisions |
 | `retaliation_targeting` | Entities denied something, targeted, prosecuted, defunded, or harmed specifically because they oppose Trump or his policies |
 | `public_praise` | Companies, executives, or foreign leaders publicly praising Trump — especially where praise coincides with receiving or seeking favorable treatment, exemptions, regulatory relief, or policy concessions |
+| `coercion_threat` | Trump or admin threatened businesses, universities, or media with regulatory, legal, or funding consequences unless they complied with political demands |
+| `investment_favoritism` | Trump or family invested in a company that then received government contracts, loans, favorable regulations or permits in a pattern suggesting self-enrichment |
+
+## Constitutional Violations Schema (`constitutional_violations.json`)
+
+```json
+{
+  "id": "string",
+  "date": "YYYY-MM-DD",
+  "date_end": "YYYY-MM-DD or null",
+  "title": "string",
+  "description": "string — detailed description of the action and constitutional argument",
+  "action_type": "executive_order | executive_action | doj_investigations | firing | regulatory_threat | ongoing_business_conduct",
+  "eo_number": "string or null",
+  "amendments_violated": ["1st", "4th", "5th", "14th", etc.],
+  "constitutional_clauses": ["specific clause names"],
+  "who_claims_violation": ["courts, scholars, organizations claiming violation"],
+  "status": "court_blocked | ruled_unconstitutional | supreme_court_ruled_illegal | pending | alleged",
+  "court_rulings": ["array of plain-language court ruling descriptions"],
+  "sources": ["same format as incidents"]
+}
+```
+
+**Status values:**
+- `court_blocked` — court issued injunction/TRO blocking the action
+- `ruled_unconstitutional` — court ruled the action unconstitutional
+- `supreme_court_ruled_illegal` — SCOTUS ruled the action exceeded legal authority
+- `pending` — litigation ongoing, no final ruling
+- `alleged` — scholars/advocates claim violation, no court ruling yet
 
 ## Beneficiary Codes
 
