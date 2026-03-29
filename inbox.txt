@@ -1,0 +1,8 @@
+# Trump Money Map — URL Inbox
+# Add URLs here (one per line) to process in batch.
+# Lines starting with # are ignored.
+# Run: python scripts/ingest.py --urlfile inbox.txt
+#
+# Example:
+# https://www.nytimes.com/2026/03/28/us/politics/trump-...
+# https://www.washingtonpost.com/politics/2026/...
